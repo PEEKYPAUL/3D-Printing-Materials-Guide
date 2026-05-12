@@ -1,4 +1,4 @@
-# 🟢 PLA — Polylactic Acid
+# PLA — Polylactic Acid
 
 > **Difficulty:** ⭐ Beginner | **Category:** Standard | **Biodegradable:** Yes (industrially)
 
