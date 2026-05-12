@@ -50,10 +50,9 @@ The cold pull is the most effective method for clearing partial clogs and is saf
 5. The filament should come out with a tip shaped like the inside of the nozzle, with any debris embedded in it.
 6. Inspect the tip — repeat until the pulled filament comes out clean.
 
-![Cold pull filament tip with debris embedded](../images/cold-pull-01-tip.jpg)
 *A successful cold pull — the tip is shaped like the nozzle interior and has brown/black debris embedded in it.*
 
-![Clean cold pull tip indicating clear nozzle](../images/cold-pull-02-clean.jpg)
+![Cold pull comparison — dirty tip with debris (right) vs clean pulls (left)](../images/cold-pull-comparison.jpg)
 *A clean cold pull — clear or single-colour tip with no debris means the nozzle is clear.*
 
 ---
