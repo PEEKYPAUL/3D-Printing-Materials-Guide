@@ -52,7 +52,7 @@ Settings vary by base material — use the base material guide as your starting 
 | Print Speed | -10–20% (CF is less forgiving) |
 | Retraction | Reduce slightly (CF can be brittle mid-strand) |
 | Cooling | Match base material |
-| Flow Rate | May need +2–5% calibration |
+| Flow Ratio | 1.02–1.05 | CF restricts flow slightly — start at 1.02 and increase if under-extruding |
 
 ---
 
