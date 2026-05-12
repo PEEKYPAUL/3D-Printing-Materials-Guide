@@ -1,6 +1,6 @@
 # Nylon (PA) - Polyamide
 
-> **Difficulty:** Advanced | **Category:** Engineering | **HDT:** ~120C | **Notable:** Chemical resistant, tough, self-lubricating
+> **Difficulty:** ⭐⭐⭐ Advanced | **Category:** Engineering | **HDT:** ~120C | **Notable:** Chemical resistant, tough, self-lubricating
 
 ---
 
