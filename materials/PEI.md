@@ -1,6 +1,6 @@
 # PEI / Ultem - Polyetherimide
 
-> **Difficulty:** Expert | **Category:** High-Temp | **HDT:** 170-217C | **Notable:** Aerospace-grade, inherently flame-retardant
+> **Difficulty:** ⭐⭐⭐⭐ Expert | **Category:** High-Temp | **HDT:** 170-217C | **Notable:** Aerospace-grade, inherently flame-retardant
 
 ---
 
