@@ -1,6 +1,5 @@
-# 🔴 High-Performance & High-Temperature Materials
 
-# ⬛ PEEK — Polyether Ether Ketone
+# PEEK — Polyether Ether Ketone
 
 > **Difficulty:** ⭐⭐⭐⭐ Expert | **HDT:** 140°C (unfilled) / 315°C (filled) | **Notable:** The pinnacle of FDM materials
 
