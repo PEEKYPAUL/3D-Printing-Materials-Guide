@@ -1,6 +1,6 @@
 # ASA - Acrylonitrile Styrene Acrylate
 
-> **Difficulty:** Intermediate | **Category:** Engineering | **UV Resistance:** Excellent
+> **Difficulty:** ⭐⭐ Intermediate | **Category:** Engineering | **UV Resistance:** Excellent
 
 ---
 
