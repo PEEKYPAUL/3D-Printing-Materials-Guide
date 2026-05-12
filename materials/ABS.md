@@ -1,4 +1,4 @@
-# 🟡 ABS — Acrylonitrile Butadiene Styrene
+# ABS — Acrylonitrile Butadiene Styrene
 
 > **Difficulty:** ⭐⭐ Intermediate | **Category:** Engineering | **Heat Resistance:** ~100°C HDT
 
