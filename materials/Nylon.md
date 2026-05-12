@@ -21,6 +21,7 @@ Common variants: **PA6** (general), **PA12** (less moisture-sensitive), **PA6-CF
 | Enclosure | Recommended | Reduces warping |
 | Cooling | 20-40% | Some cooling helps bridging |
 | Bed Surface | Garolite (G10) | Best adhesion by far |
+| Flow Ratio | 1.00 | Nylon can vary — dry thoroughly before calibrating |
 
 ---
 
