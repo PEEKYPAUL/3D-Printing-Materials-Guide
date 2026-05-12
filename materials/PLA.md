@@ -20,6 +20,7 @@ PLA is the most popular FDM filament and the best starting point for any printer
 | Cooling Fan | 100% | High cooling = better bridges & overhangs |
 | Retraction | 1–6 mm | Lower for direct drive, higher for Bowden |
 | Layer Height | 0.1–0.3 mm | 0.2 mm is the sweet spot |
+| Flow Ratio | 0.98 | Good starting point — tune per spool with flow calibration |
 
 ---
 
