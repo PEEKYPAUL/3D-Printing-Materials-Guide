@@ -15,19 +15,19 @@
 
 ## 📚 Table of Contents
 
-| Material | Category | Difficulty | Temp Range |
-|---|---|---|---|
-| [PLA](materials/PLA.md) | Standard | ⭐ Beginner | 180–220°C |
-| [PETG](materials/PETG.md) | Standard | ⭐⭐ Intermediate | 230–250°C |
-| [ABS](materials/ABS.md) | Engineering | ⭐⭐ Intermediate | 230–250°C |
-| [ASA](materials/ASA.md) | Engineering | ⭐⭐ Intermediate | 240–260°C |
-| [TPU / Flexibles](materials/TPU.md) | Flexible | ⭐⭐ Intermediate | 220–240°C |
-| [Nylon (PA)](materials/Nylon.md) | Engineering | ⭐⭐⭐ Advanced | 240–270°C |
-| [PC (Polycarbonate)](materials/PC.md) | High-Temp | ⭐⭐⭐ Advanced | 260–310°C |
-| [PEI / Ultem](materials/PEI.md) | High-Temp | ⭐⭐⭐⭐ Expert | 340–380°C |
-| [PEEK](materials/PEEK.md) | High-Temp | ⭐⭐⭐⭐ Expert | 360–400°C |
-| [Carbon Fibre Composites](materials/CF-Composites.md) | Composite | ⭐⭐⭐ Advanced | Varies |
-| [Support Materials (PVA, HIPS)](materials/Support-Materials.md) | Support | ⭐⭐ Intermediate | Varies |
+| Material | Category | Difficulty | Temp Range | Enclosure | Chamber Temp |
+|---|---|---|---|---|---|
+| [PLA](materials/PLA.md) | Standard | ⭐ Beginner | 180–220°C | Not needed | — |
+| [PETG](materials/PETG.md) | Standard | ⭐⭐ Intermediate | 230–250°C | Not needed | — |
+| [ABS](materials/ABS.md) | Engineering | ⭐⭐ Intermediate | 230–250°C | **Required** | 45–50°C |
+| [ASA](materials/ASA.md) | Engineering | ⭐⭐ Intermediate | 240–260°C | **Required** | 45–50°C |
+| [TPU / Flexibles](materials/TPU.md) | Flexible | ⭐⭐ Intermediate | 220–240°C | Not needed | — |
+| [Nylon (PA)](materials/Nylon.md) | Engineering | ⭐⭐⭐ Advanced | 240–270°C | Recommended | — |
+| [PC (Polycarbonate)](materials/PC.md) | High-Temp | ⭐⭐⭐ Advanced | 260–310°C | **Required** | 50–60°C |
+| [PEI / Ultem](materials/PEI.md) | High-Temp | ⭐⭐⭐⭐ Expert | 340–380°C | **Required** | 120–160°C |
+| [PEEK](materials/PEEK.md) | High-Temp | ⭐⭐⭐⭐ Expert | 360–400°C | **Required** | 120–140°C |
+| [Carbon Fibre Composites](materials/CF-Composites.md) | Composite | ⭐⭐⭐ Advanced | Varies | Base material dependent | Varies |
+| [Support Materials (PVA, HIPS)](materials/Support-Materials.md) | Support | ⭐⭐ Intermediate | Varies | HIPS: Required | — |
 
 ---
 
