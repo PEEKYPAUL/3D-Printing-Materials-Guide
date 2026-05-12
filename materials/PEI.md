@@ -22,6 +22,7 @@ PEI (sold as Ultem by SABIC) is a high-performance engineering thermoplastic use
 | All-Metal Hotend | **Required** | High-temp rated |
 | Nozzle Material | Hardened steel / ruby | Standard brass won't survive |
 | Cooling | 0% | None |
+| Flow Ratio | 1.00 | High-temp materials run at stock flow — verify with a test print |
 
 ---
 
