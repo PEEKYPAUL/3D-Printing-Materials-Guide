@@ -48,12 +48,10 @@ In the **Print Settings** panel on the right:
 
 1. Set **Layer Height** to **0.2 mm**
 2. Set **First Layer Height** to **0.2 mm** (match them for this test)
-3. Set **Infill** to **100%** — you want solid coverage to assess flow evenly
-4. Set **Walls** to **1** — this is a flow/adhesion test, not a strength test
-5. Turn **off** supports and brim
+3. Set **First layer** to **0.45mm**
 
 ![Print settings panel with layer height and infill configured](../images/orca-04-print-settings.jpg)
-*Key settings: 0.2mm layer height, 100% infill, 1 wall, no supports.*
+*Key settings: 0.2mm layer height
 
 ---
 
