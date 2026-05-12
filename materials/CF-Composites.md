@@ -1,4 +1,4 @@
-# ⚫ Carbon Fibre & Composite Filaments
+# Carbon Fibre & Composite Filaments
 
 > **Difficulty:** ⭐⭐⭐ Advanced | **Category:** Composite | **Key Requirement:** Hardened nozzle
 
