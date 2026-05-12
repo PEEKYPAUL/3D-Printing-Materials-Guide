@@ -20,6 +20,7 @@ ASA is essentially ABS's superior outdoor-rated cousin. It shares similar print 
 | Cooling Fan | 0-15% | Keep minimal |
 | Enclosure | **Required** | Same warping tendencies as ABS |
 | Retraction | 4-7 mm (Bowden), 1-3 mm (direct) | |
+| Flow Ratio | 1.00 | Good starting point; same ballpark as ABS |
 
 ---
 
