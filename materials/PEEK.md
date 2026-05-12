@@ -244,6 +244,28 @@ Suitable printers:
 - Custom industrial builds
 
 ### PEEK-Specific Tips
+
+### Bed Adhesives for PEEK
+PEEK requires adhesives rated for extreme bed and chamber temperatures. Standard adhesives fail completely.
+
+**Vision Miner Nano Polymer Adhesive** (the industry standard for PEEK)
+- Widely regarded as the best adhesive for PEEK printing.
+- Rated to **160C bed temperature** — handles PEEK's demanding bed requirements.
+- Apply a **very thin coat** to the clean bed surface as it warms (50-80C), then allow the solvent to fully flash off before printing.
+- Delivers strong first-layer grip even under the elevated chamber temps PEEK demands.
+- **Releases cleanly** once the bed cools — parts peel away without damage.
+- Reapply every 2-4 prints or when you notice a drop in first-layer grip.
+- Works on aluminium, PEI-coated aluminium, and high-temp build surfaces.
+
+**Bare Aluminium (No Adhesive)**
+For some PEEK grades (especially filled variants):
+- Lightly sandblasted or bead-blasted aluminium at 120-160C provides mechanical adhesion.
+- Apply a very thin PEEK film to the bare aluminium in the first few layers — it fuses and acts as its own adhesive base for subsequent prints.
+- Some users prefer this approach for the cleanest part release.
+
+> **Avoid:** Glue sticks, hairspray, and PVA — these all burn off well below PEEK's bed temperature and will leave a carbonised mess on your bed surface.
+
+
 - **Pre-heat chamber for 45–60 minutes** before printing.
 - Keep PEEK in a **sealed dry box** — moisture is devastating. Dry at **120–150°C for 6+ hours**.
 - Print slow — there's no rushing PEEK. 20 mm/s is common.
