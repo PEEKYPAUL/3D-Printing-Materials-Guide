@@ -1,19 +1,56 @@
-[README.md](https://github.com/user-attachments/files/27641746/README.md)
 # 🧵 3D Printing Materials Guide
 
 > A comprehensive reference for FDM/FFF filament materials — tricks, tips, and troubleshooting for every plastic from beginner-friendly PLA to exotic high-temperature engineering filaments.
 
 ---
 
-## Tuning Guides
+## 🎯 Tuning Guides
 
 | Guide | What It Covers |
 |---|---|
-| [First Layer Calibration](tuning/First-Layer-Calibration.md) | Open Orca Slicer, print an 80x80mm square, dial in Z offset and flow ratio |
+| [First Layer Calibration](tuning/First-Layer-Calibration.md) | Open Orca Slicer, print an 80×80mm square, dial in Z offset and flow ratio |
+| [Temperature Tower](tuning/Temperature-Tower.md) | Find the optimal nozzle temperature for any filament using Orca Slicer's built-in calibration |
+| [Pressure Advance](tuning/Pressure-Advance.md) | Eliminate corner bulging and improve sharp detail with PA/LA calibration |
+| [Retraction Calibration](tuning/Retraction-Calibration.md) | Reduce stringing and oozing by dialling in retraction distance and speed |
+| [Flow Rate Calibration](tuning/Flow-Rate-Calibration.md) | Measure actual extrusion width and correct your flow ratio with a single-wall cube |
+| [Input Shaping](tuning/Input-Shaping.md) | Reduce ringing and ghosting artefacts — covers Bambu built-in, Klipper ADXL345, and Marlin manual methods |
 
 ---
 
-## 📚 Table of Contents
+## 🛠️ Troubleshooting Guides
+
+| Guide | What It Covers |
+|---|---|
+| [Stringing & Oozing](troubleshooting/Stringing.md) | Root causes in fix order — retraction, temperature, travel speed, material-specific tips |
+| [Warping & Adhesion Failure](troubleshooting/Warping.md) | Bed temps, brim sizing, enclosures, adhesive table, draft shields |
+| [Poor Layer Adhesion](troubleshooting/Layer-Adhesion.md) | Temperature, speed, cooling, flow rate — with a strength test method |
+| [Clogged Nozzle](troubleshooting/Clogged-Nozzle.md) | Symptom table, cold pull step-by-step, needle method, when to replace |
+| [Moisture-Damaged Filament](troubleshooting/Moisture-Damage.md) | Symptoms, sensitivity by material, drying guide with temps and durations, storage tips |
+
+---
+
+## ✨ Post-Processing Guides
+
+| Guide | What It Covers |
+|---|---|
+| [Sanding & Finishing](post-processing/Sanding-Finishing.md) | Grit progression, filler primer guide coat, wet sanding, final finish options |
+| [Acetone Smoothing](post-processing/Acetone-Smoothing.md) | ABS/ASA cold vapour and direct wipe methods, safety, timing guide |
+| [Painting Prints](post-processing/Painting.md) | Surface prep, primer types, base coat technique, hobby acrylics, clear coat |
+| [Heat-Set Inserts](post-processing/Heat-Set-Inserts.md) | Hole sizing table (M2–M5), iron temps by material, installation process, common mistakes |
+
+---
+
+## ⚙️ Hardware Guides
+
+| Guide | What It Covers |
+|---|---|
+| [Nozzle Guide](hardware/Nozzle-Guide.md) | Brass vs hardened steel vs ruby vs tungsten, size guide, when to replace, hot swap procedure |
+| [All-Metal Hotend Upgrade](hardware/All-Metal-Hotend.md) | PTFE-lined vs all-metal comparison, when you need the upgrade, popular options, heat creep management |
+| [Enclosure Guide](hardware/Enclosure-Guide.md) | Requirement table by material with chamber temps, passive/active options, ventilation and filtration |
+
+---
+
+## 📚 Materials Table of Contents
 
 | Material | Category | Difficulty | Temp Range | Enclosure | Chamber Temp |
 |---|---|---|---|---|---|
@@ -55,7 +92,7 @@ A silicone sock is a small sleeve that wraps around your hotend's heater block. 
 ![Comparison of heater block with and without silicone sock](images/silicone-sock-comparison.jpg)
 *Left: bare heater block after several PLA prints. Right: block protected by a silicone sock - still clean.*
 
-> **Tip:** Silicone socks are shape-specific (E3D V6, Volcano, Dragon, Revo, etc.) - make sure you buy the correct one for your hotend. They cost £1-3 and are one of the best-value upgrades for any printer running PLA or PETG.
+> **Tip:** Silicone socks are shape-specific (E3D V6, Volcano, Dragon, Revo, etc.) — make sure you buy the correct one for your hotend. They cost £1–3 and are one of the best-value upgrades for any printer running PLA or PETG.
 
 ### Slicer Settings Philosophy
 - Start with a **known-good community profile** then dial in from there — don't start from scratch.
@@ -105,7 +142,7 @@ PEEK     █████████████░░  360–400°C nozzle | 12
 
 ```
 3d-printing-materials-guide/
-├── README.md                    ← You are here
+├── README.md                          <- You are here
 ├── materials/
 │   ├── PLA.md
 │   ├── PETG.md
@@ -118,11 +155,28 @@ PEEK     █████████████░░  360–400°C nozzle | 12
 │   ├── PEEK.md
 │   ├── CF-Composites.md
 │   └── Support-Materials.md
+├── tuning/
+│   ├── First-Layer-Calibration.md
+│   ├── Temperature-Tower.md
+│   ├── Pressure-Advance.md
+│   ├── Retraction-Calibration.md
+│   ├── Flow-Rate-Calibration.md
+│   └── Input-Shaping.md
 ├── troubleshooting/
-│   ├── Warping.md
 │   ├── Stringing.md
+│   ├── Warping.md
 │   ├── Layer-Adhesion.md
+│   ├── Clogged-Nozzle.md
 │   └── Moisture-Damage.md
+├── post-processing/
+│   ├── Sanding-Finishing.md
+│   ├── Acetone-Smoothing.md
+│   ├── Painting.md
+│   └── Heat-Set-Inserts.md
+├── hardware/
+│   ├── Nozzle-Guide.md
+│   ├── All-Metal-Hotend.md
+│   └── Enclosure-Guide.md
 ├── images/
 │   └── (drop your images here)
 └── CONTRIBUTING.md
