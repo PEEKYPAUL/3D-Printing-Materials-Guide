@@ -33,6 +33,34 @@ Common variants: **PA6** (general), **PA12** (less moisture-sensitive), **PA6-CF
 - Wet nylon symptoms: foamy surface, bubbling, drastically reduced strength.
 - Use a **filament dryer with humidity display** - target below 15% RH in the box.
 
+### Bed Adhesives
+Choosing the right adhesive makes the difference between nylon sticking reliably and prints popping off mid-print or fusing permanently to the bed.
+
+**PA Glue (Polyamide-Specific Glue)**
+Dedicated PA glues (such as Polymaker PA Glue and Bambu Liquid Glue for PA) are purpose-formulated for Nylon and are one of the best options when printing on PEI:
+- Apply a **thin, even coat** to the warm bed (50-60C) and allow the solvent to fully flash off before printing.
+- Gives a strong grip during the print with a **clean release when the bed cools** — no tearing or stuck prints.
+- Works on smooth PEI, textured PEI, and glass surfaces.
+- Reapply every 2-3 prints or when adhesion starts dropping.
+
+**Vision Miner Nano Polymer Adhesive**
+For higher-temp Nylon variants (PA6-CF, PA6-GF) printing above 260C or where PA glue isn't giving consistent results:
+- Apply a **very thin coat** to the heated bed, let the solvent fully evaporate before the print starts.
+- Rated for bed temps up to 160C — handles the full range of Nylon bed temperatures.
+- Provides excellent adhesion with a clean peel release once cooled.
+- One bottle goes a long way — a little applied thinly is more effective than a thick layer.
+
+**PVA Glue Stick**
+The simplest option — a standard Pritt stick or equivalent on a PEI bed:
+- Reliable for plain PA6/PA12 at standard temps.
+- Breaks down at higher temps (above ~100C bed) so not suitable for high-temp Nylon variants.
+- Easy to apply and wash off with water.
+
+**Garolite / G10 Sheet (No Adhesive Needed)**
+The gold standard for Nylon — no adhesive required, mechanical adhesion to the surface texture:
+- Best all-round option if you print Nylon regularly.
+- Parts release cleanly when the bed cools.
+
 ### Bed Adhesion
 - **Garolite / G10 sheet** at 70-80C is the gold standard for nylon adhesion.
 - PEI with **PVA glue stick** works reasonably well.
