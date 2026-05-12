@@ -1,6 +1,6 @@
 # PC - Polycarbonate
 
-> **Difficulty:** Advanced | **Category:** High-Temp | **HDT:** ~130-140C | **Notable:** Optically clear, extremely tough
+> **Difficulty:** ⭐⭐⭐ Advanced | **Category:** High-Temp | **HDT:** ~130-140C | **Notable:** Optically clear, extremely tough
 
 ---
 
