@@ -20,6 +20,7 @@ ABS was the dominant FDM material before PLA took over, and for good reason — 
 | Cooling Fan | 0–20% | **Minimal or zero** — prevents warping/cracking |
 | Enclosure | **Required** | Open-frame printers will warp |
 | Retraction | 4–7 mm (Bowden), 1–3 mm (direct) | |
+| Flow Ratio | 1.00 | Good starting point; calibrate per brand |
 
 ---
 
