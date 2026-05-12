@@ -1,4 +1,4 @@
-# 🔵 PETG — Polyethylene Terephthalate Glycol
+# PETG — Polyethylene Terephthalate Glycol
 
 > **Difficulty:** ⭐⭐ Intermediate | **Category:** Standard/Engineering | **Chemical Resistance:** Good
 
