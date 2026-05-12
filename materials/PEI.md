@@ -36,6 +36,21 @@ Only a handful of printers can print Ultem reliably:
 - **AON3D AON-M2** - open-material high-temp system
 - High-end modified Voron builds with heated chamber
 
+### Bed Adhesives
+Standard adhesives (glue sticks, hairspray, PVA) **burn off at PEI/Ultem bed temperatures (145-160C)** and should not be used. You need high-temperature rated adhesives.
+
+**Vision Miner Nano Polymer Adhesive** (strongly recommended)
+This is the go-to adhesive for printing PEI/Ultem and other high-temp materials:
+- Rated for use at **bed temperatures up to 160C** — covers the full Ultem bed temp range.
+- Apply a **very thin, even coat** to the clean bed surface while the bed is warming (40-60C).
+- Allow the solvent to **fully flash off** (30-60 seconds) before printing — a wet coat will cause adhesion problems.
+- Provides extremely strong first-layer grip during the print.
+- **Releases cleanly** when the bed cools below 60C — parts lift off with minimal force.
+- One bottle lasts a long time when applied correctly (thin coats only).
+- Works on aluminium beds, PEI-coated surfaces, and Kapton tape.
+
+> **Tip:** If parts are hard to remove after cooling, wait longer — Ultem and Vision Miner release best at room temperature. Never force a part off a hot bed.
+
 ### Critical Settings
 - **Chamber heating is non-negotiable** - without it, delamination is certain.
 - Bed surface: **PEI sheet on aluminium** or PEEK-coated surfaces. Some use Kapton tape.
