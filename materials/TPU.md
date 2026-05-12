@@ -22,6 +22,7 @@ Other flexibles include **TPE** (softer, harder to print), **TPC** (higher temp 
 | Cooling Fan | 50–100% | Good cooling helps |
 | Retraction | **Minimal or off** | Flexibles clog easily with retraction |
 | Direct Drive | **Strongly recommended** | Bowden requires careful setup |
+| Flow Ratio | 0.98 | TPU varies widely by brand and hardness — calibrate per spool |
 
 ---
 
