@@ -20,6 +20,7 @@ Polycarbonate is one of the toughest thermoplastics available - it's used in bul
 | All-Metal Hotend | **Required** | PTFE will off-gas and deform |
 | Cooling | 0-20% | Very little cooling |
 | Bed Surface | PEI or PC sheet | |
+| Flow Ratio | 1.00 | Calibrate once filament is fully dry |
 
 ---
 
