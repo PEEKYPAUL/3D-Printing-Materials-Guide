@@ -22,6 +22,7 @@ The "G" (glycol-modified) makes it less brittle and clearer than standard PET. I
 | Cooling Fan | 20–50% | Too much cooling = delamination |
 | Retraction | 1–5 mm | Tricky — PETG is stringy |
 | Layer Height | 0.15–0.3 mm | 0.2 mm works well |
+| Flow Ratio | 0.95 | PETG over-extrudes easily — start here and tune up if needed |
 
 ---
 
