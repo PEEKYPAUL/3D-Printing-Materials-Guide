@@ -222,6 +222,7 @@ It also costs £100–£200+/kg and requires a fully kitted-out high-temperature
 | Chamber Temp | 120–140°C | Heated, active chamber |
 | Print Speed | 15–30 mm/s | Slow and deliberate |
 | Cooling | 0% | Absolutely none |
+| Flow Ratio | 1.00 | Print slow at stock flow — adjust only after confirming dry filament and stable temps |
 | Nozzle | Hardened steel / ruby | Brass will be destroyed |
 
 ---
