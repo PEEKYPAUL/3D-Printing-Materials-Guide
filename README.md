@@ -5,6 +5,14 @@
 
 ---
 
+## Tuning Guides
+
+| Guide | What It Covers |
+|---|---|
+| [First Layer Calibration](tuning/First-Layer-Calibration.md) | Open Orca Slicer, print an 80x80mm square, dial in Z offset and flow ratio |
+
+---
+
 ## 📚 Table of Contents
 
 | Material | Category | Difficulty | Temp Range |
