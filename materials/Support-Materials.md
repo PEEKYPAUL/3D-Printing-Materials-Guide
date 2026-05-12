@@ -27,6 +27,7 @@ PVA dissolves completely in water, making it ideal for complex overhangs and int
 | Print Speed | 25-40 mm/s | Print slower than your primary material |
 | Cooling | 50-100% | Good cooling improves bridging |
 | Storage | Sealed + desiccant | Degrades within hours if exposed |
+| Flow Ratio | 0.95 | PVA over-extrudes easily — keeps interfaces clean |
 
 ## Tips & Tricks
 
@@ -67,6 +68,7 @@ HIPS is a support material that dissolves in d-limonene (a citrus-based solvent)
 | Bed Temp | 100-110C | Same as ABS |
 | Cooling | 0-10% | Minimal, same as ABS |
 | Enclosure | Required | Same warping tendencies as ABS |
+| Flow Ratio | 1.00 | Standard starting point |
 | Bed Surface | PEI or hairspray on glass | |
 
 ## Tips & Tricks
