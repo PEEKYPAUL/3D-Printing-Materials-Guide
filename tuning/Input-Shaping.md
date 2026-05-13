@@ -1,109 +1,209 @@
-# Input Shaping / Resonance Compensation
+# Input Shaping — Klipper Resonance Compensation
 
-> Eliminate ringing, ghosting, and echoing artefacts caused by vibration in your printer frame.
+> Eliminate ringing, ghosting, and echoing artefacts from your prints by measuring and cancelling frame vibration with Klipper's built-in resonance testing tools.
 
 ---
 
-## Overview
+## What Is Ringing?
 
-Ringing (also called ghosting or echoing) appears as rippling waves in the print surface near sharp corners and direction changes. It is caused by resonance in the printer frame — when the printhead changes direction rapidly, the frame vibrates, and those vibrations are recorded in the plastic. Input shaping measures those vibrations and applies a filter to cancel them out.
+Ringing (also called ghosting or echoing) appears as rippling waves in the print surface, usually radiating outward from sharp corners and direction changes. It is caused by the printer frame vibrating when the toolhead changes direction rapidly. Those vibrations get recorded into the plastic layer by layer.
 
 ![Example of ringing artefact on a printed part](../images/input-shaping-01-ringing.jpg)
-*Ringing artefact — the rippling pattern near the corner is caused by frame resonance.*
+*Ringing artefact — the rippling pattern near the corner is caused by frame resonance. Input shaping eliminates this.*
+
+Input shaping works by measuring the resonant frequencies of your specific printer, then applying a digital filter that pre-cancels those vibrations before they reach the steppers. The result is clean, ringing-free output at higher speeds.
 
 ---
 
-## Methods by Printer Type
+## What You Need
 
-| Printer | Method |
+| Item | Notes |
 |---|---|
-| Bambu X1/P1 series | Built-in vibration compensation — run from touchscreen |
-| Klipper | ADXL345 accelerometer + automatic resonance measurement |
-| Marlin | Manual frequency estimation or accelerometer with external tools |
+| ADXL345 accelerometer | ~£3–£5 from any electronics supplier. The standard choice for Klipper. |
+| Raspberry Pi or Klipper host | The accelerometer connects to the Pi via SPI — built-in on all Pi models |
+| Klipper + Mainsail or Fluidd | Any recent Klipper version supports `TEST_RESONANCES` and `SHAPER_CALIBRATE` |
+| `numpy` installed on the Pi | Required for graph generation — installed once via SSH |
+
+> 💡 Some toolhead boards (e.g. EBB36, Mellow Fly SHT) have an ADXL345 built in — if yours does, skip the wiring step.
 
 ---
 
-## Bambu — Built-In Calibration
+## Step 1 — Install numpy on Your Pi
 
-Bambu printers handle input shaping automatically:
+Connect to your Pi via SSH and run:
 
-1. On the touchscreen go to **Settings > Calibration > Vibration Compensation**
-2. The printer runs a resonance sweep automatically
-3. Results are applied immediately — no manual input needed
+```bash
+~/klippy-env/bin/pip install numpy
+```
 
-Re-run after any physical change to the printer (new bed, changed hotend, moved position).
+This only needs to be done once. Restart Klipper after installing:
 
-![Bambu touchscreen showing vibration compensation calibration option](../images/input-shaping-02-bambu.jpg)
-*Bambu calibration menu — vibration compensation runs a full sweep automatically.*
+```bash
+sudo systemctl restart klipper
+```
 
 ---
 
-## Klipper — ADXL345 Accelerometer Method
+## Step 2 — Wire the ADXL345
 
-### Hardware Required
-- ADXL345 accelerometer module (~£3)
-- Connection to your Klipper host (Raspberry Pi or similar) via SPI
+The ADXL345 connects to the Raspberry Pi's SPI bus:
 
-### Step 1 — Mount the Accelerometer
-
-Mount the ADXL345 firmly to the printhead (for X-axis) and the bed (for Y-axis). It must be rigidly attached — any movement between the sensor and the mount invalidates the measurement.
+| ADXL345 Pin | Raspberry Pi Pin | GPIO |
+|---|---|---|
+| VCC | 3.3V | Pin 1 |
+| GND | GND | Pin 6 |
+| CS | CE0 | GPIO 8 (Pin 24) |
+| SDO/MISO | MISO | GPIO 9 (Pin 21) |
+| SDA/MOSI | MOSI | GPIO 10 (Pin 19) |
+| SCL/CLK | SCLK | GPIO 11 (Pin 23) |
 
 ![ADXL345 accelerometer mounted to printhead](../images/input-shaping-03-adxl.jpg)
-*ADXL345 mounted rigidly to the toolhead — use the same screws as the printhead fan or shroud.*
+*ADXL345 mounted rigidly to the toolhead. Use the hotend fan screws or a printed mount — it must not wobble at all.*
 
-### Step 2 — Configure printer.cfg
+> ⚠️ **Rigid mounting is critical.** Any movement between the sensor and the toolhead produces false readings. Use screws, not tape.
 
-Add to your printer.cfg:
-
-`ini\n[adxl345]\ncs_pin: rpi:None\n\n[resonance_tester]\naccel_chip: adxl345\nprobe_points:\n    150, 150, 20\n`\n
-### Step 3 — Run the Test
-
-From the Klipper console or Mainsail/Fluidd:
-
-`\nTEST_RESONANCES AXIS=X\nTEST_RESONANCES AXIS=Y\n`\n
-Klipper measures resonance frequencies and generates a frequency graph.
-
-![Klipper resonance frequency graph output](../images/input-shaping-04-graph.jpg)
-*Resonance graph generated by Klipper — the peak frequency is used to configure the shaper.*
-
-### Step 4 — Apply the Shaper
-
-Run the automatic shaper recommendation:
-
-`\nSHAPER_CALIBRATE\n`\n
-Klipper will recommend a shaper type and frequency. Add to printer.cfg:
-
-`ini\n[input_shaper]\nshaper_freq_x: 48.2\nshaper_freq_y: 44.6\nshaper_type: mzv\n`\n
-### Common Shaper Types
-
-| Shaper | Best For |
-|---|---|
-| ZV | Low resonance frequency, max speed |
-| MZV | Good balance of smoothing and speed |
-| EI | Higher resonance frequencies |
-| 2HUMP_EI | Very high frequency or poorly-tuned printers |
+For the **Y axis measurement**, remount the accelerometer to the bed (on a flat spot near the centre). You are measuring the bed's resonant frequency, not the toolhead's.
 
 ---
 
-## Marlin — Manual Method
+## Step 3 — Add to printer.cfg
 
-Without an accelerometer you can estimate the resonance frequency visually:
+Add the following sections to your `printer.cfg`. The `probe_points` should be set to the centre of your build plate:
 
-1. Print a ringing test object (cube with sharp corners at high speed)
-2. Count the number of ripple waves and measure the distance they span
-3. Calculate frequency: **f = print_speed / ripple_spacing**
-4. Enable input shaping in Marlin firmware and set the frequency
+```ini
+[mcu rpi]
+serial: /tmp/klipper_host_mcu
 
-This is less accurate than the accelerometer method but better than nothing.
+[adxl345]
+cs_pin: rpi:None
+
+[resonance_tester]
+accel_chip: adxl345
+probe_points:
+    150, 150, 20  # adjust to your bed centre — X, Y, Z height
+```
+
+Save and do a **firmware restart** from Mainsail or Fluidd before proceeding.
+
+---
+
+## Step 4 — Run the Resonance Tests
+
+From the Mainsail / Fluidd console, run each axis test separately:
+
+```gcode
+TEST_RESONANCES AXIS=X
+TEST_RESONANCES AXIS=Y
+```
+
+Klipper will move the toolhead through a resonance sweep for each axis and write the results to `/tmp/` on the Pi. You will see output like:
+
+```
+Resonance measurements:
+X: Fitted shaper 'mzv' frequency = 48.2 Hz (vibrations = 4.3%, smoothing ~= 0.047)
+Y: Fitted shaper 'mzv' frequency = 39.8 Hz (vibrations = 3.1%, smoothing ~= 0.062)
+```
+
+To generate the frequency graphs, run:
+
+```bash
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /tmp/shaper_calibrate_x.png
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_y.png
+```
+
+Then copy the `.png` files to your computer to view them (via WinSCP, FileZilla, or `scp`).
+
+---
+
+## Step 5 — Read Your Graphs
+
+The graphs will look similar to these. Replace these placeholders with your own output graphs:
+
+### X Axis — Resonance Graph
+
+> 📸 **[Placeholder — add your X axis resonance graph here]**
+>
+> *Copy your `/tmp/shaper_calibrate_x.png` here after running the test.*
+
+---
+
+### Y Axis — Resonance Graph
+
+> 📸 **[Placeholder — add your Y axis resonance graph here]**
+>
+> *Copy your `/tmp/shaper_calibrate_y.png` here after running the test.*
+
+---
+
+### How to Read the Graph
+
+The graph shows vibration amplitude (Y axis) against frequency (X axis) for each available shaper type. What to look for:
+
+- **The recommended shaper is highlighted** — Klipper picks the best balance between vibration reduction and smoothing
+- **Lower vibration % = better** — aim for under 5% if possible
+- **Smoothing value** — higher smoothing reduces ringing more but softens fine detail at high speeds; lower smoothing preserves detail
+- **The peak frequency** is where your printer resonates most — this is the number that goes into `printer.cfg`
+
+---
+
+## Step 6 — Apply to printer.cfg
+
+Use the values from your test output to fill in the `[input_shaper]` section. Add this to your `printer.cfg`:
+
+```ini
+[input_shaper]
+shaper_freq_x: 48.2     # replace with your X result
+shaper_freq_y: 39.8     # replace with your Y result
+shaper_type_x: mzv      # replace with the recommended shaper for X
+shaper_type_y: mzv      # replace with the recommended shaper for Y
+```
+
+> 💡 You can use different shaper types for X and Y — Klipper supports `shaper_type_x` and `shaper_type_y` independently. Use `shaper_type` only if both axes use the same type.
+
+Save `printer.cfg` and do a **firmware restart**.
+
+### Example — completed section:
+
+> 📸 **[Placeholder — add a screenshot of your printer.cfg input_shaper section here]**
+>
+> *Show the completed `[input_shaper]` block with your real values filled in.*
+
+---
+
+## Shaper Types Reference
+
+| Shaper | Characteristics | Best For |
+|---|---|---|
+| `zv` | Least smoothing, fastest | Low resonance frequencies, very stiff frames |
+| `mzv` | Good balance — Klipper's most common recommendation | Most printers — well-tuned CoreXY and bed-slingers |
+| `ei` | More smoothing than MZV | Higher resonance frequencies |
+| `2hump_ei` | Aggressive smoothing | Printers with poorly-controlled or very high frequencies |
+| `3hump_ei` | Maximum smoothing | Last resort — will noticeably reduce print detail |
+
+---
+
+## Or — Let Klipper Do It Automatically
+
+Instead of steps 4–6 above, you can run a single command that tests both axes and writes the values directly into `printer.cfg`:
+
+```gcode
+SHAPER_CALIBRATE
+```
+
+Klipper runs both sweeps, selects the best shaper and frequency for each axis, and saves the result automatically. After it completes, run `SAVE_CONFIG` and Klipper will restart with the new values applied.
+
+> ⚠️ `SHAPER_CALIBRATE` overwrites any existing `[input_shaper]` values. Review the result in `printer.cfg` after it runs.
 
 ---
 
 ## Tips
 
-- Input shaping allows you to **print faster without ringing** — after calibration, speed can often be increased significantly.
-- Re-run calibration if you: add a spool holder, change the bed, move the printer, or change the hotend weight.
-- Input shaping cannot fix ringing caused by **loose belts or worn bearings** — fix mechanical issues first.
-- Check belt tension before running calibration — equal tension on X and Y belts is important.
+- **Fix mechanical issues first** — input shaping cannot compensate for loose belts, worn bearings, or a wobbly frame. Those must be resolved before calibration.
+- **Equal belt tension matters** — uneven belt tension on X and Y will give inconsistent results. Tension both belts before running the test.
+- **Re-run calibration after any physical change** — changing the hotend, adding a camera, replacing the bed, moving the printer, or adding a spool holder all change the resonant frequency.
+- **Higher frequency = stiffer printer** — a well-built CoreXY typically measures 60–100 Hz on X/Y. A bed-slinger often measures 30–50 Hz.
+- **After calibration, increase your print speed** — input shaping allows significantly higher speeds without ringing. Test with a speed tower after applying the shaper.
+- **The accelerometer stays on during normal printing** — there is no need to remove it. It is only active during resonance tests.
 
 ---
 
