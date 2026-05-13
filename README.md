@@ -137,52 +137,6 @@ Choosing the right slicer makes a big difference, especially with Klipper. The t
 
 ---
 
-## 📂 Repository Structure
-
-```
-3d-printing-materials-guide/
-├── README.md                          <- You are here
-├── materials/
-│   ├── PLA.md
-│   ├── PETG.md
-│   ├── ABS.md
-│   ├── ASA.md
-│   ├── TPU.md
-│   ├── Nylon.md
-│   ├── PC.md
-│   ├── PEI.md
-│   ├── PEEK.md
-│   ├── CF-Composites.md
-│   └── Support-Materials.md
-├── tuning/
-│   ├── First-Layer-Calibration.md
-│   ├── Temperature-Tower.md
-│   ├── Pressure-Advance.md
-│   ├── Retraction-Calibration.md
-│   ├── Flow-Rate-Calibration.md
-│   └── Input-Shaping.md
-├── troubleshooting/
-│   ├── Stringing.md
-│   ├── Warping.md
-│   ├── Layer-Adhesion.md
-│   ├── Clogged-Nozzle.md
-│   └── Moisture-Damage.md
-├── post-processing/
-│   ├── Sanding-Finishing.md
-│   ├── Acetone-Smoothing.md
-│   ├── Painting.md
-│   └── Heat-Set-Inserts.md
-├── hardware/
-│   ├── Nozzle-Guide.md
-│   ├── All-Metal-Hotend.md
-│   └── Enclosure-Guide.md
-├── images/
-│   └── (drop your images here)
-└── CONTRIBUTING.md
-```
-
----
-
 ## 🔧 General Tips (Apply to All Materials)
 
 ### Printer Preparation
@@ -226,6 +180,54 @@ A silicone sock is a small sleeve that wraps around your hotend's heater block. 
 ## 🤝 Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new material profiles are welcome!
+
+---
+
+---
+
+## 📂 Repository Structure
+
+```
+3d-printing-ultimate-guide/
+├── README.md                          <- You are here
+├── materials/
+│   ├── PLA.md
+│   ├── PETG.md
+│   ├── ABS.md
+│   ├── ASA.md
+│   ├── TPU.md
+│   ├── Nylon.md
+│   ├── PC.md
+│   ├── PEI.md
+│   ├── PEEK.md
+│   ├── CF-Composites.md
+│   └── Support-Materials.md
+├── tuning/
+│   ├── First-Layer-Calibration.md
+│   ├── Temperature-Tower.md
+│   ├── Pressure-Advance.md
+│   ├── Retraction-Calibration.md
+│   ├── Flow-Rate-Calibration.md
+│   └── Input-Shaping.md
+├── troubleshooting/
+│   ├── Stringing.md
+│   ├── Warping.md
+│   ├── Layer-Adhesion.md
+│   ├── Clogged-Nozzle.md
+│   └── Moisture-Damage.md
+├── post-processing/
+│   ├── Sanding-Finishing.md
+│   ├── Acetone-Smoothing.md
+│   ├── Painting.md
+│   └── Heat-Set-Inserts.md
+├── hardware/
+│   ├── Nozzle-Guide.md
+│   ├── All-Metal-Hotend.md
+│   └── Enclosure-Guide.md
+├── images/
+│   └── (drop your images here)
+└── CONTRIBUTING.md
+```
 
 ---
 
