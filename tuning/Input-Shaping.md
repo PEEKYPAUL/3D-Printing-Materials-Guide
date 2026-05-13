@@ -152,10 +152,12 @@ Use the values from your test output to fill in the `[input_shaper]` section. Ad
 
 ```ini
 [input_shaper]
-shaper_freq_x: 48.2     # replace with your X result
-shaper_freq_y: 39.8     # replace with your Y result
-shaper_type_x: mzv      # replace with the recommended shaper for X
-shaper_type_y: mzv      # replace with the recommended shaper for Y
+shaper_freq_x: 48.2         # replace with your X result
+shaper_freq_y: 39.8         # replace with your Y result
+shaper_type_x: mzv          # replace with the recommended shaper for X
+shaper_type_y: mzv          # replace with the recommended shaper for Y
+damping_ratio_x: 0.1        # default — see smoothing section below
+damping_ratio_y: 0.1        # default — see smoothing section below
 ```
 
 > 💡 You can use different shaper types for X and Y — Klipper supports `shaper_type_x` and `shaper_type_y` independently. Use `shaper_type` only if both axes use the same type.
@@ -167,6 +169,69 @@ Save `printer.cfg` and do a **firmware restart**.
 > 📸 **[Placeholder — add a screenshot of your printer.cfg input_shaper section here]**
 >
 > *Show the completed `[input_shaper]` block with your real values filled in.*
+
+---
+
+## Understanding Smoothing
+
+Smoothing is the trade-off at the heart of input shaping. Every shaper filter that reduces ringing also introduces a small amount of smoothing — a slight softening of fine surface detail at high speeds. The stronger the filter, the more smoothing it applies.
+
+### What the smoothing value means
+
+When Klipper reports a result like:
+
+```
+X: Fitted shaper 'mzv' frequency = 48.2 Hz (vibrations = 4.3%, smoothing ~= 0.047)
+```
+
+The `smoothing ~= 0.047` figure tells you how much the filter rounds off sharp features. As a rough guide:
+
+| Smoothing Value | Effect on Print Quality |
+|---|---|
+| < 0.05 | Minimal — virtually no visible impact at normal speeds |
+| 0.05 – 0.10 | Slight — fine detail may soften slightly at very high speeds |
+| 0.10 – 0.15 | Moderate — noticeable at high speeds; reduce speed if detail matters |
+| > 0.15 | High — significant softening; switch to a less aggressive shaper or reduce speed |
+
+Lower is better, but a higher smoothing value is still preferable to ringing. If your smoothing is high, consider:
+1. Trying a less aggressive shaper type (e.g. `mzv` instead of `ei`)
+2. Reducing print speed rather than changing the shaper
+3. Addressing the mechanical cause — loose belts or a resonant frame
+
+---
+
+### damping_ratio_x and damping_ratio_y
+
+These values tell Klipper how damped your printer's vibrations are — how quickly the frame naturally stops ringing after a direction change. The default of `0.1` is a reasonable estimate for most printers and is fine to leave as-is.
+
+```ini
+damping_ratio_x: 0.1   # default — suitable for most printers
+damping_ratio_y: 0.1   # default — suitable for most printers
+```
+
+If your printer has **significant damping** (e.g. a heavy enclosure, foam-mounted components, or rubber feet that absorb vibration well), you may get a slightly more accurate result by increasing this to `0.15` or `0.2`. Most users never need to change it.
+
+> ⚠️ Do not blindly increase damping ratios — an inaccurate value produces a less effective shaper. Only adjust if you have a specific reason.
+
+---
+
+### Controlling Smoothing When Using SHAPER_CALIBRATE
+
+When running the automatic calibration, you can set a maximum acceptable smoothing limit. Klipper will then only recommend shapers that stay within that limit:
+
+```gcode
+SHAPER_CALIBRATE MAX_SMOOTHING=0.05
+```
+
+This is useful if you find the auto-selected shaper produces more softening than you want on detailed prints. Setting a lower `MAX_SMOOTHING` forces Klipper to pick a less aggressive shaper — but if ringing is not fully eliminated, lower it further only in small steps.
+
+A good starting point:
+
+| Print Focus | Suggested MAX_SMOOTHING |
+|---|---|
+| Speed priority | 0.10 – 0.15 (default — let Klipper decide) |
+| Balanced | 0.06 – 0.08 |
+| Fine detail priority | 0.04 – 0.05 |
 
 ---
 
