@@ -157,6 +157,26 @@ PEEK     █████████████░░  360–400°C nozzle | 12
 
 ---
 
+## 🖥️ Slicer Options & Recommendations
+
+Choosing the right slicer makes a big difference, especially with Klipper. The table below covers the most popular options, what firmware they support, and where to get them.
+
+> ⭐ **Recommended: Orca Slicer** — the best all-round choice for Klipper users. It has native support for pressure advance, input shaping, adaptive bed meshing, and a huge library of community printer and filament profiles. Free and open source.
+
+| Slicer | Klipper | Marlin | RepRapFirmware | Bambu | Best For | Download |
+|---|---|---|---|---|---|---|
+| [Orca Slicer](https://github.com/SoftFever/OrcaSlicer) ⭐ | ✅ Native | ✅ | ✅ | ✅ | Klipper & Bambu users — best-in-class calibration tools and profile library | [Download](https://github.com/SoftFever/OrcaSlicer/releases) |
+| [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) | ✅ | ✅ | ✅ | ❌ | Prusa owners and a solid general-purpose slicer with great support | [Download](https://github.com/prusa3d/PrusaSlicer/releases) |
+| [SuperSlicer](https://github.com/supermerill/SuperSlicer) | ✅ | ✅ | ✅ | ❌ | PrusaSlicer power users — adds extra tuning options including pressure advance and better Klipper integration | [Download](https://github.com/supermerill/SuperSlicer/releases) |
+| [Bambu Studio](https://bambulab.com/en/download/studio) | ⚠️ Limited | ❌ | ❌ | ✅ | Bambu printer owners primarily — third-party Klipper support is basic | [Download](https://bambulab.com/en/download/studio) |
+| [Cura](https://ultimaker.com/software/ultimaker-cura) | ⚠️ Via plugin | ✅ | ⚠️ | ❌ | Beginners and a wide range of FDM printers — large plugin ecosystem | [Download](https://ultimaker.com/software/ultimaker-cura) |
+| [ideaMaker](https://www.raise3d.com/ideamaker) | ❌ | ✅ | ❌ | ❌ | Raise3D printer users | [Download](https://www.raise3d.com/ideamaker) |
+| [Simplify3D](https://www.simplify3d.com) | ⚠️ Manual | ✅ | ✅ | ❌ | Users who want fine-grained control — paid software, no longer actively developed | [Download](https://www.simplify3d.com) |
+
+> ⚠️ = Supported but requires manual configuration or plugins. ✅ = Native support out of the box.
+
+---
+
 ## 📂 Repository Structure
 
 ```
