@@ -56,6 +56,7 @@ Essential tools and plugins to get the most out of your Klipper setup.
 | [Kalico](https://github.com/KalicoCrew/kalico) | A feature-rich fork of Klipper with additional capabilities and experimental features baked in — ideal if you want bleeding-edge functionality without waiting for upstream Klipper merges. |
 | [Beacon Klipper Module](https://github.com/beacon3d/beacon_klipper) | Official Klipper module for the Beacon eddy-current probe — enables ultra-fast, high-accuracy non-contact bed scanning and Z-offset calibration. |
 | [Cartographer](https://github.com/cartographer-project/cartographer) | Real-time SLAM-based mapping technology that underpins the Cartographer probe — a high-speed eddy-current bed scanner similar to Beacon, offering rapid full-bed mesh generation with excellent repeatability. |
+| [update_klipper_and_mcus](https://github.com/fbeauKmi/update_klipper_and_mcus) | A single bash script that updates Klipper and flashes all connected MCUs in one step — removes the hassle of manually reflashing each board after a Klipper update. |
 
 ---
 
