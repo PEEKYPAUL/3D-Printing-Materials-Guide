@@ -26,6 +26,7 @@
 | [Poor Layer Adhesion](troubleshooting/Layer-Adhesion.md) | Temperature, speed, cooling, flow rate — with a strength test method |
 | [Clogged Nozzle](troubleshooting/Clogged-Nozzle.md) | Symptom table, cold pull step-by-step, needle method, when to replace |
 | [Moisture-Damaged Filament](troubleshooting/Moisture-Damage.md) | Symptoms, sensitivity by material, drying guide with temps and durations, storage tips |
+| [Raspberry Pi Wi-Fi Disconnecting](troubleshooting/WiFi-Disconnecting.md) | Fix random Wi-Fi dropouts on your Pi — disable power saving mode via PuTTY and a udev rule |
 
 ---
 
