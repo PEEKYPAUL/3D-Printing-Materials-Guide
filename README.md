@@ -1,6 +1,6 @@
-# 🧵 3D Printing Materials Guide
+# 🖨️ 3D Printing — Ultimate Guide
 
-> A comprehensive reference for FDM/FFF filament materials — tricks, tips, and troubleshooting for every plastic from beginner-friendly PLA to exotic high-temperature engineering filaments.
+> The all-in-one reference for FDM/FFF 3D printing. Covering everything from printer tuning and troubleshooting to post-processing, Klipper software & plugins, hardware upgrades, and filament materials — whether you're a beginner dialling in your first PLA print or running exotic high-temperature engineering filaments.
 
 ---
 
