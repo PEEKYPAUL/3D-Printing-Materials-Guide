@@ -127,7 +127,7 @@ Thin hairs or "strings" of plastic between separate parts of a print. Caused by 
 | PEI/Ultem | 120°C | 4–6 hours |
 | PEEK | 120–150°C | 6+ hours |
 
-> ⚠️ Standard food dehydrators often don't reach above 75°C. For high-temp materials, use a **lab oven** or **purpose-built filament dryer** (e.g. Bambu AMS dryer, Polymaker PolyDryer Box).
+> ⚠️ Standard food dehydrators often don't reach above 75°C. For high-temp materials, use a **lab oven** or **purpose-built filament dryer** (e.g. Sunlu S2, Polymaker PolyDryer Box, eSUN eBOX Lite).
 
 ---
 

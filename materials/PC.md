@@ -97,10 +97,10 @@ Approximate mechanical properties for printed parts — values vary by brand and
 ---
 
 ## Recommended Brands
-- **Polymaker PolyMax PC** - excellent printability, tough
-- **Prusament PC Blend** - reliable, well-documented settings
-- **Fiberlogy PC** - good quality
-- **Bambu PC** - tuned for their system
+- **Polymaker PolyMax PC** — excellent printability, tough, widely available
+- **Prusament PC Blend** — reliable, well-documented settings
+- **3DXTech PC** — engineering-grade, high performance
+- **Fiberlogy PC** — good mid-tier quality
 
 ---
 

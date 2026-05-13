@@ -179,10 +179,10 @@ Approximate mechanical properties for printed parts — values vary by brand and
 
 ## Recommended Brands
 
-- **Bambu Lab PLA Basic/Matte** — consistent, reliable
-- **Polymaker PolyLite / PolyMax PLA** — excellent quality
+- **Polymaker PolyLite / PolyMax PLA** — excellent quality, consistent diameter, wide colour range
 - **Prusament PLA** — high tolerance, great QC
-- **Hatchbox PLA** — budget-friendly, widely available
+- **Formatura PLA** — solid mid-tier choice, good surface finish
+- **Sunlu PLA** — reliable budget option, huge colour selection
 - **eSUN PLA+** — great value for PLA+
 
 ---

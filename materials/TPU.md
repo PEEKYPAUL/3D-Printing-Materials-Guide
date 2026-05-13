@@ -99,9 +99,10 @@ Other flexibles include **TPE** (softer, harder to print), **TPC** (higher temp 
 
 ## Recommended Brands
 
-- **Polymaker PolyFlex TPU95** — reliable, widely available
-- **Bambu TPU 95A** — excellent for Bambu systems
-- **Sainsmart TPU** — budget-friendly, good quality
+- **Polymaker PolyFlex TPU95** — reliable, widely available, great all-rounder
+- **Formatura TPU** — solid mid-tier, consistent diameter
+- **Sunlu TPU** — budget-friendly, good colour range
+- **eSUN TPU 95A** — consistent quality, widely available
 - **NinjaTek Cheetah (95A)** — premium, excellent performance
 - **NinjaTek NinjaFlex (85A)** — very soft, challenging to print
 - **Recreus FilaFlex** — Spanish brand, excellent soft options

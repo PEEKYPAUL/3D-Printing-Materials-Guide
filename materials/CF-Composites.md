@@ -184,7 +184,7 @@ Use the corresponding base material guide as your starting point, then apply the
 
 | Product | Type | Base | Notes |
 |---|---|---|---|
-| Bambu PA12-CF | CF | PA12 | Excellent AMS compatibility, well-tuned profiles |
+| 3DXTech CarbonX PA12-CF | CF | PA12 | Engineering-grade, consistent diameter, US-made |
 | Polymaker PolyMide PA6-CF | CF | PA6 | High stiffness, widely available |
 | Prusament PLA-CF | CF | PLA | Easy to print, great surface finish |
 | 3DXTech CarbonX PA12-CF | CF | PA12 | High quality, US-made |

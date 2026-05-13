@@ -41,7 +41,7 @@ Common variants: **PA6** (general), **PA12** (less moisture-sensitive), **PA6-CF
 Choosing the right adhesive makes the difference between nylon sticking reliably and prints popping off mid-print or fusing permanently to the bed.
 
 **PA Glue (Polyamide-Specific Glue)**
-Dedicated PA glues (such as Polymaker PA Glue and Bambu Liquid Glue for PA) are purpose-formulated for Nylon and are one of the best options when printing on PEI:
+Dedicated PA glues (such as Polymaker PA Glue) are purpose-formulated for Nylon and are one of the best options when printing on PEI:
 - Apply a **thin, even coat** to the warm bed (50-60C) and allow the solvent to fully flash off before printing.
 - Gives a strong grip during the print with a **clean release when the bed cools** — no tearing or stuck prints.
 - Works on smooth PEI, textured PEI, and glass surfaces.
@@ -95,9 +95,10 @@ The gold standard for Nylon — no adhesive required, mechanical adhesion to the
 ---
 
 ## Recommended Brands
-- **Taulman Bridge Nylon** - widely used, forgiving
-- **Polymaker PolyMide PA12-CF** - excellent CF-reinforced option
-- **Bambu PA12-CF** - optimised for their system, excellent results
+- **Taulman Bridge Nylon** — widely used, forgiving, great for beginners
+- **Polymaker PolyMide PA12-CF** — excellent CF-reinforced option
+- **3DXTech CarbonX PA12-CF** — engineering-grade, high performance
+- **Formatura PA12** — solid mid-tier option for standard Nylon printing
 
 ---
 

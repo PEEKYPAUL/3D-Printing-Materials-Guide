@@ -119,11 +119,11 @@ Approximate mechanical properties for printed parts — values vary by brand and
 
 ## Recommended Brands
 
-- **Polymaker PolyLite PETG** — excellent consistency
+- **Polymaker PolyLite PETG** — excellent consistency, great all-rounder
 - **Prusament PETG** — tight tolerances, great quality
-- **Bambu Lab PETG HF** — optimised for high-speed printing
-- **Hatchbox PETG** — reliable budget option
-- **eSUN PETG** — widely available, solid quality
+- **Formatura PETG** — reliable mid-tier, good layer adhesion
+- **Sunlu PETG** — solid budget option, wide colour range
+- **eSUN PETG** — widely available, consistent quality
 
 ---
 
