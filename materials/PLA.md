@@ -77,6 +77,73 @@ PLA is the most popular FDM filament and the best starting point for any printer
 
 ---
 
+## 📸 Common PLA Fails — Visual Examples
+
+*Recognising what a failed print looks like helps you diagnose and fix problems faster.*
+
+---
+
+### 🌊 Warping / Bed Adhesion Failure
+
+![3DBenchy detached from buildplate shortly after first layer](https://live.staticflickr.com/568/21731294668_4a4549a987.jpg)
+
+*The print detached from the buildplate shortly after the first layer — a classic warping failure. Usually caused by a bed that's too cold, a dirty surface, or air drafts hitting the print. Fix: clean the bed with IPA, raise bed temp to 60°C, add a brim.*
+*Photo: [#3DBenchy](https://www.flickr.com/photos/3dbenchy/21731294668) — CC BY 2.0*
+
+---
+
+### 🍝 Spaghetti / Catastrophic Print Detachment
+
+![Catastrophic spaghetti print failure](https://upload.wikimedia.org/wikipedia/commons/4/48/Filament_fail_face.jpg)
+
+*The print detached mid-print and the nozzle kept extruding into thin air, creating a chaotic mess of plastic — commonly called "spaghetti". Often caused by poor bed adhesion on the first layer, or the print being knocked off by the nozzle.*
+*Photo: [Quinn Daedal](https://commons.wikimedia.org/wiki/File:Filament_fail_face.jpg) — CC BY-SA 4.0*
+
+---
+
+### ↔️ Layer Shifting
+
+![Layer shifting caused by input shaping / belt issue](https://upload.wikimedia.org/wikipedia/commons/d/d2/Stampa_3d_scostamento_strati.jpg)
+
+*Layers shifting horizontally mid-print. The upper layers are offset from the lower ones. Caused by loose belts, a stepper motor skipping steps, or incorrect input shaping settings in Klipper. Fix: check belt tension, reduce acceleration, re-run input shaper calibration.*
+*Photo: [A7N8X](https://commons.wikimedia.org/wiki/File:Stampa_3d_scostamento_strati.jpg) — CC BY-SA 4.0*
+
+---
+
+### 📏 Poor Layer Quality / Layers Too Thick
+
+![3DBenchy printed with excessively thick layers](https://live.staticflickr.com/390/20146074666_90fd41d274_n.jpg)
+
+*Excessively thick layers result in very visible layer lines, rough surface finish, and a loss of fine detail. Keep layer height between 25–75% of your nozzle diameter — 0.2 mm on a 0.4 mm nozzle is the standard sweet spot.*
+*Photo: [#3DBenchy](https://www.flickr.com/photos/3dbenchy/20146074666) — CC BY 2.0*
+
+---
+
+### 🫧 Infill Bleed-Through / Surface Artefacts
+
+![Infill artefacts pushing through the outer shell](https://upload.wikimedia.org/wikipedia/commons/5/56/-3DBenchy_Cura_Infill_Artefacts_%2818857670356%29.jpg)
+
+*The internal infill structure pushes through the outer perimeter walls, creating visible bumps and surface artefacts. Fix: reduce infill percentage, increase wall count (3–4 perimeters), or switch to a less aggressive infill pattern.*
+*Photo: [#3DBenchy](https://commons.wikimedia.org/wiki/File:-3DBenchy_Cura_Infill_Artefacts_(18857670356).jpg) — CC BY 2.0*
+
+---
+
+### 🐘 Elephant Foot
+
+*📷 Community photo wanted — drop yours in `images/pla-fails/` and open a PR!*
+
+The first layer spreads out wider than the rest of the print, creating a flared "foot" at the base. Caused by the Z offset being too low (nozzle too close to the bed) or bed temperature being too high. Fix: raise your Z offset slightly and reduce bed temp by 5°C.
+
+---
+
+### 🕸️ Stringing
+
+*📷 Community photo wanted — drop yours in `images/pla-fails/` and open a PR!*
+
+Fine wispy threads of plastic left between parts of the print during travel moves. Caused by filament oozing out of the nozzle when it shouldn't be. Fix: lower nozzle temp by 5°C, increase retraction distance, and raise travel speed. See the [Stringing Guide](../troubleshooting/Stringing.md) for a full walkthrough.
+
+---
+
 ## Variants
 
 | Variant | Property Improvement | Trade-off |
