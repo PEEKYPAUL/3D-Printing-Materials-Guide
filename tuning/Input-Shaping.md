@@ -187,8 +187,8 @@ shaper_freq_x: 68.4         # MZV recommended for X — from calibration graph
 shaper_freq_y: 57.2         # MZV recommended for Y — from calibration graph
 shaper_type_x: mzv
 shaper_type_y: mzv
-damping_ratio_x: 0.126      # measured damping ratio from X graph
-damping_ratio_y: 0.062      # measured damping ratio from Y graph
+damping_ratio_x: 0.126      # ζ value from X axis graph (provided by Shake&Tune)
+damping_ratio_y: 0.062      # ζ value from Y axis graph (provided by Shake&Tune)
 ```
 
 > 💡 You can use different shaper types for X and Y — Klipper supports `shaper_type_x` and `shaper_type_y` independently. Use `shaper_type` only if both axes use the same type.
@@ -233,16 +233,7 @@ Lower is better, but a higher smoothing value is still preferable to ringing. If
 
 ### damping_ratio_x and damping_ratio_y
 
-These values tell Klipper how damped your printer's vibrations are — how quickly the frame naturally stops ringing after a direction change. The default of `0.1` is a reasonable estimate for most printers and is fine to leave as-is.
-
-```ini
-damping_ratio_x: 0.1   # default — suitable for most printers
-damping_ratio_y: 0.1   # default — suitable for most printers
-```
-
-If your printer has **significant damping** (e.g. a heavy enclosure, foam-mounted components, or rubber feet that absorb vibration well), you may get a slightly more accurate result by increasing this to `0.15` or `0.2`. Most users never need to change it.
-
-> ⚠️ Do not blindly increase damping ratios — an inaccurate value produces a less effective shaper. Only adjust if you have a specific reason.
+These values tell Klipper how damped your printer's vibrations are — how quickly the frame naturally stops ringing after a direction change. Rather than estimating these values, **Klippain Shake&Tune measures and reports the exact damping ratio for each axis directly on the calibration graph** (shown as ζ). Use the values from your graphs rather than guessing.
 
 ---
 
