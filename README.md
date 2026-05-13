@@ -159,7 +159,7 @@ A silicone sock is a small sleeve that wraps around your hotend's heater block. 
 - **Cleaner purges** - ooze drips cleanly off silicone rather than baking onto the block.
 
 ![Comparison of heater block with and without silicone sock](images/silicone-sock-comparison.jpg)
-*Left: bare heater block after several PLA prints. Right: block protected by a silicone sock - still clean.*
+*bare heater block after several PLA prints.*
 
 > **Tip:** Silicone socks are shape-specific (E3D V6, Volcano, Dragon, Revo, etc.) — make sure you buy the correct one for your hotend. They cost £1–3 and are one of the best-value upgrades for any printer running PLA or PETG.
 
