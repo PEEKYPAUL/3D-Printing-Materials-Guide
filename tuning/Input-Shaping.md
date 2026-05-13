@@ -135,8 +135,8 @@ Klipper will move the toolhead through a resonance sweep for each axis and write
 
 ```
 Resonance measurements:
-X: Fitted shaper 'mzv' frequency = 48.2 Hz (vibrations = 4.3%, smoothing ~= 0.047)
-Y: Fitted shaper 'mzv' frequency = 39.8 Hz (vibrations = 3.1%, smoothing ~= 0.062)
+X: Fitted shaper 'mzv' frequency = 68.4 Hz (vibrations = 1.4%, smoothing ~= 0.045)
+Y: Fitted shaper 'mzv' frequency = 57.2 Hz (vibrations = 0.4%, smoothing ~= 0.063)
 ```
 
 To generate the frequency graphs, run:
@@ -152,21 +152,17 @@ Then copy the `.png` files to your computer to view them (via WinSCP, FileZilla,
 
 ## Step 5 — Read Your Graphs
 
-The graphs will look similar to these. Replace these placeholders with your own output graphs:
-
 ### X Axis — Resonance Graph
 
-> 📸 **[Placeholder — add your X axis resonance graph here]**
->
-> *Copy your `/tmp/shaper_calibrate_x.png` here after running the test.*
+![X axis input shaper calibration graph](../images/input-shaping-graph-x.jpg)
+*X axis result — recommended shaper: MZV @ 68.4 Hz | Damping ratio ζ = 0.126 | Smoothing = 0.045*
 
 ---
 
 ### Y Axis — Resonance Graph
 
-> 📸 **[Placeholder — add your Y axis resonance graph here]**
->
-> *Copy your `/tmp/shaper_calibrate_y.png` here after running the test.*
+![Y axis input shaper calibration graph](../images/input-shaping-graph-y.jpg)
+*Y axis result — recommended shaper: MZV @ 57.2 Hz | Damping ratio ζ = 0.062 | Smoothing = 0.063*
 
 ---
 
@@ -187,12 +183,12 @@ Use the values from your test output to fill in the `[input_shaper]` section. Ad
 
 ```ini
 [input_shaper]
-shaper_freq_x: 48.2         # replace with your X result
-shaper_freq_y: 39.8         # replace with your Y result
-shaper_type_x: mzv          # replace with the recommended shaper for X
-shaper_type_y: mzv          # replace with the recommended shaper for Y
-damping_ratio_x: 0.1        # default — see smoothing section below
-damping_ratio_y: 0.1        # default — see smoothing section below
+shaper_freq_x: 68.4         # MZV recommended for X — from calibration graph
+shaper_freq_y: 57.2         # MZV recommended for Y — from calibration graph
+shaper_type_x: mzv
+shaper_type_y: mzv
+damping_ratio_x: 0.126      # measured damping ratio from X graph
+damping_ratio_y: 0.062      # measured damping ratio from Y graph
 ```
 
 > 💡 You can use different shaper types for X and Y — Klipper supports `shaper_type_x` and `shaper_type_y` independently. Use `shaper_type` only if both axes use the same type.
@@ -216,7 +212,7 @@ Smoothing is the trade-off at the heart of input shaping. Every shaper filter th
 When Klipper reports a result like:
 
 ```
-X: Fitted shaper 'mzv' frequency = 48.2 Hz (vibrations = 4.3%, smoothing ~= 0.047)
+X: Fitted shaper 'mzv' frequency = 68.4 Hz (vibrations = 1.4%, smoothing ~= 0.045)
 ```
 
 The `smoothing ~= 0.047` figure tells you how much the filter rounds off sharp features. As a rough guide:
