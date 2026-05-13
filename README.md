@@ -53,6 +53,9 @@ Essential tools and plugins to get the most out of your Klipper setup.
 | [Klippain Shake&Tune](https://github.com/Frix-x/klippain-shaketune) | Streamlines the input shaper and resonance calibration workflow with automated measurement, graph generation, and analysis — takes the guesswork out of vibration tuning. |
 | [Klicky Probe](https://github.com/jlas1/Klicky-Probe) | A popular magnetic microswitch probe system aimed at CoreXY printers — highly repeatable Z-probing with a robust magnetic dock-and-detach mechanism. |
 | [VoronUsers](https://github.com/VoronDesign/VoronUsers) | The official Voron community mods repo — user-contributed macros, Klipper configs, hardware mods, and slicer profiles for Voron and compatible machines. |
+| [Kalico](https://github.com/KalicoCrew/kalico) | A feature-rich fork of Klipper with additional capabilities and experimental features baked in — ideal if you want bleeding-edge functionality without waiting for upstream Klipper merges. |
+| [Beacon Klipper Module](https://github.com/beacon3d/beacon_klipper) | Official Klipper module for the Beacon eddy-current probe — enables ultra-fast, high-accuracy non-contact bed scanning and Z-offset calibration. |
+| [Cartographer](https://github.com/cartographer-project/cartographer) | Real-time SLAM-based mapping technology that underpins the Cartographer probe — a high-speed eddy-current bed scanner similar to Beacon, offering rapid full-bed mesh generation with excellent repeatability. |
 
 ---
 
