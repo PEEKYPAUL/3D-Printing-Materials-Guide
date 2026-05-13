@@ -98,12 +98,13 @@ PETG     ██████░░░░░░░░░  230–250°C nozzle | 70
 ABS      ██████░░░░░░░░░  230–250°C nozzle | 100–110°C bed
 ASA      ███████░░░░░░░░  240–260°C nozzle | 100–110°C bed
 Nylon    ████████░░░░░░░  240–270°C nozzle | 70–85°C bed
+PVDF     ████████░░░░░░░  245–265°C nozzle | 90–110°C bed
 PC       █████████░░░░░░  260–310°C nozzle | 110–120°C bed
 PEI      ████████████░░░  340–380°C nozzle | 120–160°C bed
 PEEK     █████████████░░  360–400°C nozzle | 120–160°C bed
 ```
 
-> ⚠️ High-temp materials (PC, PEI, PEEK) require an **all-metal hotend**, high-temp bed surface, and ideally an **enclosed, actively heated chamber**.
+> ⚠️ High-temp materials (PC, PEI, PEEK, PVDF) require an **all-metal hotend**, high-temp bed surface, and ideally an **enclosed, actively heated chamber**.
 
 ---
 
