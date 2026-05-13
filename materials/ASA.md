@@ -37,9 +37,14 @@ ASA is essentially ABS's superior outdoor-rated cousin. It shares similar print 
 - Ideal for: garden stakes, outdoor camera mounts, letterbox parts, automotive exterior trim.
 
 ### Warping
-- **Enclosure is required** - a 45-50C chamber temp is ideal.
-- Minimal cooling fan - ambient airflow causes thermal stress.
+- **Enclosure is required** - a 45-50°C chamber temp is ideal.
+- Minimal cooling fan (10–25%) - ambient airflow causes thermal stress.
 - Large brims (10-15 mm) help anchor the print.
+- **Kapton tape or PET sheets** are reliable bed surfaces for ASA in addition to PEI.
+- **Temperature gradient technique** — start the first few layers at the high end of the temp range for maximum adhesion, then reduce the nozzle temp by ~5°C every few layers as the print builds height. This reduces thermal stress in the upper layers and helps prevent warping and cracking.
+
+### Supports
+- **HIPS** works as a dissolvable support material when using a dual-extrusion setup — it dissolves cleanly in limonene, leaving no support marks on ASA surfaces.
 
 ---
 

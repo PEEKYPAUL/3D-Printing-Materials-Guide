@@ -29,9 +29,13 @@ Common variants: **PA6** (general), **PA12** (less moisture-sensitive), **PA6-CF
 
 ### Moisture - Critical
 - **Nylon must be bone dry.** Print directly from a **dryer box** - don't trust even sealed spools.
-- Dry at **70-80C for 8-12 hours** before printing.
+- Dry at **70-80°C for 8-12 hours** before printing.
 - Wet nylon symptoms: foamy surface, bubbling, drastically reduced strength.
 - Use a **filament dryer with humidity display** - target below 15% RH in the box.
+- A **food dehydrator** is an excellent low-cost alternative to a purpose-built filament dryer — most can hold 70–75°C and fit multiple spools at once. Check the temperature with an independent thermometer as many food dehydrators read inaccurately.
+
+### Nozzle Maintenance
+- Nylon can leave residue in the nozzle when changing filaments. Use the **cold pull technique** to clean it: heat to printing temp, push fresh filament through, then cool to ~90°C and pull sharply. The pulled plug removes debris from the nozzle bore cleanly. Repeat 2–3 times until the pulled plug comes out clean.
 
 ### Bed Adhesives
 Choosing the right adhesive makes the difference between nylon sticking reliably and prints popping off mid-print or fusing permanently to the bed.

@@ -62,6 +62,13 @@ PLA is the most popular FDM filament and the best starting point for any printer
 - **0°/90° infill** (grid, gyroid) distributes load better than rectilinear for structural prints.
 - Consider **PLA+** or **PLA-CF** variants for improved toughness and stiffness.
 
+### Retraction Tuning
+- Test retraction systematically — print a retraction tower or use your slicer's variable settings to sweep multiple retraction distances in a single print. This is far faster than printing individual test pieces.
+- Once temperature and retraction are dialled in, **enable minimum layer time** (8–10 seconds) so small cross-sections have time to cool before the next layer — this prevents heat-creep on tall, thin features.
+
+### Small Parts
+- **Reduce print speed automatically** for small parts — most slicers have a "minimum layer time" or "slow down if layer print time is below X seconds" setting. Without it, tiny features get too hot before the next layer lands.
+
 ---
 
 ## Common Problems
@@ -177,6 +184,18 @@ Approximate mechanical properties for printed parts — values vary by brand and
 - **Prusament PLA** — high tolerance, great QC
 - **Hatchbox PLA** — budget-friendly, widely available
 - **eSUN PLA+** — great value for PLA+
+
+---
+
+## Applications
+
+| Use Case | Why PLA Works |
+|---|---|
+| Calibration & test prints | Cheap, fast, forgiving — ideal for dialling in settings |
+| Accurate assemblies & prototypes | Excellent dimensional accuracy |
+| Display models & figures | Great detail, smooth finish, easy to paint |
+| Cosplay props | Lightweight, easy to sand and paint |
+| Decorative parts | Huge colour range including silk, marble, and wood-fill variants |
 
 ---
 

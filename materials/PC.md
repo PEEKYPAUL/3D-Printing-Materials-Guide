@@ -28,9 +28,25 @@ Polycarbonate is one of the toughest thermoplastics available - it's used in bul
 
 ### Hardware Requirements
 - **All-metal hotend** - mandatory. No PTFE above the heatbreak.
-- High-temp bed: must reliably reach 115C+.
-- Enclosed chamber. A **heated chamber** (50C+) dramatically reduces warping.
+- High-temp bed: must reliably reach 115°C+.
+- Enclosed chamber. A **heated chamber** (50°C+) dramatically reduces warping.
 - **Hardened steel or ruby nozzle** recommended - PC is slightly abrasive.
+- **Avoid Build-tak above 80°C** — PC's bed temp will cause parts to bond permanently to Build-tak, destroying both the part and the surface.
+
+### First Layer & Temperature Strategy
+- **Print the first layer 20–30°C hotter** than the rest of the print to maximise bed adhesion, then drop to your normal nozzle temp from layer 2.
+- **First layer speed: 15–30% of normal** — very slow ensures proper bonding.
+- **First layer width: 120–150%** — wider lines give more contact area with the bed.
+
+### Cooling & Bridging
+- **No fan for the first 4–5 layers** — then gradually increase to a maximum of 40%. Never use 100% cooling with PC, it will cause delamination.
+- **Bridging fan: ~25%** — just enough to help bridges set without causing thermal stress.
+- **Bridging extrusion multiplier: 120%** — PC needs slightly more material to bridge gaps cleanly.
+- **Bridging speed: ~40% of normal** — slower bridging gives better results with PC.
+
+### Infill & Structure
+- Use a **minimum of 25% infill** to properly support top layers — PC's relatively high printing temp means thin top layers can sag without adequate support underneath.
+- **4+ top layers** recommended for a solid, flat top surface.
 
 ### Moisture
 - PC is hygroscopic. Dry at **80C for 6-8 hours**. Print from a dry box.

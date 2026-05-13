@@ -42,8 +42,10 @@ ABS was the dominant FDM material before PLA took over, and for good reason — 
 - **No cooling fan** — ambient airflow causes thermal stress and layer separation.
 - **Large brims** (10–15mm) help anchor the print.
 - **ABS slurry** (dissolved ABS in acetone) on glass is the old-school reliable method.
+- **Kapton tape** is another reliable bed surface for ABS — apply smoothly with no bubbles.
 - Print **slower for the first 5–10 layers**.
 - **Draft shield** in slicer adds a sacrificial wall that stabilises temperature around the print.
+- **Raise first layer temp by 10–20°C** above the rest of the print — this improves first layer adhesion to the bed significantly. Return to normal temp from layer 2 onwards.
 
 ### Fumes
 - ABS releases **styrene** during printing — a known irritant and potential carcinogen.

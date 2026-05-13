@@ -58,9 +58,11 @@ The "G" (glycol-modified) makes it less brittle and clearer than standard PET. I
 PETG is notoriously stringy. Attack it from multiple angles:
 1. **Raise temp slightly** (counterintuitive but helps with flow consistency)
 2. **Increase travel speed**
-3. **Enable "avoid crossing perimeters"** in slicer
+3. **Enable "avoid crossing perimeters"** in slicer — keeps travel moves inside the model so strings are hidden
 4. **Reduce fan** (cool air makes strings set mid-air)
 5. **Tune pressure advance** precisely
+6. **Enable Coasting** in your slicer — cuts extrusion slightly before the end of each move to reduce nozzle pressure and prevent ooze
+7. **Enable "Extra Restart Distance"** — compensates for pressure drop at the start of a move, reducing blobs at segment start points
 
 ### Moisture
 - PETG is moderately hygroscopic. Dry at **65–70°C for 4–6 hours**.
@@ -122,6 +124,19 @@ Approximate mechanical properties for printed parts — values vary by brand and
 - **Bambu Lab PETG HF** — optimised for high-speed printing
 - **Hatchbox PETG** — reliable budget option
 - **eSUN PETG** — widely available, solid quality
+
+---
+
+## Applications
+
+| Use Case | Why PETG Works |
+|---|---|
+| Waterproof containers & planters | Water and chemical resistant, no degradation |
+| Snap-fit parts | Good flex and impact resistance without breaking |
+| Outdoor parts | More UV and moisture resistant than PLA |
+| Water bottles & food containers | Check brand for food-safe certification |
+| PC cases & electronics enclosures | Good temp resistance, slightly flexible |
+| Mechanical parts needing fatigue resistance | Handles repeated flex without cracking |
 
 ---
 

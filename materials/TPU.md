@@ -56,9 +56,17 @@ Other flexibles include **TPE** (softer, harder to print), **TPC** (higher temp 
 - **Infill %:** Lower infill = more flex. 10–20% for very flexible, 50–80% for firmer.
 - **No ironing** — the extra nozzle pass can create blobs on flex.
 
-### Preventing Tangles
+### Preventing Tangles & Feed Issues
 - TPU spools can tangle and kink. Feed filament **straight and supported** to the extruder.
 - Don't let the spool unwind loosely — it tangles on itself.
+- **Mount the spool directly above the extruder** so filament feeds straight down under gravity — this reduces the resistance the extruder has to fight and significantly improves reliability.
+- Add a **bearing to the spool hub** so it spins freely with minimal drag. Resistance on the spool is one of the leading causes of under-extrusion with flex filaments.
+
+### Slicer Tips
+- **Enable "Avoid crossing perimeters"** for all travel moves — this keeps strings inside the model where they're invisible, dramatically reducing the need for retraction.
+- **Enable Coasting** to reduce nozzle pressure before travel moves — helps prevent blobs at travel start/end points.
+- **Avoid rafts** — the higher extrusion rate used in raft base layers can cause blobs and adhesion problems when transitioning to the actual part. Use a brim instead if you need extra adhesion.
+- Layer height **0.1–0.2mm** gives the best interlayer bonding and surface finish for flex materials.
 
 ### Moisture
 - TPU absorbs moisture. Dry at **50–60°C for 4–6 hours**. Signs: stringing, bubbly surface.
