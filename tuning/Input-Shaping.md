@@ -292,6 +292,74 @@ Klipper runs both sweeps, selects the best shaper and frequency for each axis, a
 
 ---
 
+## Belt Tension Comparison (CoreXY Only)
+
+On a CoreXY printer, two belts work together to move the toolhead — Belt A and Belt B. If these belts are not equally tensioned, or if one has a different resonant frequency to the other, you will get asymmetric ringing, inconsistent motion, and poor input shaper results. Checking belt balance before running `SHAPER_CALIBRATE` is strongly recommended.
+
+> ℹ️ This section applies to **CoreXY and similar kinematic systems** (e.g. CoreXZ, Annex, Hevort). Bed-slinger printers (Ender, Prusa etc.) have independent X and Y belts and do not need this comparison.
+
+---
+
+### How to Run Belt Comparison
+
+Belt comparison is provided by the **[Klippain Shake&Tune](https://github.com/Frix-x/klippain-shaketune)** plugin. Once installed, run the following macro from your Mainsail or Fluidd console:
+
+```gcode
+BELTS_SHAPER_CALIBRATION
+```
+
+The tool uses the ADXL345 to sweep both belt paths and generates a comparison graph saved to your Pi. The macro must be run with the ADXL345 mounted to the toolhead.
+
+---
+
+### Reading the Belt Comparison Graph
+
+![CoreXY belt frequency comparison graph](../images/input-shaping-belts-comparison.jpg)
+*Belt comparison output from Klippain Shake&Tune — 96.7% similarity indicates excellent mechanical balance between both belts.*
+
+The graph has two panels:
+
+**Left — Belts Frequency Profiles**
+Shows the resonance frequency curve for Belt A and Belt B overlaid on the same plot. Ideally both curves sit almost exactly on top of each other — same peak frequency, same amplitude. Any gap between the curves indicates an imbalance.
+
+**Right — Cross-Belts Comparison Plot**
+Plots Belt A power against Belt B power at each frequency. A perfectly balanced pair produces a straight diagonal line exactly on the ideal line (dashed red). Points falling off the line in either direction indicate tension or resonance imbalance.
+
+The green shaded zone is the acceptable region. As long as the majority of the curve sits inside the green zone, your belts are well matched.
+
+---
+
+### What the Numbers Mean
+
+| Metric | What It Measures | Target |
+|---|---|---|
+| **Estimated similarity** | Overall match between both belt curves | > 95% — excellent; 90–95% — acceptable; < 90% — retension |
+| **Frequency delta** | Difference in peak resonant frequency between A and B | < 5 Hz ideal; < 10 Hz acceptable |
+| **Amplitude delta** | Difference in peak vibration amplitude between A and B | < 10% ideal |
+| **Mechanical health** | Shake&Tune's overall assessment | Aim for "Good" or "Excellent" |
+
+The example graph above shows:
+- **Similarity: 96.7%** — excellent balance
+- **Frequency delta: 8.0 Hz** — acceptable, minor tension difference
+- **Amplitude delta: 9.9%** — within acceptable range
+- **Mechanical health: Excellent**
+
+---
+
+### What to Do If Belts Are Out of Balance
+
+If similarity is below 95% or the frequency delta is large:
+
+1. **Check belt tension on both A and B** — use a tension meter or the Gates Carbon Drive app for a consistent reference. Both belts should have the same tension in grams.
+2. **Check for tight spots** — run the belt manually through its full travel. It should move smoothly with no stiff sections.
+3. **Check for worn or cracked belt teeth** — a damaged belt will have irregular frequency response.
+4. **Check pulleys and idlers** — a loose grub screw on a pulley will cause one belt path to behave inconsistently.
+5. **Re-run `BELTS_SHAPER_CALIBRATION`** after any adjustment and compare the new graph.
+
+> 💡 Get belt tension as close as possible before running `SHAPER_CALIBRATE` for input shaping. The input shaper result is only as good as the mechanical state of the printer at the time of measurement.
+
+---
+
 ## Tips
 
 - **Fix mechanical issues first** — input shaping cannot compensate for loose belts, worn bearings, or a wobbly frame. Those must be resolved before calibration.
