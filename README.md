@@ -177,14 +177,6 @@ A silicone sock is a small sleeve that wraps around your hotend's heater block. 
 
 ---
 
-## 🤝 Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new material profiles are welcome!
-
----
-
----
-
 ## 📂 Repository Structure
 
 ```
@@ -228,6 +220,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new 
 │   └── (drop your images here)
 └── CONTRIBUTING.md
 ```
+
+---
+
+## 🤝 Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new material profiles are welcome!
 
 ---
 
