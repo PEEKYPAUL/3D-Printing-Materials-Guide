@@ -179,11 +179,11 @@ Approximate mechanical properties for printed parts — values vary by brand and
 
 ## Recommended Brands
 
-- **Polymaker PolyLite / PolyMax PLA** — excellent quality, consistent diameter, wide colour range
-- **Prusament PLA** — high tolerance, great QC
-- **Formatura PLA** — solid mid-tier choice, good surface finish
-- **Sunlu PLA** — reliable budget option, huge colour selection
-- **eSUN PLA+** — great value for PLA+
+- **[Polymaker PolyLite / PolyMax PLA](https://www.polymaker.com)** — excellent quality, consistent diameter, wide colour range
+- **[Prusament PLA](https://www.prusament.com)** — high tolerance, great QC
+- **[FormFutura PLA](https://www.formfutura.com/filaments/pla)** — solid mid-tier choice, good surface finish
+- **[Sunlu PLA](https://www.sunlu.com)** — reliable budget option, huge colour selection
+- **[eSUN PLA+](https://www.esun3d.com)** — great value for PLA+
 
 ---
 

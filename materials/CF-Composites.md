@@ -184,14 +184,14 @@ Use the corresponding base material guide as your starting point, then apply the
 
 | Product | Type | Base | Notes |
 |---|---|---|---|
-| 3DXTech CarbonX PA12-CF | CF | PA12 | Engineering-grade, consistent diameter, US-made |
-| Polymaker PolyMide PA6-CF | CF | PA6 | High stiffness, widely available |
-| Prusament PLA-CF | CF | PLA | Easy to print, great surface finish |
-| 3DXTech CarbonX PA12-CF | CF | PA12 | High quality, US-made |
-| 3DXTech CarbonX PEEK-CF | CF | PEEK | Aerospace-grade performance |
-| Fiberlogy PETG CF15 | CF | PETG | 15% CF loading, good value |
-| Polymaker PolyMide PA612-GF | GF | PA612 | Good stiffness and impact balance |
-| 3DXTech GlassX PA12-GF | GF | PA12 | Non-conductive, cost-effective |
+| [3DXTech CarbonX PA12-CF](https://www.3dxtech.com) | CF | PA12 | Engineering-grade, consistent diameter, US-made |
+| [Polymaker PolyMide PA6-CF](https://www.polymaker.com) | CF | PA6 | High stiffness, widely available |
+| [Prusament PLA-CF](https://www.prusament.com) | CF | PLA | Easy to print, great surface finish |
+| [3DXTech CarbonX PEEK-CF](https://www.3dxtech.com) | CF | PEEK | Aerospace-grade performance |
+| [Fiberlogy PETG CF15](https://fiberlogy.com) | CF | PETG | 15% CF loading, good value |
+| [FormFutura CarbonFil](https://www.formfutura.com) | CF | PA | Mid-tier CF composite, good printability |
+| [Polymaker PolyMide PA612-GF](https://www.polymaker.com) | GF | PA612 | Good stiffness and impact balance |
+| [3DXTech GlassX PA12-GF](https://www.3dxtech.com) | GF | PA12 | Non-conductive, cost-effective |
 
 ---
 

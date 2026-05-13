@@ -158,14 +158,16 @@ ASA is essentially ABS's superior outdoor-rated cousin. It shares similar print 
 ## Recommended Brands
 
 **ABS:**
-- Prusament ABS
-- Polymaker PolyLite ABS
-- eSUN ABS+
+- **[Prusament ABS](https://www.prusament.com)** — tight tolerances, well-documented settings
+- **[Polymaker PolyLite ABS](https://www.polymaker.com)** — consistent quality, good warp resistance
+- **[FormFutura ABS](https://www.formfutura.com/filaments/abs)** — reliable mid-tier option
+- **[eSUN ABS+](https://www.esun3d.com)** — great value, improved toughness over standard ABS
 
 **ASA:**
-- Prusament ASA ← top recommendation
-- Polymaker PolyLite ASA
-- Fillamentum ASA
+- **[Prusament ASA](https://www.prusament.com)** ⭐ top recommendation — excellent consistency, low warp
+- **[Polymaker PolyLite ASA](https://www.polymaker.com)** — reliable, good UV resistance
+- **[FormFutura ASA](https://www.formfutura.com)** — solid mid-tier choice
+- **[Fillamentum ASA](https://fillamentum.com)** — premium European brand, great surface finish
 
 ---
 

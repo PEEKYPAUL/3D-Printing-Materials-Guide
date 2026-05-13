@@ -121,10 +121,10 @@ Approximate mechanical properties for printed parts — values vary by brand and
 ---
 
 ## Recommended PEEK Brands
-- **Victrex PEEK** — the original, industry standard
-- **Solvay KetaSpire** — high-quality PEEK
-- **Polymaker PolyMide PEEK-CF** — CF-reinforced, excellent
-- **3DXTech PEEK** — widely available for desktop printers
+- **[Victrex PEEK](https://www.victrex.com)** — the original, industry-standard PEEK resin made into filament
+- **[Solvay KetaSpire PEEK](https://www.solvay.com)** — high-purity, aerospace and medical grade
+- **[Polymaker PolyMide PEEK-CF](https://www.polymaker.com)** — CF-reinforced, excellent stiffness
+- **[3DXTech PEEK](https://www.3dxtech.com)** — widely available, engineering-grade, desktop-printer compatible
 
 ---
 

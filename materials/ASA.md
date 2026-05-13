@@ -86,10 +86,11 @@ Approximate mechanical properties for printed parts — values vary by brand and
 ---
 
 ## Recommended Brands
-- **Prusament ASA** (top recommendation)
-- **Polymaker PolyLite ASA**
-- **Fillamentum ASA**
-- **eSUN ASA**
+- **[Prusament ASA](https://www.prusament.com)** ⭐ top recommendation — excellent consistency, low warp tendency
+- **[Polymaker PolyLite ASA](https://www.polymaker.com)** — reliable, good UV resistance
+- **[FormFutura ASA](https://www.formfutura.com)** — solid mid-tier choice
+- **[Fillamentum ASA](https://fillamentum.com)** — premium European brand, great surface finish
+- **[eSUN ASA](https://www.esun3d.com)** — budget-friendly, widely available
 
 ---
 

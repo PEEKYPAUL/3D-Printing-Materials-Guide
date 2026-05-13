@@ -142,7 +142,7 @@ PVDF is chosen when no other printed material will survive the environment:
 
 | Product | Supplier | Notes |
 |---|---|---|
-| [FluorX PVDF](https://www.3dxtech.com/products/fluorx-pvdf-1) | 3DXTech | Leading PVDF filament — high quality, US-made |
+| [FluorX PVDF](https://www.3dxtech.com/products/fluorx-pvdf-1) | [3DXTech](https://www.3dxtech.com) | Leading PVDF filament — high quality, US-made, engineering-grade |
 
 > PVDF filament is a speciality product with limited supplier options compared to commodity materials. 3DXTech is the most widely referenced source for printable PVDF.
 

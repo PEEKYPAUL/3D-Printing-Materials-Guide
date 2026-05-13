@@ -97,4 +97,15 @@ This is the go-to adhesive for printing PEI/Ultem and other high-temp materials:
 
 ---
 
+## Recommended Brands
+
+PEI/Ultem filament is a specialist product with limited suppliers. Source directly from manufacturers — this is not a material to buy from unknown budget brands.
+
+- **[3DXTech Ultem 1010 / 9085](https://www.3dxtech.com)** — most accessible for desktop high-temp printers, engineering-grade
+- **[Intamsys Ultem](https://www.intamsys.com)** — purpose-made for their high-temp printer range, excellent results
+- **[SABIC Ultem Filament](https://www.sabic.com)** — the original Ultem resin manufacturer; premium aerospace and medical grade
+- **[3D4Makers Ultem](https://www.3d4makers.com)** — European supplier, good availability for Ultem 1010 and 9085
+
+---
+
 *Back to [README](../README.md)*

@@ -119,11 +119,11 @@ Approximate mechanical properties for printed parts — values vary by brand and
 
 ## Recommended Brands
 
-- **Polymaker PolyLite PETG** — excellent consistency, great all-rounder
-- **Prusament PETG** — tight tolerances, great quality
-- **Formatura PETG** — reliable mid-tier, good layer adhesion
-- **Sunlu PETG** — solid budget option, wide colour range
-- **eSUN PETG** — widely available, consistent quality
+- **[Polymaker PolyLite PETG](https://www.polymaker.com)** — excellent consistency, great all-rounder
+- **[Prusament PETG](https://www.prusament.com)** — tight tolerances, great quality
+- **[FormFutura PETG](https://www.formfutura.com/filaments/petg)** — reliable mid-tier, good layer adhesion
+- **[Sunlu PETG](https://www.sunlu.com)** — solid budget option, wide colour range
+- **[eSUN PETG](https://www.esun3d.com)** — widely available, consistent quality
 
 ---
 

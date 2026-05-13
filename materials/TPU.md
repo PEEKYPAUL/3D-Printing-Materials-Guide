@@ -99,13 +99,13 @@ Other flexibles include **TPE** (softer, harder to print), **TPC** (higher temp 
 
 ## Recommended Brands
 
-- **Polymaker PolyFlex TPU95** — reliable, widely available, great all-rounder
-- **Formatura TPU** — solid mid-tier, consistent diameter
-- **Sunlu TPU** — budget-friendly, good colour range
-- **eSUN TPU 95A** — consistent quality, widely available
-- **NinjaTek Cheetah (95A)** — premium, excellent performance
-- **NinjaTek NinjaFlex (85A)** — very soft, challenging to print
-- **Recreus FilaFlex** — Spanish brand, excellent soft options
+- **[Polymaker PolyFlex TPU95](https://www.polymaker.com)** — reliable, widely available, great all-rounder
+- **[FormFutura TPU](https://www.formfutura.com)** — solid mid-tier, consistent diameter
+- **[Sunlu TPU](https://www.sunlu.com)** — budget-friendly, good colour range
+- **[eSUN TPU 95A](https://www.esun3d.com)** — consistent quality, widely available
+- **[NinjaTek Cheetah 95A](https://ninjatek.com)** — premium, excellent performance, very consistent
+- **[NinjaTek NinjaFlex 85A](https://ninjatek.com)** — very soft, challenging to print, best-in-class flexibility
+- **[Recreus FilaFlex](https://recreus.com)** — Spanish brand, excellent range from 60A to 96A
 
 ---
 

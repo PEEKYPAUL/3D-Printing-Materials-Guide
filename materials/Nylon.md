@@ -95,10 +95,10 @@ The gold standard for Nylon — no adhesive required, mechanical adhesion to the
 ---
 
 ## Recommended Brands
-- **Taulman Bridge Nylon** — widely used, forgiving, great for beginners
-- **Polymaker PolyMide PA12-CF** — excellent CF-reinforced option
-- **3DXTech CarbonX PA12-CF** — engineering-grade, high performance
-- **Formatura PA12** — solid mid-tier option for standard Nylon printing
+- **[Taulman Bridge Nylon](https://taulman3d.com)** — widely used, forgiving, great for beginners
+- **[Polymaker PolyMide PA12-CF](https://www.polymaker.com)** — excellent CF-reinforced option
+- **[3DXTech CarbonX PA12-CF](https://www.3dxtech.com)** — engineering-grade, high performance
+- **[FormFutura PA12](https://www.formfutura.com)** — solid mid-tier option for standard Nylon printing
 
 ---
 

@@ -108,14 +108,14 @@ HIPS is a support material that dissolves in d-limonene (a citrus-based solvent)
 ## Recommended Brands
 
 **PVA:**
-- **Polymaker PolyDissolve S1** (PLA-compatible) - top recommendation
-- **Ultimaker PVA** - reliable, consistent
-- **eSUN PVA+** - good budget option
+- **[Polymaker PolyDissolve S1](https://www.polymaker.com)** — PLA-compatible, top recommendation, dissolves cleanly
+- **[eSUN PVA+](https://www.esun3d.com)** — good budget option, widely available
+- **[FormFutura Helios Support](https://www.formfutura.com)** — mid-tier PVA, reliable dissolution
 
 **HIPS:**
-- **eSUN HIPS** - widely available, good quality
-- **Polymaker PolyLite HIPS** - consistent and reliable
-- **Fillamentum HIPS** - premium option
+- **[eSUN HIPS](https://www.esun3d.com)** — widely available, good quality, great value
+- **[Polymaker PolyLite HIPS](https://www.polymaker.com)** — consistent and reliable
+- **[Fillamentum HIPS](https://fillamentum.com)** — premium European option, excellent surface finish
 
 ---
 
