@@ -55,6 +55,20 @@ Polycarbonate is one of the toughest thermoplastics available - it's used in bul
 
 ---
 
+## 📊 Strength Statistics
+
+Approximate mechanical properties for printed parts — values vary by brand and print settings. Use as a guide for material selection, not engineering calculations.
+
+| Property | Standard PC | PC-CF | PC-GF |
+|---|---|---|---|
+| Tensile Strength | 65 MPa | 78 MPa (+20%) | 72 MPa (+11%) |
+| Young's Modulus (Stiffness) | 2.3 GPa | 6.0 GPa (+161%) | 5.0 GPa (+117%) |
+| Heat Deflection Temp | 130°C | 145°C | 140°C |
+
+> 📖 See the full [CF & GF Composites Guide](CF-Composites.md) for a cross-material strength comparison and details on printing fibre-reinforced variants.
+
+---
+
 ## Common Problems
 
 | Problem | Fix |

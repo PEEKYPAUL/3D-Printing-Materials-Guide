@@ -78,6 +78,20 @@ ABS's killer feature — acetone vapour creates a glass-smooth surface:
 
 ---
 
+## 📊 Strength Statistics
+
+Approximate mechanical properties for printed parts — values vary by brand and print settings. Use as a guide for material selection, not engineering calculations.
+
+| Property | Standard ABS | ABS-CF | ABS-GF |
+|---|---|---|---|
+| Tensile Strength | 42 MPa | 55 MPa (+31%) | 52 MPa (+24%) |
+| Young's Modulus (Stiffness) | 2.2 GPa | 5.0 GPa (+127%) | 3.8 GPa (+73%) |
+| Heat Deflection Temp | 98°C | 110°C | 105°C |
+
+> 📖 See the full [CF & GF Composites Guide](CF-Composites.md) for a cross-material strength comparison and details on printing fibre-reinforced variants.
+
+---
+
 ## When to Use ABS
 - Parts that need **acetone smoothing**
 - Automotive / under-hood applications (moderate temps)

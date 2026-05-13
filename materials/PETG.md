@@ -81,6 +81,20 @@ PETG is notoriously stringy. Attack it from multiple angles:
 
 ---
 
+## 📊 Strength Statistics
+
+Approximate mechanical properties for printed parts — values vary by brand and print settings. Use as a guide for material selection, not engineering calculations.
+
+| Property | Standard PETG | PETG-CF | PETG-GF |
+|---|---|---|---|
+| Tensile Strength | 50 MPa | 60 MPa (+20%) | 62 MPa (+24%) |
+| Young's Modulus (Stiffness) | 2.1 GPa | 5.5 GPa (+162%) | 3.5 GPa (+67%) |
+| Heat Deflection Temp | 72°C | 82°C | 79°C |
+
+> 📖 See the full [CF & GF Composites Guide](CF-Composites.md) for a cross-material strength comparison and details on printing fibre-reinforced variants.
+
+---
+
 ## Variants
 
 | Variant | Notes |

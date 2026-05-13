@@ -144,6 +144,20 @@ Fine wispy threads of plastic left between parts of the print during travel move
 
 ---
 
+## 📊 Strength Statistics
+
+Approximate mechanical properties for printed parts — values vary by brand and print settings. Use as a guide for material selection, not engineering calculations.
+
+| Property | Standard PLA | PLA-CF | PLA-GF |
+|---|---|---|---|
+| Tensile Strength | 50 MPa | 65 MPa (+30%) | 55 MPa (+10%) |
+| Young's Modulus (Stiffness) | 3.5 GPa | 7.0 GPa (+100%) | 4.5 GPa (+29%) |
+| Heat Deflection Temp | 52°C | 60°C | 56°C |
+
+> 📖 See the full [CF & GF Composites Guide](CF-Composites.md) for a cross-material strength comparison and details on printing fibre-reinforced variants.
+
+---
+
 ## Variants
 
 | Variant | Property Improvement | Trade-off |

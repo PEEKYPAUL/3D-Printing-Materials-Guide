@@ -93,6 +93,20 @@ PEEK is expensive, but when you need:
 
 ---
 
+## 📊 Strength Statistics
+
+Approximate mechanical properties for printed parts — values vary by brand and print settings. Use as a guide for material selection, not engineering calculations.
+
+| Property | Standard PEEK | PEEK-CF | PEEK-GF |
+|---|---|---|---|
+| Tensile Strength | 100 MPa | 160 MPa (+60%) | 140 MPa (+40%) |
+| Young's Modulus (Stiffness) | 4.5 GPa | 15.0 GPa (+233%) | 10.0 GPa (+122%) |
+| Heat Deflection Temp | 250°C | 280°C+ | 270°C+ |
+
+> 📖 See the full [CF & GF Composites Guide](CF-Composites.md) for a cross-material strength comparison and details on printing fibre-reinforced variants.
+
+---
+
 ## PEEK vs PEI Quick Comparison
 
 | Property | PEEK | PEI (Ultem) |

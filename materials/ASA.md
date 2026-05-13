@@ -55,6 +55,20 @@ ASA is essentially ABS's superior outdoor-rated cousin. It shares similar print 
 
 ---
 
+## 📊 Strength Statistics
+
+Approximate mechanical properties for printed parts — values vary by brand and print settings. Use as a guide for material selection, not engineering calculations.
+
+| Property | Standard ASA | ASA-CF | ASA-GF |
+|---|---|---|---|
+| Tensile Strength | 44 MPa | 56 MPa (+27%) | 53 MPa (+20%) |
+| Young's Modulus (Stiffness) | 2.1 GPa | 4.8 GPa (+129%) | 3.6 GPa (+71%) |
+| Heat Deflection Temp | 98°C | 108°C | 103°C |
+
+> 📖 See the full [CF & GF Composites Guide](CF-Composites.md) for a cross-material strength comparison and details on printing fibre-reinforced variants.
+
+---
+
 ## Common Problems
 
 | Problem | Fix |
