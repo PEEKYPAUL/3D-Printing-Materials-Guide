@@ -80,13 +80,13 @@ Essential tools and plugins to get the most out of your Klipper setup.
 | [ABS](materials/ABS.md) | Engineering | ⭐⭐ Intermediate | 230–250°C | **Required** | 45–50°C |
 | [ASA](materials/ASA.md) | Engineering | ⭐⭐ Intermediate | 240–260°C | **Required** | 45–50°C |
 | [TPU / Flexibles](materials/TPU.md) | Flexible | ⭐⭐ Intermediate | 220–240°C | Not needed | — |
+| [Support Materials (PVA, HIPS)](materials/Support-Materials.md) | Support | ⭐⭐ Intermediate | Varies | HIPS: Required | — |
 | [Nylon (PA)](materials/Nylon.md) | Engineering | ⭐⭐⭐ Advanced | 240–270°C | Recommended | — |
 | [PC (Polycarbonate)](materials/PC.md) | High-Temp | ⭐⭐⭐ Advanced | 260–310°C | **Required** | 50–60°C |
+| [Carbon Fibre Composites](materials/CF-Composites.md) | Composite | ⭐⭐⭐ Advanced | Varies | Base material dependent | Varies |
+| [PVDF](materials/PVDF.md) | High-Performance Fluoropolymer | ⭐⭐⭐⭐ Expert | 245–265°C | Strongly recommended | — |
 | [PEI / Ultem](materials/PEI.md) | High-Temp | ⭐⭐⭐⭐ Expert | 340–380°C | **Required** | 120–160°C |
 | [PEEK](materials/PEEK.md) | High-Temp | ⭐⭐⭐⭐ Expert | 360–400°C | **Required** | 120–140°C |
-| [Carbon Fibre Composites](materials/CF-Composites.md) | Composite | ⭐⭐⭐ Advanced | Varies | Base material dependent | Varies |
-| [Support Materials (PVA, HIPS)](materials/Support-Materials.md) | Support | ⭐⭐ Intermediate | Varies | HIPS: Required | — |
-| [PVDF](materials/PVDF.md) | High-Performance Fluoropolymer | ⭐⭐⭐⭐ Expert | 245–265°C | Strongly recommended | — |
 
 ---
 
