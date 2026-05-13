@@ -40,6 +40,22 @@
 
 ---
 
+## 💻 Klipper Software Guides & Recommendations
+
+Essential tools and plugins to get the most out of your Klipper setup.
+
+| Tool | Description |
+|---|---|
+| [KIAUH](https://github.com/dw-0/kiauh) | **Klipper Installation And Update Helper** — the go-to script for installing, updating, and managing Klipper, Moonraker, Mainsail, Fluidd, and related components. Start here if setting up Klipper from scratch. |
+| [KAMP – Klipper Adaptive Meshing & Purging](https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging) | Intelligently limits your bed mesh and purge line to only the area your print occupies — speeds up start sequences and improves first-layer reliability on large beds. |
+| [klipper_tmc_autotune](https://github.com/andrewmcgr/klipper_tmc_autotune) | Automatically calculates and applies optimal TMC stepper driver settings based on your motor specs — quieter operation, better torque, and reduced heat with minimal manual tuning. |
+| [klipper_estimator](https://github.com/Annex-Engineering/klipper_estimator) | A highly accurate print time estimator for Klipper — accounts for firmware limits and gives far more realistic time predictions than standard slicer previews. |
+| [Klippain Shake&Tune](https://github.com/Frix-x/klippain-shaketune) | Streamlines the input shaper and resonance calibration workflow with automated measurement, graph generation, and analysis — takes the guesswork out of vibration tuning. |
+| [Klicky Probe](https://github.com/jlas1/Klicky-Probe) | A popular magnetic microswitch probe system aimed at CoreXY printers — highly repeatable Z-probing with a robust magnetic dock-and-detach mechanism. |
+| [VoronUsers](https://github.com/VoronDesign/VoronUsers) | The official Voron community mods repo — user-contributed macros, Klipper configs, hardware mods, and slicer profiles for Voron and compatible machines. |
+
+---
+
 ## ⚙️ Hardware Guides
 
 | Guide | What It Covers |
