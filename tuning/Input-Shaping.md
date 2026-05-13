@@ -81,9 +81,44 @@ cs_pin: rpi:None
 accel_chip: adxl345
 probe_points:
     150, 150, 20  # adjust to your bed centre — X, Y, Z height
+accel_per_hz: 75  # default — see below
 ```
 
 Save and do a **firmware restart** from Mainsail or Fluidd before proceeding.
+
+---
+
+### accel_per_hz — What It Is and When to Change It
+
+`accel_per_hz` controls how hard the printer accelerates at each frequency step during the resonance sweep. Klipper multiplies this value by the current test frequency to calculate the acceleration used at that point:
+
+```
+acceleration at each step = accel_per_hz × frequency
+```
+
+So with the default of `75` at a test frequency of `50 Hz`, the printer accelerates at `75 × 50 = 3750 mm/s²`. At `100 Hz` it would use `7500 mm/s²`. The higher the frequency being tested, the more force is applied to the frame.
+
+**The default of `75` is suitable for most printers.** You only need to change it in specific situations:
+
+| Situation | Adjustment | Value |
+|---|---|---|
+| Graph peaks are unclear, noisy, or hard to read | Increase — stronger signal makes peaks sharper | `100` – `150` |
+| Printer is rattling violently or objects falling off during the test | Decrease — reduces forces applied | `50` – `60` |
+| Heavy bed-slinger or large enclosed printer with high moving mass | Increase — heavier systems need more force to excite resonance | `100` – `125` |
+| Lightweight CoreXY with a stiff frame | Default is usually fine | `75` |
+| Printer has very low resonant frequency (< 25 Hz) | Decrease — the test applies very high force at low frequencies | `50` |
+
+> ⚠️ Setting `accel_per_hz` too high on a lightweight or poorly-anchored printer can cause it to move across the bench during the sweep, or stress belts and joints. If the printer is moving noticeably, reduce the value.
+
+Example with a higher value for a heavy or noisy system:
+
+```ini
+[resonance_tester]
+accel_chip: adxl345
+probe_points:
+    150, 150, 20
+accel_per_hz: 100
+```
 
 ---
 
