@@ -13,7 +13,8 @@
 | [Pressure Advance](tuning/Pressure-Advance.md) | Eliminate corner bulging and improve sharp detail with PA/LA calibration |
 | [Retraction Calibration](tuning/Retraction-Calibration.md) | Reduce stringing and oozing by dialling in retraction distance and speed |
 | [Flow Rate Calibration](tuning/Flow-Rate-Calibration.md) | Measure actual extrusion width and correct your flow ratio with a single-wall cube |
-| [Input Shaping](tuning/Input-Shaping.md) | Reduce ringing and ghosting artefacts — covers Bambu built-in, Klipper ADXL345, and Marlin manual methods |
+| [Input Shaping](tuning/Input-Shaping.md) | Reduce ringing and ghosting artefacts — ADXL345 setup, resonance testing, belt comparison, and applying results to printer.cfg |
+| [PID Tuning](tuning/PID-Tuning.md) | Stabilise hotend and bed temperatures — tune under real print conditions for accurate results |
 
 ---
 
