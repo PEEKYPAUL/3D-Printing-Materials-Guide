@@ -29,6 +29,7 @@
 | [Moisture-Damaged Filament](troubleshooting/Moisture-Damage.md) | Symptoms, sensitivity by material, drying guide with temps and durations, storage tips |
 | [Raspberry Pi Wi-Fi Disconnecting](troubleshooting/WiFi-Disconnecting.md) | Fix random Wi-Fi dropouts on your Pi — disable power saving mode via PuTTY and a udev rule |
 | [General Tips](troubleshooting/General-Tips.md) | Printer preparation, silicone socks, slicer philosophy, and filament storage — applies to all materials |
+| [Printer Adjustment — Skew & Scale](troubleshooting/Printer-Adjustment.md) | Fix XY skew and dimensional scale errors using the Califlower calibration tool — covers Klipper, Marlin, and slicer correction |
 
 ---
 
