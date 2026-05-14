@@ -106,6 +106,7 @@ Community-designed toolheads for Voron, CoreXY, and micro-format Klipper printer
 | [PC (Polycarbonate)](materials/PC.md) | High-Temp | ⭐⭐⭐ Advanced | 260–310°C | **Required** | 50–60°C |
 | [Carbon Fibre & Glass Fibre Composites](materials/CF-Composites.md) | Composite | ⭐⭐⭐ Advanced | Varies | Base material dependent | Varies |
 | [PVDF](materials/PVDF.md) | High-Performance Fluoropolymer | ⭐⭐⭐⭐ Expert | 245–265°C | Strongly recommended | — |
+| [PPS / PPS-GF / PPS-CF](materials/PPS.md) | High-Temp Engineering | ⭐⭐⭐⭐ Expert | 280–330°C | **Required** | 80–120°C |
 | [PEI / Ultem](materials/PEI.md) | High-Temp | ⭐⭐⭐⭐ Expert | 340–380°C | **Required** | 120–160°C |
 | [PEKK](materials/PEKK.md) | High-Temp PAEK | ⭐⭐⭐⭐ Expert | 340–370°C | **Required** | 120–140°C |
 | [PEEK](materials/PEEK.md) | High-Temp | ⭐⭐⭐⭐ Expert | 360–400°C | **Required** | 120–140°C |
@@ -123,12 +124,15 @@ TPU      █████░░░░░░░░░░  220–240°C nozzle | 30
 Nylon    ████████░░░░░░░  240–270°C nozzle | 70–85°C bed
 PVDF     ████████░░░░░░░  245–265°C nozzle | 90–110°C bed
 PC       █████████░░░░░░  260–310°C nozzle | 110–120°C bed
+PPS      ██████████░░░░░  280–310°C nozzle | 120–140°C bed
+PPS-GF   ███████████░░░░  300–330°C nozzle | 130–150°C bed
+PPS-CF   ███████████░░░░  300–330°C nozzle | 130–150°C bed
 PEI      ████████████░░░  340–380°C nozzle | 120–160°C bed
 PEKK     ███████████░░░░  340–370°C nozzle | 120–160°C bed
 PEEK     █████████████░░  360–400°C nozzle | 120–160°C bed
 ```
 
-> ⚠️ High-temp materials (PC, PEI, PEKK, PEEK, PVDF) require an **all-metal hotend**, high-temp bed surface, and ideally an **enclosed, actively heated chamber**.
+> ⚠️ High-temp materials (PC, PPS, PEI, PEKK, PEEK, PVDF) require an **all-metal hotend**, high-temp bed surface, and ideally an **enclosed, actively heated chamber**.
 
 ---
 
@@ -136,7 +140,7 @@ PEEK     █████████████░░  360–400°C nozzle | 12
 
 Use this table as a guide when choosing hardware or checking whether your printer can handle a material. Each column represents a tier of material difficulty.
 
-| Requirement | Standard (PLA / PETG) | Engineering (ABS / ASA / Nylon) | High-Temp (PC / PEI / PEKK / PEEK) |
+| Requirement | Standard (PLA / PETG) | Engineering (ABS / ASA / Nylon) | High-Temp (PC / PPS / PEI / PEKK / PEEK) |
 |---|---|---|---|
 | **Hotend** | PTFE-lined OK | All-metal preferred | **All-metal required** |
 | **Max Nozzle Temp** | 250°C | 280°C | **400°C+** |
@@ -154,7 +158,7 @@ Use this table as a guide when choosing hardware or checking whether your printe
 | **Typical Wall Count** | 2–4 | 3–5 | 4–6 |
 | **Typical Infill** | 15–40% | 25–50% | 40–80% |
 
-> ⚠️ **High-temp materials (PC, PEI, PEKK, PEEK)** demand a fully enclosed, actively heated chamber. Attempting these on a stock printer without enclosure and chamber heating will result in warping, delamination, and failed prints.
+> ⚠️ **High-temp materials (PC, PPS, PEI, PEKK, PEEK)** demand a fully enclosed, actively heated chamber. Attempting these on a stock printer without enclosure and chamber heating will result in warping, delamination, and failed prints.
 
 ### Flow Rate & Fan Speed — Quick Reference
 
@@ -169,6 +173,9 @@ Flow ratio is the multiplier applied to your extruder's output — 1.00 is the b
 | TPU | 30–50% | 1.00–1.05 | Print slow — flex absorbs pressure advance poorly |
 | Nylon | 0–20% | 0.98–1.02 | Minimal fan; higher for PA12 than PA6 |
 | PC | 0% | 1.00–1.05 | No fan ever |
+| PPS | 0% | 1.00–1.05 | Chemical-resistant — no fan, actively heated chamber required |
+| PPS-GF | 0% | 1.00–1.05 | Glass-filled — hardened steel nozzle, higher HDT than unfilled |
+| PPS-CF | 0% | 1.00–1.05 | Carbon-filled — ruby nozzle required, highest stiffness |
 | PEI / Ultem | 0% | 1.00–1.05 | Extreme-temp only — no fan |
 | PEKK | 0% | 1.00–1.05 | Print at 15–25 mm/s max |
 | PEEK | 0% | 1.00–1.05 | Slowest of all — 15–20 mm/s typical |
