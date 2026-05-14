@@ -61,6 +61,7 @@ Essential tools and plugins to get the most out of your Klipper setup.
 | [Beacon Klipper Module](https://github.com/beacon3d/beacon_klipper) | Official Klipper module for the Beacon eddy-current probe — enables ultra-fast, high-accuracy non-contact bed scanning and Z-offset calibration. |
 | [Cartographer](https://github.com/cartographer-project/cartographer) | Real-time SLAM-based mapping technology that underpins the Cartographer probe — a high-speed eddy-current bed scanner similar to Beacon, offering rapid full-bed mesh generation with excellent repeatability. |
 | [Updating Klipper and Mcu's](https://github.com/fbeauKmi/update_klipper_and_mcus) | A single bash script that updates Klipper and flashes all connected MCUs in one step — removes the hassle of manually reflashing each board after a Klipper update. |
+| [Automatic Config Backup](klipper/Automatic-Backup.md) | Step-by-step guide to automatically backing up your Klipper config to a private GitHub repository — file-change detection, scheduled backups, and restore instructions. |
 
 ---
 
@@ -251,6 +252,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new 
 │   ├── All-Metal-Hotend.md
 │   ├── Enclosure-Guide.md
 │   └── Toolheads.md
+├── klipper/
+│   └── Automatic-Backup.md
 ├── images/
 │   └── (drop your images here)
 └── CONTRIBUTING.md
