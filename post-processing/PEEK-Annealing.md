@@ -23,6 +23,124 @@ Annealing holds the part at a controlled elevated temperature for an extended pe
 
 ---
 
+## The Science Behind Annealing
+
+### PEEK's Key Thermal Temperatures
+
+Understanding what happens at each temperature is essential for understanding why the annealing cycle is structured the way it is.
+
+| Temperature | Event | Significance |
+|---|---|---|
+| **~143–150°C** | Glass Transition (Tg) | Polymer chains gain mobility — below this, PEEK is rigid and glassy |
+| **~175°C** | Cold Crystallisation Peak | The temperature at which amorphous PEEK begins actively crystallising (visible as a peak on DSC analysis) |
+| **200–210°C** | Optimal Annealing Zone | Well above Tg, below degradation risk — chains reorganise efficiently with controlled energy input |
+| **343°C** | Melting Point (Tm) | Above this, PEEK becomes a melt — annealing must always stay well below this |
+
+### The Crystallisation Window
+
+```
+   343°C ──────────────────────────────  Melting Point (Tm)
+         |  ⚠️  DO NOT ANNEAL ABOVE THIS  |
+         |                               |
+   200°C ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ← Stage 2 anneal hold (this guide)
+         |                               |
+         |   ✅ CRYSTALLISATION WINDOW   |
+         |   (chains reorganise into     |
+         |    semi-crystalline structure)|
+         |                               |
+   175°C ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ← Cold crystallisation onset (DSC)
+         |                               |
+   150°C ──────────────────────────────  Glass Transition (Tg)
+         |   ⚠️ STRESS RELIEF ZONE       |
+         |   (chains mobile, no         |
+         |    crystallisation yet)       |
+   100°C ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ← Stage 1 pre-soak (this guide)
+         |                               |
+    25°C ──────────────────────────────  Room Temperature (as-printed state)
+```
+
+The 100°C pre-soak sits just below Tg — warm enough to relieve print stresses and drive off moisture, but not yet triggering crystallisation. The 200°C hold drops the part squarely in the optimal crystallisation window, where chains have maximum mobility to reorganise before the temperature is high enough to risk degradation.
+
+---
+
+### What Crystallinity Actually Looks Like
+
+PEEK's degree of crystallinity — measured by DSC (Differential Scanning Calorimetry) — is the single most important predictor of post-anneal performance. Research shows a clear correlation between crystallinity percentage and mechanical output:
+
+```
+  Crystallinity    Typical Tensile Strength     Condition
+  ─────────────────────────────────────────────────────────
+   1–5%    ████░░░░░░░░░░░░░░  ~60–70 MPa    Poor print conditions / cold chamber
+  10–17%   ███████░░░░░░░░░░░  ~83–90 MPa    Good as-printed — well-tuned FDM
+  25–30%   ████████████░░░░░░  ~100–115 MPa  Annealed at 200–210°C
+  30–36%   ████████████████░░  ~115–130 MPa  Annealed at higher temperatures
+```
+
+*Sources: MDPI Polymers (2023), International Journal of Advanced Manufacturing Technology (2024), PMC (2025)*
+
+As-printed FDM PEEK typically achieves 10–17% crystallinity under good print conditions. The annealing hold at 200°C pushes this to 25–30% — with correspondingly large gains in tensile strength, flexural modulus, and heat deflection temperature. Research at higher anneal temperatures (300°C+) achieves 34–36% crystallinity, though this requires specialist equipment.
+
+> 💡 **Visual indicator:** Amorphous PEEK has a slightly translucent, brown tint. Fully semi-crystalline PEEK is **opaque and beige**. After a successful anneal you will see this shift clearly on the surface of the part — especially visible on thinner sections.
+
+---
+
+### The Four Stages of Recrystallisation
+
+Research (PMC, 2025 — Victrex 450G / KetaSpire MS NT1 AM filament) using atomic force microscopy (AFM) identified four distinct structural stages that occur during annealing:
+
+**Stage 1 — Initial state**
+The as-printed microstructure consists of small, irregular, poorly connected crystalline grains distributed through a predominantly amorphous matrix. Internal stresses from the rapid cooling of deposition are locked into this structure.
+
+**Stage 2 — Chain relaxation**
+As temperature rises above Tg, polymer chain mobility increases. Internal stresses begin to relax. Small crystalline regions start to grow at the expense of the amorphous matrix. The part may change dimensions slightly during this stage.
+
+**Stage 3 — Grain growth**
+Sustained temperature in the crystallisation window accelerates grain growth significantly. Molecular chains align and fold into ordered lamellar structures. This is where most of the mechanical property gain occurs — the extended 5-hour hold ensures this stage completes fully throughout the entire cross-section of the part, not just the outer surfaces.
+
+**Stage 4 — Maximum crystallinity**
+Large, well-defined crystalline grains have formed throughout the material. The structure is now stable. Slow cooling preserves this arrangement — rapid cooling at this stage would lock in thermal stresses and potentially fracture the crystalline structure.
+
+---
+
+### Published Mechanical Property Data
+
+Data from peer-reviewed studies on FDM-printed PEEK annealing:
+
+| Study | Condition | Tensile Strength | Flexural Strength | Crystallinity |
+|---|---|---|---|---|
+| PMC (2025) — KetaSpire filament | Unannealed | 83.9 MPa | 132 MPa | ~15% |
+| PMC (2025) | 6h @ 330°C | 88.5 MPa | **146 MPa (+10.6%)** | Higher |
+| PMC (2025) | 6h @ 360°C | **90.0 MPa (+7.3%)** | 141 MPa | Higher |
+| MDPI Polymers (2023) | Unannealed | ~60 MPa | — | ~17% |
+| MDPI Polymers (2023) | Annealed @ 300°C | **~84 MPa (+40%)** | +147.8% | 34–36% |
+| Int. J. Adv. Mfg (2024) | 210°C / 30 min | +29.5% tensile | +17.3% | 1.6% → 28.9% |
+| ScienceDirect (2023) | 200°C / 2h | +21.6% modulus | — | Significant increase |
+
+> 💡 Results vary significantly based on filament grade, print parameters (chamber temp, layer height, print speed), and anneal temperature. The figures above span multiple filament grades and print conditions. Your own results will reflect your specific setup — which is why testing on a sample part before committing a critical component is always recommended.
+
+---
+
+### DSC — What the Data Shows
+
+DSC (Differential Scanning Calorimetry) analysis of PEEK before and after annealing consistently shows:
+
+- **Unannealed:** A prominent cold crystallisation exotherm peak at ~175°C — energy being released as the amorphous material crystallises spontaneously when heated. The larger this peak, the more amorphous the starting material.
+- **After annealing:** The cold crystallisation peak shrinks dramatically or disappears entirely — the material has already crystallised and has no further amorphous content to convert. The only remaining feature on the DSC curve is the melt peak at ~343°C.
+
+The disappearance of the cold crystallisation peak on a DSC trace is the definitive confirmation that a PEEK part has been fully annealed. In practical terms, the visual shift from translucent/brown to opaque/beige is a reliable proxy for the same conclusion.
+
+---
+
+### Research Sources
+
+- **[Post-Processing PEEK 3D-Printed Parts: Experimental Investigation of Annealing on Microscale and Macroscale Properties — PMC / MDPI Polymers (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11944985/)** — AFM microscopy, tensile and flexural data, four-stage recrystallisation model. Victrex 450G and KetaSpire MS NT1 AM filament.
+- **[Effect of 3D Printing Process Parameters and Heat Treatment Conditions — MDPI Polymers (2023)](https://www.mdpi.com/2073-4360/15/9/2209)** — Crystallinity 17% → 34–36% at 300°C; bending strength +147.8%.
+- **[The Effects of Thermal Annealing on Material Extrusion 3D Printed Polymer Parts — ScienceDirect (2023)](https://www.sciencedirect.com/science/article/pii/S0264127523001028)** — Elastic modulus +21.6% at 200°C/2h; tensile +29.5% at 210°C/30min; crystallinity 1.6% → 28.9%.
+- **[PEEK — Best 3D Printing Temperatures to Maximise Crystallinity — AON3D](https://www.aon3d.com/material-science/peek-3d-printing-temperatures/)** — Chamber temperature requirements, amorphous vs semi-crystalline visual and performance comparison.
+- **[The Effect of Crystallinity on PEEK Performance — Spectrum Plastics](https://www.spectrumplastics.com/about/technical-resources/crystallinity-effect-on-peek-performance-in-extrusions/)** — DSC analysis of amorphous vs crystallised PEEK; flexural and tensile performance comparison.
+
+---
+
 ## The Sand Burial Method
 
 The biggest challenge with annealing PEEK is warping. As the part heats and the polymer chains relax, internal stresses from printing are released — and without external support, this can cause significant distortion, particularly on flat faces, thin walls, and long spans.
