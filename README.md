@@ -66,6 +66,22 @@ Essential tools and plugins to get the most out of your Klipper setup.
 
 ---
 
+## ⚙️ Klipper Macros
+
+Ready-to-use macros covering the essentials — from a solid PRINT_START to parking, filament handling, speed testing, and debug tools. All Klipper only.
+
+| Guide | What It Covers |
+|---|---|
+| [PRINT_START & PRINT_END](macros/Print-Start-End.md) | A proper start/end macro setup — slicer passthrough, pre-heat logic, mesh, purge line, and safe park on finish |
+| [Pause, Resume & Filament Handling](macros/Pause-Resume-Filament.md) | Z-hop pause, toolhead park, hotend shutdown, filament swap, resume with prime — plus switch and smart motion sensor setup |
+| [Parking Macros](macros/Parking.md) | Five named park positions — front, front-low, rear, centre, bed — all auto-scaled to your printer's axis limits |
+| [Conditional Homing & QGL](macros/Conditional-Homing.md) | `_CG28` and `_CQGL` — home and level only when needed, not every time a macro runs |
+| [Temperature Overrides](macros/Temperature-Overrides.md) | Replace M109/M190 with `TEMPERATURE_WAIT` — smarter heating with range-based triggers instead of exact-value blocking |
+| [Beeper](macros/Beeper.md) | PWM and non-PWM beeper control — variable pitch, duration, and repeat count for audio feedback from any macro |
+| [Utility Macros](macros/Utilities.md) | `OFF` for clean shutdown, `TEST_SPEED` for finding your speed limits, `DUMP_VARIABLES` for debugging, `LCD_RGB` for display colour |
+
+---
+
 ## 🔧 Toolheads
 
 Community-designed toolheads for Voron, CoreXY, and micro-format Klipper printers. All are open-source and Klipper-native.
@@ -249,6 +265,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new 
 ```
 3d-printing-ultimate-guide/
 ├── README.md                          <- You are here
+├── LICENSE
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── .github/
+│   ├── pull_request_template.md
+│   └── ISSUE_TEMPLATE/
+│       ├── config.yml
+│       ├── incorrect-information.md
+│       └── content-suggestion.md
 ├── materials/
 │   ├── PLA.md
 │   ├── PETG.md
@@ -257,6 +283,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new 
 │   ├── TPU.md
 │   ├── Nylon.md
 │   ├── PC.md
+│   ├── PPS.md
 │   ├── PEI.md
 │   ├── PEKK.md
 │   ├── PEEK.md
@@ -271,6 +298,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new 
 │   ├── Flow-Rate-Calibration.md
 │   ├── Input-Shaping.md
 │   └── PID-Tuning.md
+├── macros/
+│   ├── Print-Start-End.md
+│   ├── Pause-Resume-Filament.md
+│   ├── Parking.md
+│   ├── Conditional-Homing.md
+│   ├── Temperature-Overrides.md
+│   ├── Beeper.md
+│   └── Utilities.md
 ├── troubleshooting/
 │   ├── Stringing.md
 │   ├── Warping.md
@@ -295,7 +330,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new 
 │   └── Automatic-Backup.md
 ├── images/
 │   └── (drop your images here)
-└── CONTRIBUTING.md
 ```
 
 ---
