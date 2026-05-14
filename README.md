@@ -41,6 +41,7 @@
 | [Acetone Smoothing](post-processing/Acetone-Smoothing.md) | ABS/ASA cold vapour and direct wipe methods, safety, timing guide |
 | [Painting Prints](post-processing/Painting.md) | Surface prep, primer types, base coat technique, hobby acrylics, clear coat |
 | [Heat-Set Inserts](post-processing/Heat-Set-Inserts.md) | Hole sizing table (M2–M5), iron temps by material, installation process, common mistakes |
+| [PEEK Annealing](post-processing/PEEK-Annealing.md) | Sand burial method, oven ramp rates, hold times, cooling process — unlock full semi-crystalline PEEK performance |
 
 ---
 
@@ -283,7 +284,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new 
 │   ├── Sanding-Finishing.md
 │   ├── Acetone-Smoothing.md
 │   ├── Painting.md
-│   └── Heat-Set-Inserts.md
+│   ├── Heat-Set-Inserts.md
+│   └── PEEK-Annealing.md
 ├── hardware/
 │   ├── Nozzle-Guide.md
 │   ├── All-Metal-Hotend.md
