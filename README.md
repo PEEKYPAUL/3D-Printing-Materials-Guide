@@ -88,6 +88,7 @@ Essential tools and plugins to get the most out of your Klipper setup.
 | [Carbon Fibre & Glass Fibre Composites](materials/CF-Composites.md) | Composite | ⭐⭐⭐ Advanced | Varies | Base material dependent | Varies |
 | [PVDF](materials/PVDF.md) | High-Performance Fluoropolymer | ⭐⭐⭐⭐ Expert | 245–265°C | Strongly recommended | — |
 | [PEI / Ultem](materials/PEI.md) | High-Temp | ⭐⭐⭐⭐ Expert | 340–380°C | **Required** | 120–160°C |
+| [PEKK](materials/PEKK.md) | High-Temp PAEK | ⭐⭐⭐⭐ Expert | 340–370°C | **Required** | 120–140°C |
 | [PEEK](materials/PEEK.md) | High-Temp | ⭐⭐⭐⭐ Expert | 360–400°C | **Required** | 120–140°C |
 
 ---
