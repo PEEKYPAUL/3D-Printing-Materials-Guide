@@ -13,11 +13,11 @@ Annealing holds the part at a controlled elevated temperature for an extended pe
 | Property | As-Printed (Amorphous) | After Annealing (Semi-Crystalline) |
 |---|---|---|
 | Heat Deflection Temp | ~140°C | **250°C+** |
-| Tensile Strength | ~90 MPa | ~100–110 MPa |
+| Tensile Strength | ~90 MPa | **~120 MPa (~33% increase)** |
 | Young's Modulus | ~3.6 GPa | ~4.5 GPa |
 | Long-term Creep Resistance | Moderate | Excellent |
 | Chemical Resistance | Excellent | Outstanding |
-| Dimensional Change | Baseline | ~0.1–0.5% (account for in design) |
+| Dimensional Change | Baseline | **< 1% shrinkage** |
 
 > 💡 If your PEEK part will be exposed to temperatures above 100°C, operating under sustained load, or immersed in aggressive chemicals — annealing is not optional. It is the step that makes PEEK what it is.
 
@@ -93,15 +93,17 @@ Place the container into a **cold oven**. Do not place it into a pre-heated oven
 
 **Annealing cycle:**
 
-| Stage | Temperature | Rate | Duration |
+| Stage | Temperature | Duration | Notes |
 |---|---|---|---|
-| Ramp up | Ambient → 200°C | ~2°C/min (slow ramp) | ~90 minutes |
-| Hold | 200°C | Stable | **2–4 hours** |
-| Ramp down | 200°C → ambient | Oven off — door closed | 4–8 hours minimum |
+| Stage 1 — Low hold | 100°C | **3 hours** | Initial soak — drives out residual moisture and relieves print stresses gradually before the high-temp stage |
+| Stage 2 — Anneal hold | 200°C | **5 hours** | Full crystallisation hold — allows the polymer chains to fully reorganise throughout the entire part, not just the outer surface |
+| Cool down | 200°C → ambient | **24 hours — oven off, door closed** | Slow, controlled cool — critical for locking in crystallinity and preventing warp |
 
-> ⚠️ **The hold duration matters.** 2 hours is the minimum for small, simple parts. For large, thick, or structurally complex parts — hold for 3–4 hours to ensure the core of the part reaches full crystallinity, not just the outer surfaces.
+> ⚠️ **Do not skip Stage 1.** The 100°C pre-soak is not just drying — it allows internal stresses from printing to relax gradually before the material reaches the crystallisation temperature. Going straight to 200°C risks surface crystallisation before the core is ready, creating internal stress gradients.
 
-> ⚠️ **The slow ramp is critical.** Heating too fast creates a temperature differential between the part surface and core, which generates internal stress and risks cracking or warping even inside the sand. 2°C/min is a safe ramp rate.
+> ⚠️ **The 5-hour hold at 200°C is the minimum for thorough crystallisation.** Shorter holds may crystallise the surface while the core remains partially amorphous — reducing the benefit of the process.
+
+> ⚠️ **The 24-hour cool-down is not optional.** Cooling too fast re-introduces internal stresses and can partially reverse crystallinity gains. The sand mass and closed oven combine to produce a slow, even descent to room temperature — this is what locks the structure in place.
 
 ---
 
@@ -110,13 +112,13 @@ Place the container into a **cold oven**. Do not place it into a pre-heated oven
 The cooling phase is just as important as the annealing hold. Rapid cooling quenches the crystalline structure and can reintroduce internal stresses, partially reversing the annealing benefit and causing warping as the part contracts unevenly.
 
 **Correct procedure:**
-1. When the hold is complete, switch the oven off
-2. **Leave the door fully closed** — do not open it
-3. Allow the oven and sand mass to cool naturally to below 50°C before opening — this typically takes 4–8 hours depending on oven size and insulation
-4. Once below 50°C, open the oven door slightly and allow to equilibrate to room temperature before removing the container
+1. When the 200°C hold is complete, switch the oven off
+2. **Leave the door fully closed** — do not open it under any circumstances
+3. Allow the oven and sand mass to cool for a full **24 hours** before opening
+4. After 24 hours, open the oven door and allow a brief final equilibration to room temperature before removing the container
 5. Unbury the part carefully from the sand
 
-> 💡 The large thermal mass of the sand works in your favour during cooling — it acts as a buffer that slows the rate of heat loss and keeps the part cooling evenly on all sides simultaneously. This is why sand burial produces better results than annealing parts in open air or on a rack.
+> 💡 The large thermal mass of the sand is a significant advantage during the 24-hour cool-down — it acts as a buffer that sustains heat and slows the rate of temperature loss, keeping the part descending evenly on all sides. Opening the oven door early introduces a sudden drop in ambient temperature around the part that the sand cannot compensate for — this is the most common cause of warp in otherwise correctly annealed parts.
 
 ---
 
@@ -128,7 +130,7 @@ The cooling phase is just as important as the annealing hold. Rapid cooling quen
 
 Brush the sand away and inspect the part. A successfully annealed PEEK part will often have a slightly more opaque, matte surface finish compared to the as-printed state — this is normal and is a visible indicator of crystallinity. The part may also feel slightly different in the hand — denser, more rigid.
 
-Check critical dimensions if tolerances are important. Expect small changes (0.1–0.5%) — primarily Z-axis shrinkage. Design-in allowance if you need annealed parts to hit tight tolerances.
+Check critical dimensions if tolerances are important. Shrinkage is less than 1% — primarily in the Z axis. Design-in a small allowance if annealed parts need to hit tight tolerances. The reward for this process is a genuine ~33% increase in part strength and a heat deflection temperature that climbs from ~140°C to over 250°C.
 
 ---
 
@@ -148,7 +150,7 @@ Check critical dimensions if tolerances are important. Expect small changes (0.1
 | Surface impressions from sand | Sand grain too coarse | Switch to 0.1mm refined quartz sand only |
 | Part cracked during ramp | Thermal shock from placing in hot oven | Always start in a cold oven and ramp slowly |
 | Part still soft above 140°C after annealing | Insufficient hold time or temperature too low | Extend hold to 3–4 hours at 200°C |
-| Dimensional change too large | Normal annealing shrinkage | Design with 0.3–0.5% Z-axis allowance for annealed parts |
+| Dimensional change too large | Normal annealing shrinkage | Expect < 1% shrinkage — primarily Z-axis. Design with a small allowance on critical fits |
 | Surface discolouration / yellowing | Oven temperature exceeded 220°C | Verify oven temperature with a probe — calibrate or adjust set point |
 
 ---
