@@ -125,8 +125,6 @@ Nylon    ████████░░░░░░░  240–270°C nozzle | 70
 PVDF     ████████░░░░░░░  245–265°C nozzle | 90–110°C bed
 PC       █████████░░░░░░  260–310°C nozzle | 110–120°C bed
 PPS      ██████████░░░░░  280–310°C nozzle | 120–140°C bed
-PPS-GF   ███████████░░░░  300–330°C nozzle | 130–150°C bed
-PPS-CF   ███████████░░░░  300–330°C nozzle | 130–150°C bed
 PEI      ████████████░░░  340–380°C nozzle | 120–160°C bed
 PEKK     ███████████░░░░  340–370°C nozzle | 120–160°C bed
 PEEK     █████████████░░  360–400°C nozzle | 120–160°C bed
