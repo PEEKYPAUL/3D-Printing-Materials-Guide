@@ -63,6 +63,23 @@ Essential tools and plugins to get the most out of your Klipper setup.
 
 ---
 
+## 🔧 Toolheads
+
+Community-designed toolheads for Voron, CoreXY, and micro-format Klipper printers. All are open-source and Klipper-native.
+
+| Toolhead | Compatible Printers | Highlights |
+|---|---|---|
+| [Voron Stealthburner](hardware/Toolheads.md#voron-stealthburner) | Voron 2.4, Trident, Switchwire | The official Voron toolhead — dual 5015 fans, CW2 extruder, Neopixels, TAP/Beacon support |
+| [Xol Toolhead](hardware/Toolheads.md#xol-toolhead--armchair-heavy-industries) | Voron 2.4, Trident | Modular hotend & extruder system — swap hardware without full disassembly |
+| [A4T](hardware/Toolheads.md#a4t--another-4010-toolhead) | Voron front-rail printers | Dual 4010 fans with CFD-optimised ducts — excellent part cooling, Neopixel LEDs |
+| [AntHead](hardware/Toolheads.md#anthead--printersforants) | Micron, Stealth Forge, Pandora, Voron V0 | Purpose-built for micro-format printers — compact, light, configurable |
+| [Reaper](hardware/Toolheads.md#reaper--apd-machine) | Voron front-rail printers | Widest hotend and extruder compatibility — dual 5015 fans, TAP/Beacon/Klicky |
+| [K3 Mods](hardware/Toolheads.md#k3-mods--annex-k3-community-collection) | Annex Engineering K3 | Curated community upgrades — hotend swaps, Beacon probe, K3rabiner board configs |
+
+→ **[Full Toolheads Guide with images and specs](hardware/Toolheads.md)**
+
+---
+
 ## ⚙️ Hardware Guides
 
 | Guide | What It Covers |
