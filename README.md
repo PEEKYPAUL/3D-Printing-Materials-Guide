@@ -8,13 +8,19 @@
 
 | Guide | What It Covers |
 |---|---|
+| [Build Surface Prep](tuning/Build-Surface-Prep.md) | Washing, handling, scuffing PEI, IPA maintenance, adhesion aids — start here before any first-layer tuning |
 | [First Layer Calibration](tuning/First-Layer-Calibration.md) | Open Orca Slicer, print an 80×80mm square, dial in Z offset and flow ratio |
+| [Extruder Calibration](tuning/Extruder-Calibration.md) | Verify 100mm requested = 100mm delivered — rotation_distance for Klipper, e-steps for Marlin |
 | [Temperature Tower](tuning/Temperature-Tower.md) | Find the optimal nozzle temperature for any filament using Orca Slicer's built-in calibration |
 | [Pressure Advance](tuning/Pressure-Advance.md) | Eliminate corner bulging and improve sharp detail with PA/LA calibration |
 | [Retraction Calibration](tuning/Retraction-Calibration.md) | Reduce stringing and oozing by dialling in retraction distance and speed |
 | [Flow Rate Calibration](tuning/Flow-Rate-Calibration.md) | Measure actual extrusion width and correct your flow ratio with a single-wall cube |
+| [Cooling & Layer Times](tuning/Cooling-Layer-Times.md) | Fan speed by material, minimum layer time, chamber temperature scaling, overhang-specific cooling |
 | [Input Shaping](tuning/Input-Shaping.md) | Reduce ringing and ghosting artefacts — ADXL345 setup, resonance testing, belt comparison, and applying results to printer.cfg |
 | [PID Tuning](tuning/PID-Tuning.md) | Stabilise hotend and bed temperatures — tune under real print conditions for accurate results |
+| [Max Volumetric Flow Rate](tuning/Max-Volumetric-Flow.md) | Find your hotend's real melt capacity in mm³/s — the formula, test method, and how to set limits in your slicer |
+| [Max Speed & Acceleration](tuning/Max-Speed-Acceleration.md) | Find your printer's motion limits safely using TEST_SPEED — acceleration first, then speed, with position verification |
+| [Infill / Perimeter Overlap](tuning/Infill-Perimeter-Overlap.md) | Close pinholes at infill-perimeter junctions — disconnected top infill and overlap value adjustment |
 
 ---
 
@@ -291,13 +297,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new 
 │   ├── CF-Composites.md
 │   └── Support-Materials.md
 ├── tuning/
+│   ├── Build-Surface-Prep.md
 │   ├── First-Layer-Calibration.md
+│   ├── Extruder-Calibration.md
 │   ├── Temperature-Tower.md
 │   ├── Pressure-Advance.md
 │   ├── Retraction-Calibration.md
 │   ├── Flow-Rate-Calibration.md
+│   ├── Cooling-Layer-Times.md
 │   ├── Input-Shaping.md
-│   └── PID-Tuning.md
+│   ├── PID-Tuning.md
+│   ├── Max-Volumetric-Flow.md
+│   ├── Max-Speed-Acceleration.md
+│   └── Infill-Perimeter-Overlap.md
 ├── macros/
 │   ├── Print-Start-End.md
 │   ├── Pause-Resume-Filament.md
