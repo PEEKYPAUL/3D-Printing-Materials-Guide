@@ -160,54 +160,6 @@ Choosing the right slicer makes a big difference, especially with Klipper. The t
 
 > ⚠️ = Supported but requires manual configuration or plugins. ✅ = Native support out of the box.
 
----
-
-## 📂 Repository Structure
-
-```
-3d-printing-ultimate-guide/
-├── README.md                          <- You are here
-├── materials/
-│   ├── PLA.md
-│   ├── PETG.md
-│   ├── ABS.md
-│   ├── ASA.md
-│   ├── TPU.md
-│   ├── Nylon.md
-│   ├── PC.md
-│   ├── PEI.md
-│   ├── PEEK.md
-│   ├── CF-Composites.md
-│   └── Support-Materials.md
-├── tuning/
-│   ├── First-Layer-Calibration.md
-│   ├── Temperature-Tower.md
-│   ├── Pressure-Advance.md
-│   ├── Retraction-Calibration.md
-│   ├── Flow-Rate-Calibration.md
-│   └── Input-Shaping.md
-├── troubleshooting/
-│   ├── Stringing.md
-│   ├── Warping.md
-│   ├── Layer-Adhesion.md
-│   ├── Clogged-Nozzle.md
-│   └── Moisture-Damage.md
-├── post-processing/
-│   ├── Sanding-Finishing.md
-│   ├── Acetone-Smoothing.md
-│   ├── Painting.md
-│   └── Heat-Set-Inserts.md
-├── hardware/
-│   ├── Nozzle-Guide.md
-│   ├── All-Metal-Hotend.md
-│   └── Enclosure-Guide.md
-├── images/
-│   └── (drop your images here)
-└── CONTRIBUTING.md
-```
-
----
-
 ## 💬 Community Chat & Support
 
 Get connected with the people building, tuning, and pushing 3D printers further. These Discord communities are where real-world help happens — whether you're troubleshooting a failed print at midnight, looking for feedback on a mod, or just want to see what other people are building.
@@ -250,6 +202,59 @@ Get connected with the people building, tuning, and pushing 3D printers further.
 ## 🤝 Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new material profiles are welcome!
+
+---
+
+## 📂 Repository Structure
+
+```
+3d-printing-ultimate-guide/
+├── README.md                          <- You are here
+├── materials/
+│   ├── PLA.md
+│   ├── PETG.md
+│   ├── ABS.md
+│   ├── ASA.md
+│   ├── TPU.md
+│   ├── Nylon.md
+│   ├── PC.md
+│   ├── PEI.md
+│   ├── PEKK.md
+│   ├── PEEK.md
+│   ├── PVDF.md
+│   ├── CF-Composites.md
+│   └── Support-Materials.md
+├── tuning/
+│   ├── First-Layer-Calibration.md
+│   ├── Temperature-Tower.md
+│   ├── Pressure-Advance.md
+│   ├── Retraction-Calibration.md
+│   ├── Flow-Rate-Calibration.md
+│   ├── Input-Shaping.md
+│   └── PID-Tuning.md
+├── troubleshooting/
+│   ├── Stringing.md
+│   ├── Warping.md
+│   ├── Layer-Adhesion.md
+│   ├── Clogged-Nozzle.md
+│   ├── Moisture-Damage.md
+│   ├── WiFi-Disconnecting.md
+│   ├── General-Tips.md
+│   └── Printer-Adjustment.md
+├── post-processing/
+│   ├── Sanding-Finishing.md
+│   ├── Acetone-Smoothing.md
+│   ├── Painting.md
+│   └── Heat-Set-Inserts.md
+├── hardware/
+│   ├── Nozzle-Guide.md
+│   ├── All-Metal-Hotend.md
+│   ├── Enclosure-Guide.md
+│   └── Toolheads.md
+├── images/
+│   └── (drop your images here)
+└── CONTRIBUTING.md
+```
 
 ---
 
