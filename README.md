@@ -134,14 +134,44 @@ PEEK     █████████████░░  360–400°C nozzle | 12
 
 ## 🔬 Printer Requirements by Category
 
-| Requirement | Standard (PLA/PETG) | Engineering (ABS/Nylon) | High-Temp (PC/PEEK) |
+Use this table as a guide when choosing hardware or checking whether your printer can handle a material. Each column represents a tier of material difficulty.
+
+| Requirement | Standard (PLA / PETG) | Engineering (ABS / ASA / Nylon) | High-Temp (PC / PEI / PEKK / PEEK) |
 |---|---|---|---|
-| Hotend | PTFE-lined OK | All-metal preferred | **All-metal required** |
-| Max Nozzle Temp | 250°C | 280°C | **400°C+** |
-| Heated Bed | 60°C | 110°C | **120°C+** |
-| Enclosure | Not needed | Strongly recommended | **Required** |
-| Chamber Heating | No | Optional | **Required for PEEK** |
-| Hardened Nozzle | Optional | Recommended for CF | **Required for CF** |
+| **Hotend** | PTFE-lined OK | All-metal preferred | **All-metal required** |
+| **Max Nozzle Temp** | 250°C | 280°C | **400°C+** |
+| **Heated Bed** | 45–85°C | 100–115°C | **120–160°C** |
+| **Enclosure** | Not needed | Strongly recommended | **Required** |
+| **Chamber Temp** | Ambient | 40–50°C (passive OK) | **120–140°C (active heating required)** |
+| **Hardened Nozzle** | Optional | Recommended for CF/GF blends | **Required for CF / abrasive fills** |
+| **Nozzle Diameter** | 0.4 mm standard | 0.4–0.6 mm | 0.4–0.6 mm (larger = better flow) |
+| **Part Cooling Fan** | High — 50–100% | Low — 0–30% (ABS/ASA 0%) | None — **0% always** |
+| **Max Volumetric Flow** | 10–20 mm³/s (standard hotend) | 8–15 mm³/s | 3–8 mm³/s (print slowly) |
+| **Typical Print Speed** | 50–200 mm/s | 30–80 mm/s | **15–30 mm/s** |
+| **Filament Drying** | PLA optional — PETG recommended | **Required** — 70–80°C, 4–6 h | **Required** — 100–150°C, 6–12 h |
+| **Bed Surface** | PEI, textured PEI, glass | PEI (smooth), Garolite (Nylon) | PEI + specialist adhesive (Vision Miner) |
+| **Min Layer Height** | 0.1 mm | 0.15 mm | 0.15–0.2 mm |
+| **Typical Wall Count** | 2–4 | 3–5 | 4–6 |
+| **Typical Infill** | 15–40% | 25–50% | 40–80% |
+
+> ⚠️ **High-temp materials (PC, PEI, PEKK, PEEK)** demand a fully enclosed, actively heated chamber. Attempting these on a stock printer without enclosure and chamber heating will result in warping, delamination, and failed prints.
+
+### Flow Rate & Fan Speed — Quick Reference
+
+Volumetric flow rate limits your effective print speed — if you push faster than your hotend can melt, you get under-extrusion. High-performance hotends (Rapido, Dragon HF, Revo High Flow) can push 25–30 mm³/s. Standard hotends cap around 12–15 mm³/s.
+
+| Material | Part Cooling Fan | Recommended Max Flow | Notes |
+|---|---|---|---|
+| PLA | 80–100% | 15–20 mm³/s | Needs cooling — high fan is fine |
+| PETG | 30–60% | 12–18 mm³/s | Too much fan causes layer adhesion issues |
+| ABS | 0–10% | 10–14 mm³/s | No fan — delamination risk |
+| ASA | 0–10% | 10–14 mm³/s | No fan — same risk as ABS |
+| TPU | 30–50% | 6–10 mm³/s | Print slow — flex absorbs pressure advance poorly |
+| Nylon | 0–20% | 10–14 mm³/s | Minimal fan; higher for PA12 than PA6 |
+| PC | 0% | 8–12 mm³/s | No fan ever |
+| PEI / Ultem | 0% | 6–10 mm³/s | Extreme-temp only — no fan |
+| PEKK | 0% | 4–8 mm³/s | Print at 15–25 mm/s max |
+| PEEK | 0% | 3–6 mm³/s | Slowest of all — 15–20 mm/s typical |
 
 ---
 
