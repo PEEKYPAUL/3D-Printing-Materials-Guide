@@ -158,20 +158,20 @@ Use this table as a guide when choosing hardware or checking whether your printe
 
 ### Flow Rate & Fan Speed — Quick Reference
 
-Volumetric flow rate limits your effective print speed — if you push faster than your hotend can melt, you get under-extrusion. High-performance hotends (Rapido, Dragon HF, Revo High Flow) can push 25–30 mm³/s. Standard hotends cap around 12–15 mm³/s.
+Flow ratio is the multiplier applied to your extruder's output — 1.00 is the baseline. Most materials print well between 0.95 and 1.05. Tuning flow ratio compensates for filament diameter variation, hotend behaviour, and material viscosity differences. Always calibrate flow ratio per filament after dialling in temperature.
 
-| Material | Part Cooling Fan | Recommended Max Flow | Notes |
+| Material | Part Cooling Fan | Flow Ratio | Notes |
 |---|---|---|---|
-| PLA | 80–100% | 15–20 mm³/s | Needs cooling — high fan is fine |
-| PETG | 30–60% | 12–18 mm³/s | Too much fan causes layer adhesion issues |
-| ABS | 0–10% | 10–14 mm³/s | No fan — delamination risk |
-| ASA | 0–10% | 10–14 mm³/s | No fan — same risk as ABS |
-| TPU | 30–50% | 6–10 mm³/s | Print slow — flex absorbs pressure advance poorly |
-| Nylon | 0–20% | 10–14 mm³/s | Minimal fan; higher for PA12 than PA6 |
-| PC | 0% | 8–12 mm³/s | No fan ever |
-| PEI / Ultem | 0% | 6–10 mm³/s | Extreme-temp only — no fan |
-| PEKK | 0% | 4–8 mm³/s | Print at 15–25 mm/s max |
-| PEEK | 0% | 3–6 mm³/s | Slowest of all — 15–20 mm/s typical |
+| PLA | 80–100% | 0.95–1.00 | Needs cooling — high fan is fine |
+| PETG | 30–60% | 0.95–1.00 | Too much fan causes layer adhesion issues |
+| ABS | 0–10% | 0.98–1.02 | No fan — delamination risk |
+| ASA | 0–10% | 0.98–1.02 | No fan — same risk as ABS |
+| TPU | 30–50% | 1.00–1.05 | Print slow — flex absorbs pressure advance poorly |
+| Nylon | 0–20% | 0.98–1.02 | Minimal fan; higher for PA12 than PA6 |
+| PC | 0% | 1.00–1.05 | No fan ever |
+| PEI / Ultem | 0% | 1.00–1.05 | Extreme-temp only — no fan |
+| PEKK | 0% | 1.00–1.05 | Print at 15–25 mm/s max |
+| PEEK | 0% | 1.00–1.05 | Slowest of all — 15–20 mm/s typical |
 
 ---
 
