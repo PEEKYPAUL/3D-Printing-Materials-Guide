@@ -208,6 +208,45 @@ Choosing the right slicer makes a big difference, especially with Klipper. The t
 
 ---
 
+## 💬 Community Chat & Support
+
+Get connected with the people building, tuning, and pushing 3D printers further. These Discord communities are where real-world help happens — whether you're troubleshooting a failed print at midnight, looking for feedback on a mod, or just want to see what other people are building.
+
+> 🔗 Click any server name to join. Most servers have dedicated help channels, showcase channels, and pinned resources from experienced community members.
+
+### Printer Communities
+
+| Community | Discord | About |
+|---|---|---|
+| **Voron Design** | [Join](https://discord.com/invite/voron) | The official home of the Voron project — 2.4, Trident, V0, Switchwire and more. One of the largest and most active 3D printing communities. Excellent help channels and a massive pool of experienced builders. |
+| **Rat Rig** | [Join](https://discord.com/invite/ratrig) | Community server for Rat Rig V-Core and other Rat Rig printer owners. Help, mods, and build logs for this popular open-source CoreXY platform. |
+| **VzBoT** | [Join](https://discord.com/invite/vzbot-829828765512106054) | Official community for the VzBot — a high-speed CoreXY printer designed to push print speeds to their limits. Active development and tuning discussion. |
+| **ANNEX Engineering** | [Join](https://discord.com/invite/MzTR3zE) | Official server for Annex Engineering printer designs including the K3, K2, and other community machines. Direct access to the design team and community. |
+| **DOOMCUBE** | [Join](https://discord.com/invite/doomcube) | Community for the Doomcube — a fully enclosed CoreXY printer designed for high-temp materials and serious engineering prints. |
+| **Monolith** | [Join](https://discord.com/invite/monolith3d) | Home of the Monolith 3D printer community. Design discussion, build support, and mod sharing. |
+| **Hyperdrive Design** | [Join](https://discord.com/invite/2e3dPyAdX) | Community for Hyperdrive Design printer builds and mods. |
+
+### Toolhead & Hardware Communities
+
+| Community | Discord | About |
+|---|---|---|
+| **Armchair Heavy Industries** | [Join](https://discord.com/invite/armchairengineeringsux) | The team behind the Xol Toolhead and A4T. Best place for support, development updates, and mod discussion for both toolheads. |
+
+### Software & Firmware Communities
+
+| Community | Discord | About |
+|---|---|---|
+| **Kalico** | [Join](https://discord.com/invite/6CK8AqK6tN) | Community for Kalico — the feature-rich Klipper fork with bleeding-edge capabilities. Support, feature requests, and development chat. |
+| **Cartographer 3D** | [Join](https://discord.com/invite/EFSwpureHz) | Official support server for the Cartographer eddy-current probe. Setup help, firmware updates, and troubleshooting. |
+
+### Content & General
+
+| Community | Discord | About |
+|---|---|---|
+| **Luke's Laboratory** | [Join](https://discord.com/invite/9KjzuWHdFW) | Community around Luke's Lab — popular 3D printing content creator focused on Voron builds, Klipper tuning, and performance mods. Great place for general advice and discussion. |
+
+---
+
 ## 🤝 Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new material profiles are welcome!
