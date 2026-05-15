@@ -8,6 +8,7 @@
 
 | Guide | What It Covers |
 |---|---|
+| [Voron V2 Gantry Squaring](tuning/Voron-Gantry-Squaring.md) | Square the gantry mechanically before relying on QGL — covers Z joint alignment, de-racking, belt tension, heat soak, and final hot tightening |
 | [Build Surface Prep](tuning/Build-Surface-Prep.md) | Washing, handling, scuffing PEI, IPA maintenance, adhesion aids — start here before any first-layer tuning |
 | [First Layer Calibration](tuning/First-Layer-Calibration.md) | Open Orca Slicer, print an 80×80mm square, dial in Z offset and flow ratio |
 | [Extruder Calibration](tuning/Extruder-Calibration.md) | Verify 100mm requested = 100mm delivered — rotation_distance for Klipper, e-steps for Marlin |
@@ -300,6 +301,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new 
 │   ├── CF-Composites.md
 │   └── Support-Materials.md
 ├── tuning/
+│   ├── Voron-Gantry-Squaring.md
 │   ├── Build-Surface-Prep.md
 │   ├── First-Layer-Calibration.md
 │   ├── Extruder-Calibration.md
