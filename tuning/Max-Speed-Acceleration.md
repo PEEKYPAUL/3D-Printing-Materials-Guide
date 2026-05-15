@@ -40,9 +40,9 @@ TEST_SPEED SPEED=300 ACCEL=8000 ITERATIONS=50
 Once you have a stable acceleration ceiling, hold accel at a safe value slightly below that ceiling and push speed:
 
 ```gcode
-TEST_SPEED SPEED=400 ACCEL=7000 ITERATIONS=5
-TEST_SPEED SPEED=500 ACCEL=7000 ITERATIONS=5
-TEST_SPEED SPEED=600 ACCEL=7000 ITERATIONS=5
+TEST_SPEED SPEED=400 ACCEL=8000 ITERATIONS=5
+TEST_SPEED SPEED=500 ACCEL=8000 ITERATIONS=5
+TEST_SPEED SPEED=600 ACCEL=8000 ITERATIONS=5
 ```
 
 Again — rough maximum with 5 iterations, then confirm your final value with 50 iterations.
