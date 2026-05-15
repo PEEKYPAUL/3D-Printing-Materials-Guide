@@ -234,4 +234,4 @@ Run one final QGL and check the reported correction values. After a properly squ
 
 ---
 
-*Back to [Tuning Guides](../README.md#-tuning-guides) | [README](../README.md)*
+*Back to [Troubleshooting Guides](../README.md#️-troubleshooting-guides) | [README](../README.md)*

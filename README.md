@@ -8,7 +8,6 @@
 
 | Guide | What It Covers |
 |---|---|
-| [Voron V2 Gantry Squaring](tuning/Voron-Gantry-Squaring.md) | Square the gantry mechanically before relying on QGL — covers Z joint alignment, de-racking, belt tension, heat soak, and final hot tightening |
 | [Build Surface Prep](tuning/Build-Surface-Prep.md) | Washing, handling, scuffing PEI, IPA maintenance, adhesion aids — start here before any first-layer tuning |
 | [First Layer Calibration](tuning/First-Layer-Calibration.md) | Open Orca Slicer, print an 80×80mm square, dial in Z offset and flow ratio |
 | [Extruder Calibration](tuning/Extruder-Calibration.md) | Verify 100mm requested = 100mm delivered — rotation_distance for Klipper, e-steps for Marlin |
@@ -36,6 +35,7 @@
 | [Moisture-Damaged Filament](troubleshooting/Moisture-Damage.md) | Symptoms, sensitivity by material, drying guide with temps and durations, storage tips |
 | [Raspberry Pi Wi-Fi Disconnecting](troubleshooting/WiFi-Disconnecting.md) | Fix random Wi-Fi dropouts on your Pi — disable power saving mode via PuTTY and a udev rule |
 | [General Tips](troubleshooting/General-Tips.md) | Printer preparation, silicone socks, slicer philosophy, and filament storage — applies to all materials |
+| [Voron V2 Gantry Squaring](troubleshooting/Voron-Gantry-Squaring.md) | Square the gantry mechanically before relying on QGL — Z joint alignment, de-racking, belt tension, heat soak, and final hot tightening |
 | [Printer Adjustment — Skew & Scale](troubleshooting/Printer-Adjustment.md) | Fix XY skew and dimensional scale errors using the Califlower calibration tool — covers Klipper, Marlin, and slicer correction |
 
 ---
@@ -301,7 +301,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new 
 │   ├── CF-Composites.md
 │   └── Support-Materials.md
 ├── tuning/
-│   ├── Voron-Gantry-Squaring.md
 │   ├── Build-Surface-Prep.md
 │   ├── First-Layer-Calibration.md
 │   ├── Extruder-Calibration.md
@@ -331,7 +330,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new 
 │   ├── Moisture-Damage.md
 │   ├── WiFi-Disconnecting.md
 │   ├── General-Tips.md
-│   └── Printer-Adjustment.md
+│   ├── Printer-Adjustment.md
+│   └── Voron-Gantry-Squaring.md
 ├── post-processing/
 │   ├── Sanding-Finishing.md
 │   ├── Acetone-Smoothing.md
