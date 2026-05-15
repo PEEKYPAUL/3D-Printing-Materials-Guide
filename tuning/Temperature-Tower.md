@@ -41,11 +41,6 @@ Enter the start and end temperatures for your material. Use the ranges below as 
 | TPU | 215–240°C |
 | Nylon | 240–270°C |
 
-Set the **step** to 5°C. The tower will print a new zone every 5°C.
-
-![Temperature range input fields in Orca Slicer](../images/temp-tower-02-range.jpg)
-*Set your start temp, end temp, and step size.*
-
 ---
 
 ## Step 3 — Slice and Print
