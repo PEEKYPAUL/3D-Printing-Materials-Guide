@@ -69,9 +69,6 @@ The best temperature is usually a compromise — pick the zone where **bridging,
 ![Printed temperature tower with zones labelled](../images/temp-tower-04-printed.jpg)
 *Each zone on the printed tower corresponds to a specific temperature — read from top (coolest) to bottom (hottest).*
 
-![Close-up of bridging and stringing differences between zones](../images/temp-tower-05-detail.jpg)
-*Detail comparison between zones — note how stringing and bridge quality change with temperature.*
-
 ---
 
 ## Tips
