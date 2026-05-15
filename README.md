@@ -205,6 +205,41 @@ Flow ratio is the multiplier applied to your extruder's output — 1.00 is the b
 
 ---
 
+### Strength Settings by Material
+
+Wall count, top/bottom layers, infill pattern, and infill density all have a larger impact on part strength than print speed or temperature. These are recommended starting points — adjust up for structural parts, down for prototypes and display models.
+
+> 💡 **Walls contribute more to strength than infill** for most functional parts. Adding walls is more effective than increasing infill percentage — 4 walls at 20% infill is stronger in most load cases than 2 walls at 50% infill.
+
+| Material | Walls | Top / Bottom Layers | Infill Pattern | Infill % | Notes |
+|---|---|---|---|---|---|
+| PLA | 3–4 | 4–5 | Grid / Gyroid | 15–25% | General use. Gyroid for isotropic strength, grid for speed |
+| PETG | 3–4 | 4–5 | Grid / Gyroid | 20–30% | Slightly more walls than PLA for better layer bonding |
+| ABS | 4 | 5 | Grid / Gyroid | 20–40% | More infill compensates for lower layer adhesion vs PLA |
+| ASA | 4 | 5 | Grid / Gyroid | 20–40% | Same as ABS — UV stable, use for outdoor parts |
+| TPU | 3–4 | 4 | Gyroid / Concentric | 15–30% | Gyroid gives best flex behaviour — avoid rectilinear in flex parts |
+| Nylon | 4–5 | 5–6 | Gyroid / Grid | 30–50% | High wall count critical — nylon inter-layer adhesion is excellent |
+| PC | 4–5 | 5–6 | Gyroid / Grid | 40–60% | Maximum layer bonding matters more than infill — prioritise walls |
+| PPS | 4–6 | 5–6 | Grid / Gyroid | 40–60% | Chemical resistance is in the material — strength from walls |
+| PPS-GF | 4–6 | 5–6 | Grid | 40–60% | GF filled — grid infill handles fibre orientation better |
+| PPS-CF | 4–6 | 5–6 | Grid | 40–60% | CF filled — avoid gyroid, fibres align better on rectilinear paths |
+| PEI / Ultem | 5–6 | 6 | Grid / Gyroid | 50–80% | Extreme temp structural parts — maximum walls, high infill |
+| PEKK | 5–6 | 6 | Grid / Gyroid | 50–80% | Same philosophy as PEI — walls first, infill second |
+| PEEK | 5–6 | 6 | Grid / Gyroid | 50–80% | Anneal after printing for full strength — see PEEK Annealing guide |
+
+#### Infill Pattern Reference
+
+| Pattern | Strength | Speed | Best For |
+|---|---|---|---|
+| **Gyroid** | Isotropic — equal in all directions | Moderate | Functional parts with mixed load directions, flexible materials |
+| **Grid** | Strong in XY, moderate in Z | Fast | General use — good balance of speed and strength |
+| **Honeycomb** | Good XY, moderate Z | Moderate | Lightweight structural parts |
+| **Rectilinear / Lines** | Directional | Fastest | Prototypes, non-structural parts, fibre-filled materials |
+| **Cubic / 3D Honeycomb** | Good in all directions | Slow | High-strength structural parts where Z load matters |
+| **Concentric** | Follows perimeter shape | Fast | Flexible materials — flex deforms along the lines |
+
+---
+
 ## 🖥️ Slicer Options & Recommendations
 
 Choosing the right slicer makes a big difference, especially with Klipper. The table below covers the most popular options, what firmware they support, and where to get them.
