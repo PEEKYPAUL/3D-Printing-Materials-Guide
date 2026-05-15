@@ -250,6 +250,8 @@ Get connected with the people building, tuning, and pushing 3D printers further.
 
 | Community | Discord | About |
 |---|---|---|
+| **Mainsail** | [Join](https://discord.com/invite/mainsail) | Official server for Mainsail — the Klipper web interface. Setup help, theming, feature requests, and support from the development team. |
+| **OrcaSlicer** | [Join](https://discord.com/invite/P4VE9UY9gJ) | Official OrcaSlicer community — slicer help, profile sharing, calibration discussion, and feature feedback direct to the development team. |
 | **Kalico** | [Join](https://discord.com/invite/6CK8AqK6tN) | Community for Kalico — the feature-rich Klipper fork with bleeding-edge capabilities. Support, feature requests, and development chat. |
 | **Cartographer 3D** | [Join](https://discord.com/invite/EFSwpureHz) | Official support server for the Cartographer eddy-current probe. Setup help, firmware updates, and troubleshooting. |
 
