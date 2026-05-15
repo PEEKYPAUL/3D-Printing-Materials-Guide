@@ -18,7 +18,9 @@ Getting the order right matters. Acceleration is the harder limit to hit cleanly
 
 ### Phase 1 — Maximum Acceleration
 
-Use the `TEST_SPEED` macro (see [Utility Macros](../macros/Utilities.md)) with a fixed moderate speed and escalating acceleration:
+Use the `TEST_SPEED` macro (see [Utility Macros](../macros/Utilities.md)) with a fixed moderate speed and escalating acceleration. The macro is available from the Ellis3DP Print Tuning Guide macros repository:
+
+**[→ TEST_SPEED macro source — Ellis3DP GitHub](https://github.com/AndrewEllis93/Print-Tuning-Guide/tree/main/macros)**
 
 ```gcode
 TEST_SPEED SPEED=300 ACCEL=3000 ITERATIONS=5
