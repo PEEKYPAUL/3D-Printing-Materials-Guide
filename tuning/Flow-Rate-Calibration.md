@@ -97,4 +97,4 @@ Enter the new flow ratio in your filament profile under **Filament Settings > Fl
 
 ---
 
-*Back to [Tuning Guides](../README.md#tuning-guides) | [README](../README.md)*
+*Back to [Tuning Guides](../README.md#-tuning-guides) | [README](../README.md)*

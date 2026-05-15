@@ -1,4 +1,4 @@
-# Nozzle Guide
+﻿# Nozzle Guide
 
 > Choose the right nozzle material and size, and know when and how to change it.
 
@@ -88,4 +88,4 @@ As a general rule: **replace brass nozzles every 3–6 months** of regular print
 
 ---
 
-*Back to [Hardware](../README.md#hardware) | [README](../README.md)*
+*Back to [Hardware Guides](../README.md#️-hardware-guides) | [README](../README.md)*

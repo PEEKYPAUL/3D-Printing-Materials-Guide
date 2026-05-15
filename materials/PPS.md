@@ -111,7 +111,7 @@ PPS resists virtually all common industrial chemicals below 200°C:
 
 | Property | PPS | PC | PEEK |
 |---|---|---|---|
-| Print temperature | 280–320°C | 260–310°C | 360–400°C |
+| Print temperature | 280–310°C | 260–310°C | 360–400°C |
 | HDT (unfilled) | ~100°C | ~110–120°C | ~140°C |
 | HDT (GF/CF filled) | 200–220°C | 130°C | 250°C+ |
 | Chemical resistance | Outstanding | Moderate | Exceptional |

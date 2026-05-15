@@ -1,4 +1,4 @@
-# Retraction Calibration
+﻿# Retraction Calibration
 
 > Dial in retraction distance and speed to eliminate stringing between features.
 
@@ -93,4 +93,4 @@ Save to your filament profile.
 
 ---
 
-*Back to [Tuning Guides](../README.md#tuning-guides) | [README](../README.md)*
+*Back to [Tuning Guides](../README.md#-tuning-guides) | [README](../README.md)*

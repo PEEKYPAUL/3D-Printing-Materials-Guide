@@ -1,4 +1,4 @@
-# All-Metal Hotend Upgrade
+﻿# All-Metal Hotend Upgrade
 
 > When and why to replace your PTFE-lined hotend with an all-metal version.
 
@@ -81,4 +81,4 @@ How to manage heat creep with all-metal:
 
 ---
 
-*Back to [Hardware](../README.md#hardware) | [README](../README.md)*
+*Back to [Hardware Guides](../README.md#️-hardware-guides) | [README](../README.md)*

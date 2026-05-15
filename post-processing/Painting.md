@@ -1,4 +1,4 @@
-# Painting 3D Prints
+﻿# Painting 3D Prints
 
 > Prime, paint, and finish your prints to a professional standard.
 
@@ -106,4 +106,4 @@ A clear coat protects the paint and gives a consistent sheen:
 
 ---
 
-*Back to [Post-Processing](../README.md#post-processing) | [README](../README.md)*
+*Back to [Post-Processing Guides](../README.md#-post-processing-guides) | [README](../README.md)*

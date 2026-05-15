@@ -1,4 +1,4 @@
-# Layer Adhesion and Delamination
+﻿# Layer Adhesion and Delamination
 
 > Fix weak, splitting, or separating layers that reduce part strength.
 
@@ -97,4 +97,4 @@ To test, print a simple 20x20x40 mm tower and try to snap it along the layer lin
 
 ---
 
-*Back to [Troubleshooting](../README.md#troubleshooting) | [README](../README.md)*
+*Back to [Troubleshooting Guides](../README.md#️-troubleshooting-guides) | [README](../README.md)*

@@ -1,4 +1,4 @@
-# Input Shaping — Klipper Resonance Compensation
+﻿# Input Shaping — Klipper Resonance Compensation
 
 > Eliminate ringing, ghosting, and echoing artefacts from your prints by measuring and cancelling frame vibration with Klipper's built-in resonance testing tools.
 
@@ -215,7 +215,7 @@ When Klipper reports a result like:
 X: Fitted shaper 'mzv' frequency = 68.4 Hz (vibrations = 1.4%, smoothing ~= 0.045)
 ```
 
-The `smoothing ~= 0.047` figure tells you how much the filter rounds off sharp features. As a rough guide:
+The `smoothing ~= 0.045` figure tells you how much the filter rounds off sharp features. As a rough guide:
 
 | Smoothing Value | Effect on Print Quality |
 |---|---|
@@ -362,4 +362,4 @@ If similarity is below 95% or the frequency delta is large:
 
 ---
 
-*Back to [Tuning Guides](../README.md#tuning-guides) | [README](../README.md)*
+*Back to [Tuning Guides](../README.md#-tuning-guides) | [README](../README.md)*

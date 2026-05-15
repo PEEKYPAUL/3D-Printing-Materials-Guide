@@ -1,4 +1,4 @@
-# ASA - Acrylonitrile Styrene Acrylate
+﻿# ASA - Acrylonitrile Styrene Acrylate
 
 > **Difficulty:** ⭐⭐ Intermediate | **Category:** Engineering | **UV Resistance:** Excellent
 
@@ -14,8 +14,8 @@ ASA is essentially ABS's superior outdoor-rated cousin. It shares similar print 
 
 | Parameter | Typical Range | Notes |
 |---|---|---|
-| Nozzle Temp | 240-260C | Start at 250C |
-| Bed Temp | 100-110C | Same as ABS |
+| Nozzle Temp | 240–260°C | Start at 250°C |
+| Bed Temp | 100–110°C | Same as ABS |
 | Print Speed | 40-60 mm/s | |
 | Cooling Fan | 0-15% | Keep minimal |
 | Enclosure | **Required** | Same warping tendencies as ABS |
@@ -38,7 +38,7 @@ ASA is essentially ABS's superior outdoor-rated cousin. It shares similar print 
 
 ### Warping
 - **Enclosure is required** - a 45-50°C chamber temp is ideal.
-- Minimal cooling fan (10–25%) - ambient airflow causes thermal stress.
+- Minimal cooling fan (0–15%) — ambient airflow causes thermal stress. Match your settings table value.
 - Large brims (10-15 mm) help anchor the print.
 - **Kapton tape or PET sheets** are reliable bed surfaces for ASA in addition to PEI.
 - **Temperature gradient technique** — start the first few layers at the high end of the temp range for maximum adhesion, then reduce the nozzle temp by ~5°C every few layers as the print builds height. This reduces thermal stress in the upper layers and helps prevent warping and cracking.

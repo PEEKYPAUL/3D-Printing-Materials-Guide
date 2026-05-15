@@ -1,4 +1,4 @@
-# Moisture Damage
+﻿# Moisture Damage
 
 > Identify, dry, and prevent moisture damage in your filament.
 
@@ -96,4 +96,4 @@ A last resort — use only a dedicated oven, not your kitchen oven:
 
 ---
 
-*Back to [Troubleshooting](../README.md#troubleshooting) | [README](../README.md)*
+*Back to [Troubleshooting Guides](../README.md#️-troubleshooting-guides) | [README](../README.md)*

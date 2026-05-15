@@ -1,6 +1,6 @@
-# PC - Polycarbonate
+﻿# PC - Polycarbonate
 
-> **Difficulty:** ⭐⭐⭐ Advanced | **Category:** High-Temp | **HDT:** ~130-140C | **Notable:** Optically clear, extremely tough
+> **Difficulty:** ⭐⭐⭐ Advanced | **Category:** High-Temp | **HDT:** ~130–140°C | **Notable:** Optically clear, extremely tough
 
 ---
 
@@ -14,9 +14,9 @@ Polycarbonate is one of the toughest thermoplastics available - it's used in bul
 
 | Parameter | Range | Notes |
 |---|---|---|
-| Nozzle Temp | 260-310C | Pure PC: 290-310C; PC blends: 260-280C |
-| Bed Temp | 110-120C | |
-| Enclosure | **Required** | Chamber temp 50-60C ideal |
+| Nozzle Temp | 260–310°C | Pure PC: 290–310°C; PC blends: 260–280°C |
+| Bed Temp | 110–120°C | |
+| Enclosure | **Required** | Chamber temp 50–60°C ideal |
 | All-Metal Hotend | **Required** | PTFE will off-gas and deform |
 | Cooling | 0-20% | Very little cooling |
 | Bed Surface | PEI or PC sheet | |
@@ -39,7 +39,7 @@ Polycarbonate is one of the toughest thermoplastics available - it's used in bul
 - **First layer width: 120–150%** — wider lines give more contact area with the bed.
 
 ### Cooling & Bridging
-- **No fan for the first 4–5 layers** — then gradually increase to a maximum of 40%. Never use 100% cooling with PC, it will cause delamination.
+- **No fan for the first 4–5 layers** — then gradually increase to a maximum of 20% if needed for bridging. Never use high cooling with PC — delamination risk is severe.
 - **Bridging fan: ~25%** — just enough to help bridges set without causing thermal stress.
 - **Bridging extrusion multiplier: 120%** — PC needs slightly more material to bridge gaps cleanly.
 - **Bridging speed: ~40% of normal** — slower bridging gives better results with PC.
@@ -49,7 +49,7 @@ Polycarbonate is one of the toughest thermoplastics available - it's used in bul
 - **4+ top layers** recommended for a solid, flat top surface.
 
 ### Moisture
-- PC is hygroscopic. Dry at **80C for 6-8 hours**. Print from a dry box.
+- PC is hygroscopic. Dry at **80°C for 6-8 hours**. Print from a dry box.
 
 ### Warping
 - PC warps aggressively. Mitigations:
@@ -60,7 +60,7 @@ Polycarbonate is one of the toughest thermoplastics available - it's used in bul
   - PC-specific adhesives (PC glue sticks, Magigoo PC)
 
 ### Blends vs Pure PC
-- **PC/ABS blends** print at lower temps (~260-270C) and warp less - good starting point.
+- **PC/ABS blends** print at lower temps (~260–270°C) and warp less - good starting point.
 - **Pure PC** is harder to print but stronger and more heat-resistant.
 
 ### Applications

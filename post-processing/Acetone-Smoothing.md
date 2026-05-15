@@ -1,4 +1,4 @@
-# Acetone Vapour Smoothing
+﻿# Acetone Vapour Smoothing
 
 > Chemically smooth ABS and ASA prints to a near-injection-moulded finish.
 
@@ -84,4 +84,4 @@ This gives less uniform results than vapour but is faster and more controllable 
 
 ---
 
-*Back to [Post-Processing](../README.md#post-processing) | [README](../README.md)*
+*Back to [Post-Processing Guides](../README.md#-post-processing-guides) | [README](../README.md)*

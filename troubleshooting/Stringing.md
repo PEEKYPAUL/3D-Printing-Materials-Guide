@@ -1,4 +1,4 @@
-# Stringing
+﻿# Stringing
 
 > Eliminate the fine plastic hairs left between features during travel moves.
 
@@ -94,4 +94,4 @@ See the [Moisture Damage](Moisture-Damage.md) guide for full drying guidance.
 
 ---
 
-*Back to [Troubleshooting](../README.md#troubleshooting) | [README](../README.md)*
+*Back to [Troubleshooting Guides](../README.md#️-troubleshooting-guides) | [README](../README.md)*

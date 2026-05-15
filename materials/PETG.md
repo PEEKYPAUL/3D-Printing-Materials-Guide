@@ -6,7 +6,7 @@
 
 ## Overview
 
-PETG bridges the gap between easy-to-print PLA and demanding engineering materials. It offers excellent layer adhesion, good chemical resistance, slight flexibility (impact resistant), and a higher heat deflection temperature (~80°C) than PLA. It's one of the best all-round materials for functional parts.
+PETG bridges the gap between easy-to-print PLA and demanding engineering materials. It offers excellent layer adhesion, good chemical resistance, slight flexibility (impact resistant), and a higher heat deflection temperature (~72–80°C) than PLA. It's one of the best all-round materials for functional parts.
 
 The "G" (glycol-modified) makes it less brittle and clearer than standard PET. It's the material used for most plastic bottles.
 

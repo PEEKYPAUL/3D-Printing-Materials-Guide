@@ -1,4 +1,4 @@
-# Pressure Advance Calibration
+﻿# Pressure Advance Calibration
 
 > Eliminate bulging corners, blobs at direction changes, and rounded details caused by pressure lag in the hotend.
 
@@ -64,11 +64,19 @@ Print the pattern. Examine the lines — you are looking for the line where the 
 ## Step 4 — Apply the Value
 
 **Klipper:** Add or update in your printer.cfg:
-`\npressure_advance: 0.045\n`\n
+
+```ini
+pressure_advance: 0.045
+```
+
 Or set it per-filament in Orca Slicer under **Filament Settings > Filament > Pressure advance**.
 
 **Marlin (Linear Advance):** Set in firmware or send via G-code:
-`\nM900 K0.045\n`\n
+
+```gcode
+M900 K0.045
+```
+
 **Bambu:** PA is handled automatically — Orca Slicer sends it per filament profile.
 
 ---
@@ -90,4 +98,4 @@ Or set it per-filament in Orca Slicer under **Filament Settings > Filament > Pre
 
 ---
 
-*Back to [Tuning Guides](../README.md#tuning-guides) | [README](../README.md)*
+*Back to [Tuning Guides](../README.md#-tuning-guides) | [README](../README.md)*

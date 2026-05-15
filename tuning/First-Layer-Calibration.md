@@ -1,4 +1,4 @@
-# First Layer Calibration — Orca Slicer
+﻿# First Layer Calibration — Orca Slicer
 
 > Getting your first layer right is the single most important calibration step on any FDM printer. A well-tuned first layer means reliable adhesion, consistent surface quality, and fewer failed prints.
 
@@ -160,4 +160,4 @@ Repeat until the layer is perfectly even. Save the final flow ratio to your fila
 
 ---
 
-*Back to [Tuning Guides](../README.md#tuning-guides) | Back to [README](../README.md)*
+*Back to [Tuning Guides](../README.md#-tuning-guides) | Back to [README](../README.md)*

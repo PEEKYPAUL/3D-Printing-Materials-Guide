@@ -1,4 +1,4 @@
-# Support Materials - PVA & HIPS
+﻿# Support Materials - PVA & HIPS
 
 > **Difficulty:** Intermediate | **Category:** Support | **Use Case:** Dual-extrusion soluble supports
 
@@ -22,8 +22,8 @@ PVA dissolves completely in water, making it ideal for complex overhangs and int
 
 | Parameter | Range | Notes |
 |---|---|---|
-| Nozzle Temp | 180-210C | 190-200C is the sweet spot |
-| Bed Temp | 45-60C | Match your PLA bed temp |
+| Nozzle Temp | 180–210°C | 190–200°C is the sweet spot |
+| Bed Temp | 45–60°C | Match your PLA bed temp |
 | Print Speed | 25-40 mm/s | Print slower than your primary material |
 | Cooling | 50-100% | Good cooling improves bridging |
 | Storage | Sealed + desiccant | Degrades within hours if exposed |
@@ -35,7 +35,7 @@ PVA dissolves completely in water, making it ideal for complex overhangs and int
 - PVA absorbs moisture faster than almost any other filament. Even a few hours of exposure causes problems.
 - **Always store in a sealed airtight container with fresh desiccant.**
 - Print directly from a dry box with active drying.
-- Dry at **45-50C for 6-8 hours** before use. Do not exceed 60C or PVA degrades.
+- Dry at **45–50°C for 6-8 hours** before use. Do not exceed 60°C or PVA degrades.
 - Signs of wet PVA: bubbling, popping sounds, rough surface, failed bonding to primary material.
 
 ### Printing Tips
@@ -45,7 +45,7 @@ PVA dissolves completely in water, making it ideal for complex overhangs and int
 - PVA bonds best to PLA. It will not bond well to PETG, ABS, or most other materials.
 
 ### Dissolving Supports
-- Submerge in **warm water (25-35C)** - do not use hot water, it can warp PLA.
+- Submerge in **warm water (25–35°C)** - do not use hot water, it can warp PLA.
 - Agitation (ultrasonic cleaner or gentle swirling) speeds up dissolution significantly.
 - Full dissolution takes 30 minutes to several hours depending on thickness.
 - Rinse the model thoroughly after dissolving.
@@ -64,8 +64,8 @@ HIPS is a support material that dissolves in d-limonene (a citrus-based solvent)
 
 | Parameter | Range | Notes |
 |---|---|---|
-| Nozzle Temp | 220-240C | Match to your ABS temp |
-| Bed Temp | 100-110C | Same as ABS |
+| Nozzle Temp | 230–250°C | Match to your ABS temp |
+| Bed Temp | 100–110°C | Same as ABS |
 | Cooling | 0-10% | Minimal, same as ABS |
 | Enclosure | Required | Same warping tendencies as ABS |
 | Flow Ratio | 1.00 | Standard starting point |
@@ -80,7 +80,7 @@ HIPS is a support material that dissolves in d-limonene (a citrus-based solvent)
 
 ### Dissolving with Limonene
 - Submerge the print in **d-limonene** - available from specialist suppliers or online.
-- Dissolution takes **12-24 hours** at room temperature; agitation or mild heating (30C) speeds it up.
+- Dissolution takes **12-24 hours** at room temperature; agitation or mild heating (30°C) speeds it up.
 - Rinse with isopropyl alcohol after dissolving, then water.
 - Limonene is **flammable** - keep away from heat sources and store safely.
 - Reuse limonene until it becomes saturated.

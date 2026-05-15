@@ -1,4 +1,4 @@
-# Clogged Nozzle
+﻿# Clogged Nozzle
 
 > Diagnose, clear, and prevent nozzle clogs.
 
@@ -92,4 +92,4 @@ If cold pulls and needle cleaning don't clear the clog, replace the nozzle:
 
 ---
 
-*Back to [Troubleshooting](../README.md#troubleshooting) | [README](../README.md)*
+*Back to [Troubleshooting Guides](../README.md#️-troubleshooting-guides) | [README](../README.md)*

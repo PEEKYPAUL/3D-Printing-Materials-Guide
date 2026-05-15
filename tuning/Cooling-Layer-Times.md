@@ -40,10 +40,10 @@ This is where most guides get it wrong — they imply "more cooling is always be
 | Material | Part Cooling | Notes |
 |---|---|---|
 | PLA | 80–100% | PLA needs cooling — run it high. Slight strength reduction is the only trade-off |
-| PETG | 30–60% | Too much fan causes poor layer bonding and stringing. Back off from PLA instincts |
+| PETG | 20–50% | Too much fan causes poor layer bonding and stringing. Back off from PLA instincts |
 | ABS | 0–15% | Even in an enclosure. More than this causes layer splits and cracking |
 | ASA | 0–15% | Same as ABS — minimal fan, enclosure required |
-| TPU | 20–50% | Moderate cooling. Too much stiffens the part during printing and causes adhesion issues |
+| TPU | 30–80% | Soft grades (75A–85A) 60–80%; harder grades (95A+) 30–50%. Too much stiffens the part during printing |
 | Nylon | 0–20% | Minimal — nylon needs time to bond. PA12 tolerates more than PA6 |
 | PC | 0% | No fan. Ever. |
 | PEEK / PEI / PEKK | 0% | Absolutely no part cooling. See the high-temp material guides |

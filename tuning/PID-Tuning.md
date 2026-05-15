@@ -1,4 +1,4 @@
-# PID Tuning — Hotend & Bed (Klipper)
+﻿# PID Tuning — Hotend & Bed (Klipper)
 
 > Stable temperatures are the foundation of consistent prints. PID tuning teaches Klipper exactly how your hotend and bed heat up and hold temperature, eliminating the swings and overshoots that cause inconsistent extrusion and poor layer adhesion.
 
@@ -173,4 +173,4 @@ If you see continuous oscillation, the tune may have been affected by interferen
 
 ---
 
-*Back to [Tuning Guides](../README.md#tuning-guides) | [README](../README.md)*
+*Back to [Tuning Guides](../README.md#-tuning-guides) | [README](../README.md)*

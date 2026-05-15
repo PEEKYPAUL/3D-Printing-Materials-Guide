@@ -1,4 +1,4 @@
-# Warping and Adhesion Failures
+﻿# Warping and Adhesion Failures
 
 > Stop prints lifting, curling, and detaching from the bed mid-print.
 
@@ -107,4 +107,4 @@ Enable in Orca Slicer under **Print Settings > Other > Draft Shield**.
 
 ---
 
-*Back to [Troubleshooting](../README.md#troubleshooting) | [README](../README.md)*
+*Back to [Troubleshooting Guides](../README.md#️-troubleshooting-guides) | [README](../README.md)*

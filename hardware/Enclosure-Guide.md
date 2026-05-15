@@ -1,4 +1,4 @@
-# Enclosure Guide
+﻿# Enclosure Guide
 
 > Why you need one, what chamber temp to target, and how to build or buy one.
 
@@ -96,4 +96,4 @@ Enclosures concentrate fumes — especially important for ABS, ASA, and engineer
 
 ---
 
-*Back to [Hardware](../README.md#hardware) | [README](../README.md)*
+*Back to [Hardware Guides](../README.md#️-hardware-guides) | [README](../README.md)*

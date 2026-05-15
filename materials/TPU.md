@@ -19,7 +19,7 @@ Other flexibles include **TPE** (softer, harder to print), **TPC** (higher temp 
 | Nozzle Temp | 220–240°C | Start at 230°C |
 | Bed Temp | 30–60°C | PEI at 40–50°C works great |
 | Print Speed | **15–30 mm/s** | **Slow is essential** |
-| Cooling Fan | 50–100% | Good cooling helps |
+| Cooling Fan | 30–80% | Soft grades (75A–85A): 60–80%; harder grades (95A+): 30–50% |
 | Retraction | **Minimal or off** | Flexibles clog easily with retraction |
 | Direct Drive | **Strongly recommended** | Bowden requires careful setup |
 | Flow Ratio | 0.98 | TPU varies widely by brand and hardness — calibrate per spool |

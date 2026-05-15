@@ -1,4 +1,4 @@
-# Temperature Tower
+﻿# Temperature Tower
 
 > Find the ideal printing temperature for any filament in a single print.
 
@@ -89,4 +89,4 @@ The best temperature is usually a compromise — pick the zone where **bridging,
 
 ---
 
-*Back to [Tuning Guides](../README.md#tuning-guides) | [README](../README.md)*
+*Back to [Tuning Guides](../README.md#-tuning-guides) | [README](../README.md)*

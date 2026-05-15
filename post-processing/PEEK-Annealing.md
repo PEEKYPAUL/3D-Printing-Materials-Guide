@@ -267,7 +267,7 @@ Check critical dimensions if tolerances are important. Shrinkage is less than 1%
 | Part warped after annealing | Ramp too fast, sand not fully compacted, or cooling too rapid | Slow the ramp to 2°C/min, compress sand more thoroughly, ensure oven cools with door closed |
 | Surface impressions from sand | Sand grain too coarse | Switch to 0.1mm refined quartz sand only |
 | Part cracked during ramp | Thermal shock from placing in hot oven | Always start in a cold oven and ramp slowly |
-| Part still soft above 140°C after annealing | Insufficient hold time or temperature too low | Extend hold to 3–4 hours at 200°C |
+| Part still soft above 140°C after annealing | Insufficient hold time or temperature too low | Extend hold to 5+ hours at 200°C — the full protocol hold time |
 | Dimensional change too large | Normal annealing shrinkage | Expect < 1% shrinkage — primarily Z-axis. Design with a small allowance on critical fits |
 | Surface discolouration / yellowing | Oven temperature exceeded 220°C | Verify oven temperature with a probe — calibrate or adjust set point |
 

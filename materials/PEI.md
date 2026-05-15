@@ -1,6 +1,6 @@
-# PEI / Ultem - Polyetherimide
+﻿# PEI / Ultem - Polyetherimide
 
-> **Difficulty:** ⭐⭐⭐⭐ Expert | **Category:** High-Temp | **HDT:** 170-217C | **Notable:** Aerospace-grade, inherently flame-retardant
+> **Difficulty:** ⭐⭐⭐⭐ Expert | **Category:** High-Temp | **HDT:** 170–217°C | **Notable:** Aerospace-grade, inherently flame-retardant
 
 ---
 
@@ -16,9 +16,9 @@ PEI (sold as Ultem by SABIC) is a high-performance engineering thermoplastic use
 
 | Parameter | Range | Notes |
 |---|---|---|
-| Nozzle Temp | 340-380C | Ultem 1010: 360-380C; Ultem 9085: 340-360C |
-| Bed Temp | 145-160C | |
-| Chamber Temp | 120-160C | **Actively heated chamber required** |
+| Nozzle Temp | 340–380°C | Ultem 1010: 360–380°C; Ultem 9085: 340–360°C |
+| Bed Temp | 145–160°C | |
+| Chamber Temp | 120–160°C | **Actively heated chamber required** |
 | All-Metal Hotend | **Required** | High-temp rated |
 | Nozzle Material | Hardened steel / ruby | Standard brass won't survive |
 | Cooling | 0% | None |
@@ -37,15 +37,15 @@ Only a handful of printers can print Ultem reliably:
 - High-end modified Voron builds with heated chamber
 
 ### Bed Adhesives
-Standard adhesives (glue sticks, hairspray, PVA) **burn off at PEI/Ultem bed temperatures (145-160C)** and should not be used. You need high-temperature rated adhesives.
+Standard adhesives (glue sticks, hairspray, PVA) **burn off at PEI/Ultem bed temperatures (145–160°C)** and should not be used. You need high-temperature rated adhesives.
 
 **Vision Miner Nano Polymer Adhesive** (strongly recommended)
 This is the go-to adhesive for printing PEI/Ultem and other high-temp materials:
-- Rated for use at **bed temperatures up to 160C** — covers the full Ultem bed temp range.
-- Apply a **very thin, even coat** to the clean bed surface while the bed is warming (40-60C).
+- Rated for use at **bed temperatures up to 160°C** — covers the full Ultem bed temp range.
+- Apply a **very thin, even coat** to the clean bed surface while the bed is warming (40–60°C).
 - Allow the solvent to **fully flash off** (30-60 seconds) before printing — a wet coat will cause adhesion problems.
 - Provides extremely strong first-layer grip during the print.
-- **Releases cleanly** when the bed cools below 60C — parts lift off with minimal force.
+- **Releases cleanly** when the bed cools below 60°C — parts lift off with minimal force.
 - One bottle lasts a long time when applied correctly (thin coats only).
 - Works on aluminium beds, PEI-coated surfaces, and Kapton tape.
 
@@ -77,7 +77,7 @@ This is the go-to adhesive for printing PEI/Ultem and other high-temp materials:
 
 | Problem | Fix |
 |---|---|
-| Delamination | Chamber temp too low - must actively heat to 120C+ |
+| Delamination | Chamber temp too low - must actively heat to 120°C+ |
 | Warping | Increase chamber temp, extend pre-heat time, add brim |
 | Poor adhesion | Ensure bed is clean, use Kapton or PEI-coated surface |
 | Nozzle clog | Nozzle too cold or filament not dry - raise temp, re-dry |
@@ -88,7 +88,7 @@ This is the go-to adhesive for printing PEI/Ultem and other high-temp materials:
 
 | Property | PEEK | PEI (Ultem) |
 |---|---|---|
-| Max Service Temp | 250C | 170-217C |
+| Max Service Temp | 250°C | 170–217°C |
 | Biocompatibility | Excellent (implant grade) | Good |
 | Flame Retardancy | Self-extinguishing | **UL-94 V-0 inherent** |
 | Chemical Resistance | Exceptional | Very good |

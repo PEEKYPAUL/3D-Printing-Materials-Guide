@@ -1,4 +1,4 @@
-# Heat-Set Inserts
+﻿# Heat-Set Inserts
 
 > Add strong, reusable threaded connections to your 3D prints.
 
@@ -104,4 +104,4 @@ Too hot = the plastic melts too far back and the insert sinks in crooked. Too co
 
 ---
 
-*Back to [Post-Processing](../README.md#post-processing) | [README](../README.md)*
+*Back to [Post-Processing Guides](../README.md#-post-processing-guides) | [README](../README.md)*

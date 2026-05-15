@@ -190,12 +190,12 @@ Flow ratio is the multiplier applied to your extruder's output — 1.00 is the b
 | Material | Part Cooling Fan | Flow Ratio | Notes |
 |---|---|---|---|
 | PLA | 80–100% | 0.95–1.00 | Needs cooling — high fan is fine |
-| PETG | 30–60% | 0.95–1.00 | Too much fan causes layer adhesion issues |
+| PETG | 20–50% | 0.95–1.00 | Too much fan causes layer adhesion issues |
 | ABS | 0–10% | 0.98–1.02 | No fan — delamination risk |
 | ASA | 0–10% | 0.98–1.02 | No fan — same risk as ABS |
-| TPU | 30–50% | 1.00–1.05 | Print slow — flex absorbs pressure advance poorly |
+| TPU | 30–80% | 1.00–1.05 | Soft grades (75A–85A) need more cooling; harder grades (95A+) need less |
 | Nylon | 0–20% | 0.98–1.02 | Minimal fan; higher for PA12 than PA6 |
-| PC | 0% | 1.00–1.05 | No fan ever |
+| PC | 0–20% | 1.00–1.05 | 0% for pure PC; up to 20% for PC blends — no more |
 | PPS | 0% | 1.00–1.05 | Chemical-resistant — no fan, actively heated chamber required |
 | PPS-GF | 0% | 1.00–1.05 | Glass-filled — hardened steel nozzle, higher HDT than unfilled |
 | PPS-CF | 0% | 1.00–1.05 | Carbon-filled — ruby nozzle required, highest stiffness |

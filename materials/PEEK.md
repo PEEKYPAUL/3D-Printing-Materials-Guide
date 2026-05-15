@@ -1,7 +1,7 @@
 
 # PEEK — Polyether Ether Ketone
 
-> **Difficulty:** ⭐⭐⭐⭐ Expert | **HDT:** 140°C (unfilled) / 315°C (filled) | **Notable:** The pinnacle of FDM materials
+> **Difficulty:** ⭐⭐⭐⭐ Expert | **HDT:** 140–250°C (amorphous to semi-crystalline) / 270–280°C (CF/GF filled) | **Notable:** The pinnacle of FDM materials
 
 ---
 
@@ -40,7 +40,6 @@ Suitable printers:
 - **Apium P220** (purpose-built for PEEK/PEI)
 - **AON3D AON-M2**
 - **Tractus3D T850P**
-- **Raise3D Hyper Speed** (with high-temp upgrade)
 - Custom industrial builds
 
 ### PEEK-Specific Tips
@@ -70,7 +69,7 @@ For some PEEK grades (especially filled variants):
 - Keep PEEK in a **sealed dry box** — moisture is devastating. Dry at **120–150°C for 6+ hours**.
 - Print slow — there's no rushing PEEK. 20 mm/s is common.
 - **First layer adhesion** on aluminium: lightly sandblasted or bead-blasted aluminium + thin PEEK film = excellent adhesion with clean release.
-- **Annealing** after printing (in an oven at 200°C for 1–2 hours) significantly improves mechanical properties and reduces residual stress.
+- **Annealing** after printing significantly improves mechanical properties — see the [PEEK Annealing guide](../post-processing/PEEK-Annealing.md) for the full two-stage cycle (100°C/3h → 200°C/5h with a 24h cool-down).
 
 ### PEEK Variants
 | Variant | Notes |

@@ -1,4 +1,4 @@
-# Sanding and Finishing
+﻿# Sanding and Finishing
 
 > Achieve smooth, professional surfaces on your 3D prints.
 
@@ -105,4 +105,4 @@ Wet sanding produces a much finer finish than dry sanding and prevents sandpaper
 
 ---
 
-*Back to [Post-Processing](../README.md#post-processing) | [README](../README.md)*
+*Back to [Post-Processing Guides](../README.md#-post-processing-guides) | [README](../README.md)*

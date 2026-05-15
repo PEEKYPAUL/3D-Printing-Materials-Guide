@@ -1,6 +1,6 @@
-# Nylon (PA) - Polyamide
+﻿# Nylon (PA) - Polyamide
 
-> **Difficulty:** ⭐⭐⭐ Advanced | **Category:** Engineering | **HDT:** ~120C | **Notable:** Chemical resistant, tough, self-lubricating
+> **Difficulty:** ⭐⭐⭐ Advanced | **Category:** Engineering | **HDT:** ~55–75°C (PA12/PA6 unfilled) / 190–210°C (GF/CF filled) | **Notable:** Chemical resistant, tough, self-lubricating
 
 ---
 
@@ -16,10 +16,10 @@ Common variants: **PA6** (general), **PA12** (less moisture-sensitive), **PA6-CF
 
 | Parameter | Range | Notes |
 |---|---|---|
-| Nozzle Temp | 240-270C | PA6: 255-270C; PA12: 240-260C |
-| Bed Temp | 70-85C | Garolite/G10 preferred |
+| Nozzle Temp | 240–270°C | PA6: 255–270°C; PA12: 240–260°C |
+| Bed Temp | 70–85°C | Garolite/G10 preferred |
 | Enclosure | Recommended | Reduces warping |
-| Cooling | 20-40% | Some cooling helps bridging |
+| Cooling | 0–20% | Minimal — PA12 tolerates more than PA6 |
 | Bed Surface | Garolite (G10) | Best adhesion by far |
 | Flow Ratio | 1.00 | Nylon can vary — dry thoroughly before calibrating |
 
@@ -42,22 +42,22 @@ Choosing the right adhesive makes the difference between nylon sticking reliably
 
 **PA Glue (Polyamide-Specific Glue)**
 Dedicated PA glues (such as Polymaker PA Glue) are purpose-formulated for Nylon and are one of the best options when printing on PEI:
-- Apply a **thin, even coat** to the warm bed (50-60C) and allow the solvent to fully flash off before printing.
+- Apply a **thin, even coat** to the warm bed (50–60°C) and allow the solvent to fully flash off before printing.
 - Gives a strong grip during the print with a **clean release when the bed cools** — no tearing or stuck prints.
 - Works on smooth PEI, textured PEI, and glass surfaces.
 - Reapply every 2-3 prints or when adhesion starts dropping.
 
 **Vision Miner Nano Polymer Adhesive**
-For higher-temp Nylon variants (PA6-CF, PA6-GF) printing above 260C or where PA glue isn't giving consistent results:
+For higher-temp Nylon variants (PA6-CF, PA6-GF) printing above 260°C or where PA glue isn't giving consistent results:
 - Apply a **very thin coat** to the heated bed, let the solvent fully evaporate before the print starts.
-- Rated for bed temps up to 160C — handles the full range of Nylon bed temperatures.
+- Rated for bed temps up to 160°C — handles the full range of Nylon bed temperatures.
 - Provides excellent adhesion with a clean peel release once cooled.
 - One bottle goes a long way — a little applied thinly is more effective than a thick layer.
 
 **PVA Glue Stick**
 The simplest option — a standard Pritt stick or equivalent on a PEI bed:
 - Reliable for plain PA6/PA12 at standard temps.
-- Breaks down at higher temps (above ~100C bed) so not suitable for high-temp Nylon variants.
+- Breaks down at higher temps (above ~100°C bed) so not suitable for high-temp Nylon variants.
 - Easy to apply and wash off with water.
 
 **Garolite / G10 Sheet (No Adhesive Needed)**
@@ -66,7 +66,7 @@ The gold standard for Nylon — no adhesive required, mechanical adhesion to the
 - Parts release cleanly when the bed cools.
 
 ### Bed Adhesion
-- **Garolite / G10 sheet** at 70-80C is the gold standard for nylon adhesion.
+- **Garolite / G10 sheet** at 70–80°C is the gold standard for nylon adhesion.
 - PEI with **PVA glue stick** works reasonably well.
 - **Avoid glass** - nylon often won't stick or sticks permanently.
 
