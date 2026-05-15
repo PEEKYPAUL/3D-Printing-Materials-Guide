@@ -36,6 +36,7 @@
 | [Raspberry Pi Wi-Fi Disconnecting](troubleshooting/WiFi-Disconnecting.md) | Fix random Wi-Fi dropouts on your Pi — disable power saving mode via PuTTY and a udev rule |
 | [General Tips](troubleshooting/General-Tips.md) | Printer preparation, silicone socks, slicer philosophy, and filament storage — applies to all materials |
 | [Voron V2 Gantry Squaring](troubleshooting/Voron-Gantry-Squaring.md) | Square the gantry mechanically before relying on QGL — Z joint alignment, de-racking, belt tension, heat soak, and final hot tightening |
+| [Belt Tension — XY & Z](troubleshooting/Belt-Tension.md) | Target frequencies and forces for AB and Z belts, phone app and Diyshift tension meter measurement methods, symptoms table, and when to re-check |
 | [Printer Adjustment — Skew & Scale](troubleshooting/Printer-Adjustment.md) | Fix XY skew and dimensional scale errors using the Califlower calibration tool — covers Klipper, Marlin, and slicer correction |
 
 ---
@@ -331,7 +332,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) — community tips, corrections, and new 
 │   ├── WiFi-Disconnecting.md
 │   ├── General-Tips.md
 │   ├── Printer-Adjustment.md
-│   └── Voron-Gantry-Squaring.md
+│   ├── Voron-Gantry-Squaring.md
+│   └── Belt-Tension.md
 ├── post-processing/
 │   ├── Sanding-Finishing.md
 │   ├── Acetone-Smoothing.md
