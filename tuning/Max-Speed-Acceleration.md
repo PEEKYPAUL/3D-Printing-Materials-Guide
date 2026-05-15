@@ -75,11 +75,11 @@ G28 X Y   ; re-home
 GET_POSITION
 ```
 
-Compare the mcu position values before and after. If the toolhead was at exactly the same physical location both times, the values should match within one full step (16–32 microsteps depending on your driver). If they're further apart — the printer lost steps somewhere during the run.
+Compare the `mcu` position values before and after. The acceptable variance depends on your microstep setting — with `microsteps: 16` the tolerance window is ±16 counts. If the difference is larger than your microstep count, the printer lost steps during the run.
 
 ![Terminal output showing stepper position comparison before and after TEST_SPEED](../images/max-speed-01-position-check.jpg)
 
-*Before and after position values in the Klipper terminal. Matching values confirm no steps were lost. A large difference indicates the printer skipped during the test.*
+*Real-world result — `TEST_SPEED SPEED=400 ACCEL=8000 ITERATIONS=5 BOUND=10` completed without losing steps. Before the run: X `5950`, Y `3823`. After re-homing: X `5951`, Y `3819`. The difference is 1 count on X and 4 counts on Y — both well within the ±16 microstep tolerance of a 16-microstep configuration. This confirms 400 mm/s at 8000 mm/s² accel is fully stable on this machine.*
 
 ---
 
