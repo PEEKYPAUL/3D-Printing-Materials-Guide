@@ -236,6 +236,7 @@ Wall count, top/bottom layers, infill pattern, and infill density all have a lar
 | **Honeycomb** | Good XY, moderate Z | Moderate | Lightweight structural parts |
 | **Rectilinear / Lines** | Directional | Fastest | Prototypes, non-structural parts, fibre-filled materials |
 | **Cubic / 3D Honeycomb** | Good in all directions | Slow | High-strength structural parts where Z load matters |
+| **Triangle** | Excellent XY — rigid and stiff | Moderate | High-load structural parts, brackets, and anything needing maximum in-plane rigidity |
 | **Concentric** | Follows perimeter shape | Fast | Flexible materials — flex deforms along the lines |
 
 ---
