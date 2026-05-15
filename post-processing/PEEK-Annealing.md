@@ -256,7 +256,7 @@ Check critical dimensions if tolerances are important. Shrinkage is less than 1%
 
 ![Close-up comparison of unannealed and annealed PEEK parts photographed in a light box](../images/peek-annealing-05-comparison-lightbox.jpg)
 
-*Detailed side-by-side comparison of unannealed (left) and annealed (right) PEEK parts, photographed in a light box to reveal surface and structural differences. The annealed part shows a slightly more opaque finish and improved surface uniformity — the result of the polymer achieving its semi-crystalline state.*
+*Detailed side-by-side comparison of annealed (left) and unannealed (right) PEEK parts, photographed in a light box to reveal surface and structural differences. The annealed part shows a slightly more opaque finish and improved surface uniformity — the result of the polymer achieving its semi-crystalline state.*
 
 ---
 
