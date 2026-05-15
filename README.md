@@ -231,6 +231,7 @@ Get connected with the people building, tuning, and pushing 3D printers further.
 
 | Community | Discord | About |
 |---|---|---|
+| **Klipper** | [Join](https://discord.klipper3d.org) | The official Klipper firmware Discord — configuration help, macro support, bug reports, and development discussion direct from the community behind Klipper itself. |
 | **Voron Design** | [Join](https://discord.com/invite/voron) | The official home of the Voron project — 2.4, Trident, V0, Switchwire and more. One of the largest and most active 3D printing communities. Excellent help channels and a massive pool of experienced builders. |
 | **Rat Rig** | [Join](https://discord.com/invite/ratrig) | Community server for Rat Rig V-Core and other Rat Rig printer owners. Help, mods, and build logs for this popular open-source CoreXY platform. |
 | **VzBoT** | [Join](https://discord.com/invite/vzbot-829828765512106054) | Official community for the VzBot — a high-speed CoreXY printer designed to push print speeds to their limits. Active development and tuning discussion. |
